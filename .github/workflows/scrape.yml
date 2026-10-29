@@ -2,43 +2,45 @@ name: vitrasa-git-scrape
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # UTC. GitHub cron is best-effort; runs may start a few minutes late.
-  workflow_dispatch:          # manual trigger for testing
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
 
 permissions:
-  contents: write             # allow pushing with the default GITHUB_TOKEN
+  contents: write
 
 concurrency:
-  group: vitrasa-git-scrape   # never two scrapers at once
+  group: vitrasa-git-scrape
   cancel-in-progress: false
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 12
+    timeout-minutes: 14
     steps:
       - uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
         with:
           python-version: "3.12"
+          enable-cache: true
+          cache-dependency-glob: "uv.lock"
 
       # OPTIONAL: uncomment to skip the quiet hours (fewer commits, less repo growth)
       - name: Skip quiet hours (Europe/Madrid)
         run: |
           H=$(TZ=Europe/Madrid date +%H)
           if [ "$H" -lt 6 ]; then echo "quiet hours - skipping"; exit 0; fi
-
-      - name: Refresh static files (committed only if the GTFS feed changed)
+      - name: Refresh static files (committed only when the GTFS feed changed)
         run: |
-          python3 fetch_vitrasa_data.py network \
+          uv run --frozen --no-dev fetch_vitrasa_data.py network \
             --out data/vitrasa_lines.json \
             --schedule-out data/vitrasa_schedules.json \
             --gtfs-cache .cache/gtfs.zip
 
       - name: Capture realtime snapshot (all stops with scheduled service)
         run: |
-          python3 fetch_vitrasa_data.py realtime \
+          uv run --frozen --no-dev fetch_vitrasa_data.py realtime \
             --out realtime/snapshot.json \
             --only-scheduled --window 120 \
             --workers 8 --min-interval 0.05 \
