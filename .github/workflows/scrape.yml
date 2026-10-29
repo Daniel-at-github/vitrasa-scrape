@@ -1,0 +1,57 @@
+name: vitrasa-git-scrape
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # UTC. GitHub cron is best-effort; runs may start a few minutes late.
+  workflow_dispatch:          # manual trigger for testing
+
+permissions:
+  contents: write             # allow pushing with the default GITHUB_TOKEN
+
+concurrency:
+  group: vitrasa-git-scrape   # never two scrapers at once
+  cancel-in-progress: false
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # OPTIONAL: uncomment to skip the quiet hours (fewer commits, less repo growth)
+      # - name: Skip quiet hours (Europe/Madrid)
+      #   run: |
+      #     H=$(TZ=Europe/Madrid date +%H)
+      #     if [ "$H" -lt 6 ]; then echo "quiet hours - skipping"; exit 0; fi
+
+      - name: Refresh static files (committed only if the GTFS feed changed)
+        run: |
+          python3 fetch_vitrasa_data.py network \
+            --out data/vitrasa_lines.json \
+            --schedule-out data/vitrasa_schedules.json \
+            --gtfs-cache .cache/gtfs.zip
+
+      - name: Capture realtime snapshot (all stops with scheduled service)
+        run: |
+          python3 fetch_vitrasa_data.py realtime \
+            --out realtime/snapshot.json \
+            --only-scheduled --window 120 \
+            --workers 8 --min-interval 0.05 \
+            --gtfs-cache .cache/gtfs.zip
+
+      - name: Commit (commit timestamp = observation timestamp)
+        run: |
+          git config user.name  "vitrasa-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ realtime/
+          if git diff --cached --quiet; then
+            echo "No changes since last snapshot."; exit 0
+          fi
+          git commit -m "vitrasa realtime snapshot"
+          git pull --rebase origin "$GITHUB_REF_NAME" || { git rebase --abort; exit 1; }
+          git push origin "HEAD:$GITHUB_REF_NAME"

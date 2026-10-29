@@ -1,0 +1,6 @@
+__pycache__/
+.cache/
+*.duckdb
+*.duckdb.wal
+*.sqlite3
+*.parquet
