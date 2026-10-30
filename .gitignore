@@ -1,6 +1,8 @@
-__pycache__/
+.venv/
 .cache/
+__pycache__/
 *.duckdb
 *.duckdb.wal
 *.sqlite3
 *.parquet
+delays.html
