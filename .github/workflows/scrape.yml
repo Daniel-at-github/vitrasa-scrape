@@ -27,10 +27,10 @@ jobs:
           cache-dependency-glob: "uv.lock"
 
       # OPTIONAL: uncomment to skip the quiet hours (fewer commits, less repo growth)
-      - name: Skip quiet hours (Europe/Madrid)
-        run: |
-          H=$(TZ=Europe/Madrid date +%H)
-          if [ "$H" -lt 6 ]; then echo "quiet hours - skipping"; exit 0; fi
+      # - name: Skip quiet hours (Europe/Madrid)
+      #   run: |
+      #     H=$(TZ=Europe/Madrid date +%H)
+      #     if [ "$H" -lt 6 ]; then echo "quiet hours - skipping"; exit 0; fi
 
       - name: Refresh static files (committed only when the GTFS feed changed)
         run: |
