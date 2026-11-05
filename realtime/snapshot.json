@@ -3,13 +3,13 @@
   "format_version": 1,
   "meta": {
     "counts": {
-      "estimaciones": 152,
+      "estimaciones": 116,
       "failed": 0,
-      "ok": 63,
-      "requested": 63,
+      "ok": 48,
+      "requested": 48,
       "skipped_no_realtime_id": 76,
-      "skipped_no_scheduled_service": 1018,
-      "stops_with_estimations": 63
+      "skipped_no_scheduled_service": 1033,
+      "stops_with_estimations": 48
     },
     "description": "Vitrasa realtime snapshot: next-arrival estimations for every queried stop. Git-scraped: one commit per run.",
     "encoding": "ISO-8859-1",
@@ -59,10 +59,10 @@
     "001010": {
       "e": [
         [
-          46,
+          30,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          14517
+          10038
         ]
       ],
       "p": {
@@ -75,10 +75,10 @@
     "001020": {
       "e": [
         [
-          46,
+          30,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          14727
+          10240
         ]
       ],
       "p": {
@@ -91,10 +91,10 @@
     "001040": {
       "e": [
         [
-          44,
+          28,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          13468
+          9033
         ]
       ],
       "p": {
@@ -107,10 +107,10 @@
     "001060": {
       "e": [
         [
-          45,
+          28,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          13863
+          9412
         ]
       ],
       "p": {
@@ -123,10 +123,10 @@
     "001070": {
       "e": [
         [
-          46,
+          29,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          14276
+          9809
         ]
       ],
       "p": {
@@ -139,16 +139,16 @@
     "001230": {
       "e": [
         [
-          22,
+          6,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          5682
+          1768
         ],
         [
-          91,
+          75,
           "VITRASA",
           "VIT",
-          23664
+          19685
         ]
       ],
       "p": {
@@ -158,179 +158,19 @@
         "sv": 1230
       }
     },
-    "001260": {
-      "e": [
-        [
-          139,
-          "POULO - ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          147,
-          "VIA TRANVIA - FIGUEIRAS*",
-          "15A",
-          -1
-        ],
-        [
-          179,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          180,
-          "R.NIETO-GRILEIRA*",
-          "11",
-          -1
-        ],
-        [
-          195,
-          "S. BADIA - TVA DE VIGO *",
-          "5B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.219775977,
-        "lon": -8.736255523,
-        "n": "Avda. de Castelao  21",
-        "sv": 1260
-      }
-    },
-    "001280": {
-      "e": [
-        [
-          138,
-          "POULO - ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          145,
-          "VIA TRANVIA - FIGUEIRAS*",
-          "15A",
-          -1
-        ],
-        [
-          178,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          179,
-          "R.NIETO-GRILEIRA*",
-          "11",
-          -1
-        ],
-        [
-          202,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.218523315,
-        "lon": -8.74223465,
-        "n": "Avda. de Castelao  41",
-        "sv": 1280
-      }
-    },
-    "001310": {
-      "e": [
-        [
-          136,
-          "POULO - ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          143,
-          "VIA TRANVIA - FIGUEIRAS*",
-          "15A",
-          -1
-        ],
-        [
-          176,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          177,
-          "R.NIETO-GRILEIRA*",
-          "11",
-          -1
-        ],
-        [
-          201,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.217705528,
-        "lon": -8.747753325,
-        "n": "Avda. de Castelao  73",
-        "sv": 1310
-      }
-    },
-    "001320": {
-      "e": [
-        [
-          201,
-          "CHAPELA por TRAVESIA DE VIGO*",
-          "C3i",
-          -1
-        ],
-        [
-          212,
-          "CEMITERIO DE TEIS*",
-          "10",
-          -1
-        ],
-        [
-          226,
-          "CHAPELA por TRAVESIA DE VIGO*",
-          "C3i",
-          -1
-        ],
-        [
-          233,
-          "HOSPITAL MEIXOEIRO*",
-          "12A",
-          -1
-        ],
-        [
-          241,
-          "CHAPELA por TRAVESIA DE VIGO*",
-          "C3i",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.217302224,
-        "lon": -8.751104752,
-        "n": "Avda. de Castelao  87",
-        "sv": 1320
-      }
-    },
     "0014126": {
       "e": [
         [
-          19,
+          3,
           "URZAIZ - T.VIGO",
           "N1",
-          4828
+          897
         ],
         [
-          89,
+          73,
           "VITRASA",
           "VIT",
-          22796
+          18832
         ]
       ],
       "p": {
@@ -343,16 +183,16 @@
     "0014127": {
       "e": [
         [
-          23,
+          7,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          5948
+          2034
         ],
         [
-          92,
+          76,
           "VITRASA",
           "VIT",
-          23931
+          19946
         ]
       ],
       "p": {
@@ -365,10 +205,10 @@
     "0014164": {
       "e": [
         [
-          42,
+          26,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          12450
+          8062
         ]
       ],
       "p": {
@@ -378,53 +218,13 @@
         "sv": 14164
       }
     },
-    "0014168": {
-      "e": [
-        [
-          142,
-          "POULO - ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          182,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          185,
-          "S. BADIA - A GUÍA*",
-          "17",
-          -1
-        ],
-        [
-          189,
-          "RABADEIRA*",
-          "27",
-          -1
-        ],
-        [
-          195,
-          "HOSPITAL MEIXOEIRO*",
-          "12B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.224928285,
-        "lon": -8.729631509,
-        "n": "Avda. das Camelias  113",
-        "sv": 14168
-      }
-    },
     "0014170": {
       "e": [
         [
-          48,
+          31,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          15462
+          10947
         ]
       ],
       "p": {
@@ -437,16 +237,16 @@
     "0014223": {
       "e": [
         [
-          37,
+          20,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          10174
+          5863
         ],
         [
-          103,
+          87,
           "VITRASA",
           "VIT",
-          28202
+          24135
         ]
       ],
       "p": {
@@ -459,16 +259,16 @@
     "0014224": {
       "e": [
         [
-          37,
+          21,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          10492
+          6174
         ],
         [
-          103,
+          87,
           "VITRASA",
           "VIT",
-          28522
+          24451
         ]
       ],
       "p": {
@@ -481,16 +281,16 @@
     "0014225": {
       "e": [
         [
-          38,
+          22,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          10785
+          6458
         ],
         [
-          104,
+          88,
           "VITRASA",
           "VIT",
-          28819
+          24741
         ]
       ],
       "p": {
@@ -503,16 +303,16 @@
     "0014226": {
       "e": [
         [
-          39,
+          22,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          11028
+          6695
         ],
         [
-          105,
+          89,
           "VITRASA",
           "VIT",
-          29065
+          24982
         ]
       ],
       "p": {
@@ -525,16 +325,16 @@
     "0014227": {
       "e": [
         [
-          40,
+          23,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          11355
+          7015
         ],
         [
-          105,
+          89,
           "VITRASA",
           "VIT",
-          29396
+          25307
         ]
       ],
       "p": {
@@ -547,16 +347,16 @@
     "0014245": {
       "e": [
         [
-          31,
+          15,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          8444
+          4553
         ],
         [
-          98,
+          82,
           "VITRASA",
           "VIT",
-          26447
+          22415
         ]
       ],
       "p": {
@@ -569,10 +369,34 @@
     "0014264": {
       "e": [
         [
-          7,
-          "URZAIZ - T.VIGO",
-          "N1",
-          1925
+          132,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
+        ],
+        [
+          135,
+          "XESTOSO *",
+          "15B",
+          -1
+        ],
+        [
+          139,
+          "POULO - ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
+        ],
+        [
+          139,
+          "RABADEIRA por RINXELA*",
+          "9B",
+          -1
+        ],
+        [
+          163,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
         ]
       ],
       "p": {
@@ -585,10 +409,10 @@
     "0014267": {
       "e": [
         [
-          45,
+          28,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          13694
+          9247
         ]
       ],
       "p": {
@@ -601,10 +425,10 @@
     "0014299": {
       "e": [
         [
-          49,
+          32,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          16032
+          11497
         ]
       ],
       "p": {
@@ -614,59 +438,19 @@
         "sv": 14299
       }
     },
-    "0014331": {
-      "e": [
-        [
-          142,
-          "POULO - ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          182,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          184,
-          "S. BADIA - A GUÍA*",
-          "17",
-          -1
-        ],
-        [
-          189,
-          "RABADEIRA*",
-          "27",
-          -1
-        ],
-        [
-          193,
-          "URZAIZ - TVA DE VIGO *",
-          "5A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.223769828,
-        "lon": -8.728938728,
-        "n": "Rúa de Álvaro Cunqueiro  30",
-        "sv": 14331
-      }
-    },
     "0014397": {
       "e": [
         [
-          29,
+          12,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7621
+          3628
         ],
         [
-          96,
+          80,
           "VITRASA",
           "VIT",
-          25618
+          21603
         ]
       ],
       "p": {
@@ -676,154 +460,34 @@
         "sv": 14397
       }
     },
-    "001880": {
-      "e": [
-        [
-          222,
-          "R. NIETO - CABRAL*",
-          "15A",
-          -1
-        ],
-        [
-          232,
-          "HOSPITAL MEIXOEIRO*",
-          "12A",
-          -1
-        ],
-        [
-          243,
-          "R. NIETO - CABRAL*",
-          "15A",
-          -1
-        ],
-        [
-          271,
-          "HOSPITAL MEIXOEIRO*",
-          "12A",
-          -1
-        ],
-        [
-          273,
-          "R. NIETO - CABRAL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.216687933,
-        "lon": -8.756794466,
-        "n": "Avda. de Europa (cruce Rúa das Teixugueiras)",
-        "sv": 1880
-      }
-    },
-    "001890": {
-      "e": [
-        [
-          222,
-          "R. NIETO - CABRAL*",
-          "15A",
-          -1
-        ],
-        [
-          231,
-          "HOSPITAL MEIXOEIRO*",
-          "12A",
-          -1
-        ],
-        [
-          242,
-          "R. NIETO - CABRAL*",
-          "15A",
-          -1
-        ],
-        [
-          271,
-          "HOSPITAL MEIXOEIRO*",
-          "12A",
-          -1
-        ],
-        [
-          272,
-          "R. NIETO - CABRAL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.215913672,
-        "lon": -8.759904797,
-        "n": "Avda. de Europa  23",
-        "sv": 1890
-      }
-    },
-    "001900": {
-      "e": [
-        [
-          221,
-          "R. NIETO - CABRAL*",
-          "15A",
-          -1
-        ],
-        [
-          241,
-          "R. NIETO - CABRAL*",
-          "15A",
-          -1
-        ],
-        [
-          271,
-          "R. NIETO - CABRAL*",
-          "15A",
-          -1
-        ],
-        [
-          297,
-          "R. NIETO - CABRAL*",
-          "15A",
-          -1
-        ],
-        [
-          319,
-          "GREGORIO ESPINO por URZÁIZ*",
-          "4C",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.211855119,
-        "lon": -8.766755158,
-        "n": "Avda. de Europa (cruce Rúa do Bravo)",
-        "sv": 1900
-      }
-    },
     "001920": {
       "e": [
         [
-          220,
+          205,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          240,
+          225,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          270,
+          255,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          295,
+          280,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          318,
+          303,
           "GREGORIO ESPINO por URZÁIZ*",
           "4C",
           -1
@@ -836,259 +500,19 @@
         "sv": 1920
       }
     },
-    "0020075": {
-      "e": [
-        [
-          137,
-          "POULO - ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          144,
-          "VIA TRANVIA - FIGUEIRAS*",
-          "15A",
-          -1
-        ],
-        [
-          177,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          178,
-          "R.NIETO-GRILEIRA*",
-          "11",
-          -1
-        ],
-        [
-          201,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.218011215,
-        "lon": -8.745369728,
-        "n": "Avda. de Castelao  65",
-        "sv": 20075
-      }
-    },
-    "0020076": {
-      "e": [
-        [
-          138,
-          "POULO - ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          146,
-          "VIA TRANVIA - FIGUEIRAS*",
-          "15A",
-          -1
-        ],
-        [
-          178,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          179,
-          "R.NIETO-GRILEIRA*",
-          "11",
-          -1
-        ],
-        [
-          203,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.21901679,
-        "lon": -8.739919147,
-        "n": "Avda. de Castelao  25",
-        "sv": 20076
-      }
-    },
-    "0020078": {
-      "e": [
-        [
-          145,
-          "POULO - ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          185,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          188,
-          "S. BADIA - A GUÍA*",
-          "17",
-          -1
-        ],
-        [
-          192,
-          "RABADEIRA*",
-          "27",
-          -1
-        ],
-        [
-          199,
-          "HOSPITAL MEIXOEIRO*",
-          "12B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.233341329,
-        "lon": -8.728967219,
-        "n": "Avda. das Camelias  3",
-        "sv": 20078
-      }
-    },
-    "002780": {
-      "e": [
-        [
-          141,
-          "POULO - ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          178,
-          "ESTACION TREN (GUIXAR)*",
-          "16",
-          -1
-        ],
-        [
-          181,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          183,
-          "S. BADIA - A GUÍA*",
-          "17",
-          -1
-        ],
-        [
-          188,
-          "RABADEIRA*",
-          "27",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.222387178,
-        "lon": -8.731207698,
-        "n": "Avda. das Camelias  135",
-        "sv": 2780
-      }
-    },
-    "002790": {
-      "e": [
-        [
-          144,
-          "POULO - ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          184,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          187,
-          "S. BADIA - A GUÍA*",
-          "17",
-          -1
-        ],
-        [
-          191,
-          "RABADEIRA*",
-          "27",
-          -1
-        ],
-        [
-          198,
-          "HOSPITAL MEIXOEIRO*",
-          "12B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.230566426,
-        "lon": -8.730086804,
-        "n": "Avda. das Camelias  37",
-        "sv": 2790
-      }
-    },
-    "002820": {
-      "e": [
-        [
-          143,
-          "POULO - ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          183,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          186,
-          "S. BADIA - A GUÍA*",
-          "17",
-          -1
-        ],
-        [
-          190,
-          "RABADEIRA*",
-          "27",
-          -1
-        ],
-        [
-          196,
-          "HOSPITAL MEIXOEIRO*",
-          "12B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.227403959,
-        "lon": -8.729948584,
-        "n": "Avda. das Camelias (Praza 8 de Marzo)",
-        "sv": 2820
-      }
-    },
     "005490": {
       "e": [
         [
-          28,
+          12,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7413
+          3424
         ],
         [
-          96,
+          80,
           "VITRASA",
           "VIT",
-          25408
+          21401
         ]
       ],
       "p": {
@@ -1101,16 +525,16 @@
     "005510": {
       "e": [
         [
-          29,
+          13,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7862
+          3875
         ],
         [
-          97,
+          81,
           "VITRASA",
           "VIT",
-          25861
+          21842
         ]
       ],
       "p": {
@@ -1123,16 +547,16 @@
     "005520": {
       "e": [
         [
-          32,
+          16,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          8687
+          4801
         ],
         [
-          99,
+          83,
           "VITRASA",
           "VIT",
-          26689
+          22658
         ]
       ],
       "p": {
@@ -1145,16 +569,16 @@
     "005570": {
       "e": [
         [
-          31,
+          15,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          8200
+          4311
         ],
         [
-          98,
+          82,
           "VITRASA",
           "VIT",
-          26200
+          22176
         ]
       ],
       "p": {
@@ -1167,10 +591,34 @@
     "005660": {
       "e": [
         [
-          4,
-          "URZAIZ - T.VIGO",
-          "N1",
-          1049
+          135,
+          "POULO - ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
+        ],
+        [
+          161,
+          "ZAMANS por CAMELIAS*",
+          "7",
+          -1
+        ],
+        [
+          171,
+          "ESTACION TREN (GUIXAR)*",
+          "16",
+          -1
+        ],
+        [
+          174,
+          "REMATA PEREIRO*",
+          "12B",
+          -1
+        ],
+        [
+          175,
+          "ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
         ]
       ],
       "p": {
@@ -1183,16 +631,16 @@
     "006300": {
       "e": [
         [
-          35,
+          19,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          9626
+          5338
         ],
         [
-          101,
+          85,
           "VITRASA",
           "VIT",
-          27643
+          23592
         ]
       ],
       "p": {
@@ -1205,10 +653,10 @@
     "006750": {
       "e": [
         [
-          47,
+          31,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          15102
+          10606
         ]
       ],
       "p": {
@@ -1221,16 +669,16 @@
     "006860": {
       "e": [
         [
-          34,
+          18,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          9112
+          5233
         ],
         [
-          100,
+          84,
           "VITRASA",
           "VIT",
-          27119
+          23081
         ]
       ],
       "p": {
@@ -1243,10 +691,10 @@
     "006980": {
       "e": [
         [
-          41,
+          24,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          11679
+          7336
         ]
       ],
       "p": {
@@ -1259,10 +707,34 @@
     "007000": {
       "e": [
         [
-          12,
-          "URZAIZ - T.VIGO",
-          "N1",
-          2767
+          136,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
+        ],
+        [
+          140,
+          "XESTOSO *",
+          "15B",
+          -1
+        ],
+        [
+          143,
+          "POULO - ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
+        ],
+        [
+          143,
+          "RABADEIRA por RINXELA*",
+          "9B",
+          -1
+        ],
+        [
+          167,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
         ]
       ],
       "p": {
@@ -1275,16 +747,16 @@
     "008020": {
       "e": [
         [
-          25,
+          8,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          6530
+          2437
         ],
         [
-          93,
+          77,
           "VITRASA",
           "VIT",
-          24521
+          20526
         ]
       ],
       "p": {
@@ -1297,16 +769,16 @@
     "008040": {
       "e": [
         [
-          24,
+          7,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          6219
+          2094
         ],
         [
-          93,
+          77,
           "VITRASA",
           "VIT",
-          24205
+          20217
         ]
       ],
       "p": {
@@ -1319,16 +791,16 @@
     "008060": {
       "e": [
         [
-          26,
+          10,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          6877
+          2878
         ],
         [
-          94,
+          78,
           "VITRASA",
           "VIT",
-          24870
+          20869
         ]
       ],
       "p": {
@@ -1341,10 +813,10 @@
     "008330": {
       "e": [
         [
-          41,
+          25,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          12041
+          7679
         ]
       ],
       "p": {
@@ -1357,16 +829,16 @@
     "008490": {
       "e": [
         [
-          20,
+          4,
           "URZAIZ - T.VIGO",
           "N1",
-          5245
+          1325
         ],
         [
-          90,
+          74,
           "VITRASA",
           "VIT",
-          23219
+          19251
         ]
       ],
       "p": {
@@ -1379,16 +851,16 @@
     "008510": {
       "e": [
         [
-          17,
+          1,
           "URZAIZ - T.VIGO",
           "N1",
-          4204
+          265
         ],
         [
-          87,
+          71,
           "VITRASA",
           "VIT",
-          22160
+          18215
         ]
       ],
       "p": {
@@ -1401,16 +873,16 @@
     "008530": {
       "e": [
         [
-          18,
+          2,
           "URZAIZ - T.VIGO",
           "N1",
-          4540
+          604
         ],
         [
-          88,
+          72,
           "VITRASA",
           "VIT",
-          22504
+          18549
         ]
       ],
       "p": {
@@ -1423,16 +895,16 @@
     "008550": {
       "e": [
         [
-          21,
+          5,
           "URZAIZ - T.VIGO",
           "N1",
-          5546
+          1626
         ],
         [
-          91,
+          75,
           "VITRASA",
           "VIT",
-          23527
+          19548
         ]
       ],
       "p": {
@@ -1445,16 +917,10 @@
     "008580": {
       "e": [
         [
-          15,
-          "URZAIZ - T.VIGO",
-          "N1",
-          3605
-        ],
-        [
-          86,
+          70,
           "VITRASA",
           "VIT",
-          21548
+          17614
         ]
       ],
       "p": {
@@ -1467,10 +933,34 @@
     "008610": {
       "e": [
         [
-          13,
-          "URZAIZ - T.VIGO",
-          "N1",
-          3061
+          137,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
+        ],
+        [
+          141,
+          "VIA TRANVIA - FIGUEIRAS*",
+          "15A",
+          -1
+        ],
+        [
+          142,
+          "XESTOSO *",
+          "15B",
+          -1
+        ],
+        [
+          144,
+          "RABADEIRA por RINXELA*",
+          "9B",
+          -1
+        ],
+        [
+          145,
+          "POULO - ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
         ]
       ],
       "p": {
@@ -1483,16 +973,16 @@
     "008620": {
       "e": [
         [
-          16,
+          0,
           "URZAIZ - T.VIGO",
           "N1",
-          3941
+          0
         ],
         [
-          86,
+          70,
           "VITRASA",
           "VIT",
-          21890
+          17949
         ]
       ],
       "p": {
@@ -1505,10 +995,34 @@
     "008770": {
       "e": [
         [
-          5,
-          "URZAIZ - T.VIGO",
-          "N1",
-          1348
+          109,
+          "4 STELLANTIS por CAMELIAS*",
+          "PSA",
+          -1
+        ],
+        [
+          149,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          162,
+          "ZAMANS por CAMELIAS*",
+          "7",
+          -1
+        ],
+        [
+          164,
+          "BOUZAS por BEIRAMAR*",
+          "6",
+          -1
+        ],
+        [
+          171,
+          "COIA por CAMELIAS*",
+          "4A",
+          -1
         ]
       ],
       "p": {
@@ -1521,10 +1035,34 @@
     "008820": {
       "e": [
         [
-          8,
-          "URZAIZ - T.VIGO",
-          "N1",
-          2094
+          133,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
+        ],
+        [
+          136,
+          "XESTOSO *",
+          "15B",
+          -1
+        ],
+        [
+          140,
+          "POULO - ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
+        ],
+        [
+          140,
+          "RABADEIRA por RINXELA*",
+          "9B",
+          -1
+        ],
+        [
+          164,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
         ]
       ],
       "p": {
@@ -1537,10 +1075,34 @@
     "008840": {
       "e": [
         [
-          9,
-          "URZAIZ - T.VIGO",
-          "N1",
-          2379
+          134,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
+        ],
+        [
+          138,
+          "XESTOSO *",
+          "15B",
+          -1
+        ],
+        [
+          141,
+          "POULO - ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
+        ],
+        [
+          141,
+          "RABADEIRA por RINXELA*",
+          "9B",
+          -1
+        ],
+        [
+          165,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
         ]
       ],
       "p": {
@@ -1553,10 +1115,34 @@
     "008870": {
       "e": [
         [
-          1,
-          "URZAIZ - T.VIGO",
-          "N1",
-          213
+          132,
+          "POULO - ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
+        ],
+        [
+          172,
+          "ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
+        ],
+        [
+          175,
+          "S. BADIA - A GUÍA*",
+          "17",
+          -1
+        ],
+        [
+          179,
+          "RABADEIRA*",
+          "27",
+          -1
+        ],
+        [
+          186,
+          "HOSPITAL MEIXOEIRO*",
+          "12B",
+          -1
         ]
       ],
       "p": {
@@ -1569,10 +1155,34 @@
     "008880": {
       "e": [
         [
-          2,
-          "URZAIZ - T.VIGO",
-          "N1",
-          478
+          133,
+          "POULO - ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
+        ],
+        [
+          173,
+          "ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
+        ],
+        [
+          175,
+          "S. BADIA - A GUÍA*",
+          "17",
+          -1
+        ],
+        [
+          180,
+          "RABADEIRA*",
+          "27",
+          -1
+        ],
+        [
+          188,
+          "HOSPITAL MEIXOEIRO*",
+          "12B",
+          -1
         ]
       ],
       "p": {
@@ -1585,10 +1195,34 @@
     "008910": {
       "e": [
         [
-          3,
-          "URZAIZ - T.VIGO",
-          "N1",
-          712
+          134,
+          "POULO - ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
+        ],
+        [
+          174,
+          "ARAGÓN por URZÁIZ*",
+          "4A",
+          -1
+        ],
+        [
+          176,
+          "S. BADIA - A GUÍA*",
+          "17",
+          -1
+        ],
+        [
+          181,
+          "RABADEIRA*",
+          "27",
+          -1
+        ],
+        [
+          189,
+          "HOSPITAL MEIXOEIRO*",
+          "12B",
+          -1
         ]
       ],
       "p": {
