@@ -1,43 +1,15 @@
 {
-  "errors": {
-    "001010": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=1010&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "001020": "AttributeError: 'list' object has no attribute 'get'",
-    "001040": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=1040&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "001060": "AttributeError: 'list' object has no attribute 'get'",
-    "001070": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=1070&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "0014164": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=14164&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "0014170": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=14170&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "0014223": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=14223&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "0014224": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=14224&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "0014225": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=14225&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "0014226": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=14226&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "0014227": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=14227&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "0014245": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=14245&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "0014397": "AttributeError: 'list' object has no attribute 'get'",
-    "001920": "AttributeError: 'list' object has no attribute 'get'",
-    "005490": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=5490&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "005510": "AttributeError: 'list' object has no attribute 'get'",
-    "005520": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=5520&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "005570": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=5570&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "006300": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=6300&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "006750": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=6750&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "006860": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=6860&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "006980": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=6980&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "008020": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=8020&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "008040": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=8040&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "008060": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=8060&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out",
-    "008330": "RuntimeError: GET https://datos.vigo.org/vci_api_app/api2.jsp?id=8330&ttl=5&tipo=TRANSPORTE-ESTIMACION-PARADA failed after 3 attempts: The read operation timed out"
-  },
+  "errors": {},
   "format_version": 1,
   "meta": {
     "counts": {
-      "estimaciones": 10,
-      "failed": 27,
-      "ok": 2,
-      "requested": 29,
+      "estimaciones": 75,
+      "failed": 0,
+      "ok": 18,
+      "requested": 18,
       "skipped_no_realtime_id": 76,
-      "skipped_no_scheduled_service": 1052,
-      "stops_with_estimations": 2
+      "skipped_no_scheduled_service": 1063,
+      "stops_with_estimations": 18
     },
     "description": "Vitrasa realtime snapshot: next-arrival estimations for every queried stop. Git-scraped: one commit per run.",
     "encoding": "ISO-8859-1",
@@ -84,34 +56,424 @@
     }
   },
   "stops": {
-    "0014267": {
+    "001010": {
       "e": [
         [
-          120,
+          115,
           "REMATA PRAIA DO VAO*",
           "10",
           -1
         ],
         [
-          121,
+          116,
           "SAMIL por BERBES *",
           "15B",
           -1
         ],
         [
-          154,
+          150,
           "SAMIL por T. ALONSO *",
           "15C",
           -1
         ],
         [
-          164,
+          159,
           "SAMIL - VAO - SAIANS *",
           "10",
           -1
         ],
         [
-          177,
+          172,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.221479642,
+        "lon": -8.767482698,
+        "n": "Avda. da Atlántida  136",
+        "sv": 1010
+      }
+    },
+    "001020": {
+      "e": [
+        [
+          116,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          117,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          150,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          159,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          173,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.222764778,
+        "lon": -8.769405842,
+        "n": "Avda. da Atlántida  150",
+        "sv": 1020
+      }
+    },
+    "001040": {
+      "e": [
+        [
+          114,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          114,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          148,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          157,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          170,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.223237503,
+        "lon": -8.755707801,
+        "n": "Avda. da Atlántida  32",
+        "sv": 1040
+      }
+    },
+    "001060": {
+      "e": [
+        [
+          114,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          115,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          148,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          158,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          171,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.221789505,
+        "lon": -8.759905458,
+        "n": "Avda. da Atlántida  84",
+        "sv": 1060
+      }
+    },
+    "001070": {
+      "e": [
+        [
+          115,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          116,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          149,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          159,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          172,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.221148357,
+        "lon": -8.764660969,
+        "n": "Avda. da Atlántida  114",
+        "sv": 1070
+      }
+    },
+    "0014164": {
+      "e": [
+        [
+          108,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          112,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          140,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          146,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          165,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.225172437,
+        "lon": -8.744777354,
+        "n": "Rúa de Tomás A. Alonso  144",
+        "sv": 14164
+      }
+    },
+    "0014170": {
+      "e": [
+        [
+          117,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          118,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          152,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          161,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          174,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.218831744,
+        "lon": -8.77571001,
+        "n": "Avda. de Samil (Praia da Punta)",
+        "sv": 14170
+      }
+    },
+    "0014223": {
+      "e": [
+        [
+          53,
+          "VITRASA",
+          "VIT",
+          11823
+        ],
+        [
+          113,
+          "VITRASA",
+          "VIT",
+          28817
+        ]
+      ],
+      "p": {
+        "lat": 42.236685153,
+        "lon": -8.731609303,
+        "n": "Avda. Beiramar \"Porto Pesqueiro Berbés\"",
+        "sv": 14223
+      }
+    },
+    "0014224": {
+      "e": [
+        [
+          54,
+          "VITRASA",
+          "VIT",
+          12144
+        ],
+        [
+          114,
+          "VITRASA",
+          "VIT",
+          29138
+        ]
+      ],
+      "p": {
+        "lat": 42.234285927,
+        "lon": -8.731266507,
+        "n": "Rúa do Conde de Torrecedeira  16",
+        "sv": 14224
+      }
+    },
+    "0014225": {
+      "e": [
+        [
+          55,
+          "VITRASA",
+          "VIT",
+          12440
+        ],
+        [
+          115,
+          "VITRASA",
+          "VIT",
+          29434
+        ]
+      ],
+      "p": {
+        "lat": 42.231716574,
+        "lon": -8.732308737,
+        "n": "Rúa do Conde de Torrecedeira  50",
+        "sv": 14225
+      }
+    },
+    "0014226": {
+      "e": [
+        [
+          56,
+          "VITRASA",
+          "VIT",
+          13722
+        ],
+        [
+          115,
+          "VITRASA",
+          "VIT",
+          29678
+        ]
+      ],
+      "p": {
+        "lat": 42.229574859,
+        "lon": -8.733073973,
+        "n": "Rúa do Conde de Torrecedeira  70",
+        "sv": 14226
+      }
+    },
+    "0014227": {
+      "e": [
+        [
+          57,
+          "VITRASA",
+          "VIT",
+          14047
+        ],
+        [
+          116,
+          "VITRASA",
+          "VIT",
+          30009
+        ]
+      ],
+      "p": {
+        "lat": 42.22696657,
+        "lon": -8.734559706,
+        "n": "Rúa do Conde de Torrecedeira  86",
+        "sv": 14227
+      }
+    },
+    "0014267": {
+      "e": [
+        [
+          114,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          115,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          148,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          158,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          171,
           "SAMIL por BERBES *",
           "15B",
           -1
@@ -127,31 +489,31 @@
     "0014299": {
       "e": [
         [
-          164,
+          158,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          184,
+          178,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          214,
+          208,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          239,
+          233,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          274,
+          268,
           "R. NIETO - CABRAL*",
           "15A",
           -1
@@ -162,6 +524,166 @@
         "lon": -8.774600284,
         "n": "Avda. de Samil (frente Verbum)",
         "sv": 14299
+      }
+    },
+    "001920": {
+      "e": [
+        [
+          159,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
+        ],
+        [
+          179,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
+        ],
+        [
+          209,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
+        ],
+        [
+          234,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
+        ],
+        [
+          257,
+          "GREGORIO ESPINO por URZÁIZ*",
+          "4C",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.211066417,
+        "lon": -8.772953743,
+        "n": "Avda. de Europa  101",
+        "sv": 1920
+      }
+    },
+    "006750": {
+      "e": [
+        [
+          116,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          117,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          151,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          160,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          173,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.221783554,
+        "lon": -8.773517669,
+        "n": "Avda. de Samil (Praia da Fonte)",
+        "sv": 6750
+      }
+    },
+    "006980": {
+      "e": [
+        [
+          106,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          111,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          138,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          144,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          163,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.224471236,
+        "lon": -8.73619635,
+        "n": "Praza Eugenio Fadrique  6",
+        "sv": 6980
+      }
+    },
+    "008330": {
+      "e": [
+        [
+          107,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          112,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          139,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          145,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          164,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.223897608,
+        "lon": -8.740424721,
+        "n": "Rúa de Tomás A. Alonso  86",
+        "sv": 8330
       }
     }
   }
