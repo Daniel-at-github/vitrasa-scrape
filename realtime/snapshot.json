@@ -3,13 +3,13 @@
   "format_version": 1,
   "meta": {
     "counts": {
-      "estimaciones": 323,
+      "estimaciones": 220,
       "failed": 0,
-      "ok": 142,
-      "requested": 142,
+      "ok": 127,
+      "requested": 127,
       "skipped_no_realtime_id": 76,
-      "skipped_no_scheduled_service": 939,
-      "stops_with_estimations": 142
+      "skipped_no_scheduled_service": 954,
+      "stops_with_estimations": 127
     },
     "description": "Vitrasa realtime snapshot: next-arrival estimations for every queried stop. Git-scraped: one commit per run.",
     "encoding": "ISO-8859-1",
@@ -59,16 +59,10 @@
     "001010": {
       "e": [
         [
-          10,
+          87,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          4449
-        ],
-        [
-          99,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          26421
+          21502
         ]
       ],
       "p": {
@@ -81,16 +75,10 @@
     "001020": {
       "e": [
         [
-          10,
+          87,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          4660
-        ],
-        [
-          99,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          26631
+          21499
         ]
       ],
       "p": {
@@ -103,16 +91,10 @@
     "001040": {
       "e": [
         [
-          8,
+          84,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          3213
-        ],
-        [
-          97,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          25367
+          20943
         ]
       ],
       "p": {
@@ -125,16 +107,10 @@
     "001060": {
       "e": [
         [
-          8,
+          85,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          3603
-        ],
-        [
-          98,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          25764
+          21148
         ]
       ],
       "p": {
@@ -147,16 +123,10 @@
     "001070": {
       "e": [
         [
-          9,
+          86,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          4061
-        ],
-        [
-          98,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          26180
+          21415
         ]
       ],
       "p": {
@@ -169,28 +139,22 @@
     "001150": {
       "e": [
         [
-          8,
+          25,
           "PRAZA AMÉRICA",
           "C1",
-          1983
+          4769
         ],
         [
-          8,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          2311
-        ],
-        [
-          39,
+          56,
           "PRAZA AMÉRICA",
           "C1",
-          7665
+          10755
         ],
         [
-          94,
+          81,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          24922
+          20428
         ]
       ],
       "p": {
@@ -203,10 +167,10 @@
     "001230": {
       "e": [
         [
-          74,
+          60,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          17453
+          12308
         ]
       ],
       "p": {
@@ -216,53 +180,13 @@
         "sv": 1230
       }
     },
-    "001250": {
-      "e": [
-        [
-          544,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          564,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          565,
-          "COIA por PRAZA AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          592,
-          "BOUZAS - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          595,
-          "NAVIA por CASTELAO *",
-          "5B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.219730396,
-        "lon": -8.737456513,
-        "n": "Avda. de Castelao  16",
-        "sv": 1250
-      }
-    },
     "001260": {
       "e": [
         [
-          38,
+          24,
           "URZAIZ - T.VIGO",
           "N1",
-          9877
+          4907
         ]
       ],
       "p": {
@@ -272,53 +196,13 @@
         "sv": 1260
       }
     },
-    "001270": {
-      "e": [
-        [
-          545,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          566,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          566,
-          "COIA por PRAZA AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          593,
-          "BOUZAS - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          596,
-          "NAVIA por CASTELAO *",
-          "5B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.218704937,
-        "lon": -8.74254446,
-        "n": "Avda. de Castelao  50",
-        "sv": 1270
-      }
-    },
     "001280": {
       "e": [
         [
-          37,
+          23,
           "URZAIZ - T.VIGO",
           "N1",
-          9127
+          4158
         ]
       ],
       "p": {
@@ -331,16 +215,16 @@
     "001290": {
       "e": [
         [
-          54,
+          41,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          14199
+          11551
         ],
         [
-          138,
+          125,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          333
+          301
         ]
       ],
       "p": {
@@ -353,16 +237,16 @@
     "001300": {
       "e": [
         [
-          55,
+          42,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          15621
+          11793
         ],
         [
-          139,
+          126,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          334
+          301
         ]
       ],
       "p": {
@@ -375,16 +259,16 @@
     "001310": {
       "e": [
         [
-          35,
+          21,
           "URZAIZ - T.VIGO",
           "N1",
-          8774
+          3928
         ],
         [
-          78,
+          64,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          20503
+          16944
         ]
       ],
       "p": {
@@ -397,10 +281,10 @@
     "001320": {
       "e": [
         [
-          35,
+          21,
           "URZAIZ - T.VIGO",
           "N1",
-          8577
+          3401
         ]
       ],
       "p": {
@@ -413,16 +297,10 @@
     "0014121": {
       "e": [
         [
-          11,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          3154
-        ],
-        [
-          97,
+          84,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          25757
+          21278
         ]
       ],
       "p": {
@@ -435,10 +313,10 @@
     "0014123": {
       "e": [
         [
-          76,
+          62,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          19804
+          15313
         ]
       ],
       "p": {
@@ -448,53 +326,13 @@
         "sv": 14123
       }
     },
-    "0014125": {
-      "e": [
-        [
-          549,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          570,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          570,
-          "COIA por PRAZA AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          580,
-          "COIA por GARCIA BARBON*",
-          "C3i",
-          -1
-        ],
-        [
-          605,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.213869651,
-        "lon": -8.751990789,
-        "n": "Rúa do Porriño (fronte 9)",
-        "sv": 14125
-      }
-    },
     "0014126": {
       "e": [
         [
-          62,
+          47,
           "URZAIZ - T.VIGO",
           "N1",
-          16576
+          11425
         ]
       ],
       "p": {
@@ -507,10 +345,10 @@
     "0014127": {
       "e": [
         [
-          75,
+          61,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          17962
+          12576
         ]
       ],
       "p": {
@@ -523,16 +361,16 @@
     "0014135": {
       "e": [
         [
-          20,
+          7,
           "PRAZA AMÉRICA",
           "C1",
-          4077
+          1328
         ],
         [
-          51,
+          37,
           "PRAZA AMÉRICA",
           "C1",
-          10140
+          7449
         ]
       ],
       "p": {
@@ -545,16 +383,16 @@
     "0014140": {
       "e": [
         [
-          23,
+          9,
           "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          5863
+          2322
         ],
         [
-          109,
+          95,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          28495
+          23989
         ]
       ],
       "p": {
@@ -564,59 +402,13 @@
         "sv": 14140
       }
     },
-    "0014162": {
-      "e": [
-        [
-          575,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          590,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          630,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          656,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          692,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.211371871,
-        "lon": -8.746523782,
-        "n": "Avda. da Florida  82",
-        "sv": 14162
-      }
-    },
     "0014164": {
       "e": [
         [
-          6,
+          83,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          2211
-        ],
-        [
-          95,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          24319
+          20382
         ]
       ],
       "p": {
@@ -629,10 +421,10 @@
     "0014168": {
       "e": [
         [
-          41,
+          26,
           "URZAIZ - T.VIGO",
           "N1",
-          10765
+          5617
         ]
       ],
       "p": {
@@ -645,16 +437,16 @@
     "0014169": {
       "e": [
         [
-          26,
+          12,
           "PRAZA AMÉRICA",
           "C1",
-          5538
+          2564
         ],
         [
-          57,
+          43,
           "PRAZA AMÉRICA",
           "C1",
-          11549
+          8792
         ]
       ],
       "p": {
@@ -667,16 +459,16 @@
     "0014170": {
       "e": [
         [
-          12,
+          0,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          5346
+          241
         ],
         [
-          102,
+          88,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          27331
+          23700
         ]
       ],
       "p": {
@@ -689,28 +481,22 @@
     "0014173": {
       "e": [
         [
-          7,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          1868
-        ],
-        [
-          8,
+          24,
           "PRAZA AMÉRICA",
           "C1",
-          1693
+          4589
         ],
         [
-          38,
+          55,
           "PRAZA AMÉRICA",
           "C1",
-          7410
+          10568
         ],
         [
-          93,
+          80,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          24623
+          20237
         ]
       ],
       "p": {
@@ -723,16 +509,16 @@
     "0014180": {
       "e": [
         [
-          25,
+          12,
           "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          6589
+          2997
         ],
         [
-          111,
+          98,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          29207
+          24711
         ]
       ],
       "p": {
@@ -745,22 +531,22 @@
     "0014223": {
       "e": [
         [
-          41,
+          28,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          10420
+          6927
         ],
         [
-          90,
+          75,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          21945
+          17069
         ],
         [
-          125,
+          112,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          328
+          292
         ]
       ],
       "p": {
@@ -773,28 +559,22 @@
     "0014224": {
       "e": [
         [
-          0,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          144
-        ],
-        [
-          42,
+          29,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          10732
+          7245
         ],
         [
-          91,
+          76,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          22269
+          17392
         ],
         [
-          127,
+          113,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          328
+          293
         ]
       ],
       "p": {
@@ -807,28 +587,22 @@
     "0014225": {
       "e": [
         [
-          1,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          440
-        ],
-        [
-          43,
+          30,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          10997
+          7455
         ],
         [
-          91,
+          77,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          22677
+          17463
         ],
         [
-          128,
+          114,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          329
+          294
         ]
       ],
       "p": {
@@ -841,28 +615,22 @@
     "0014226": {
       "e": [
         [
-          2,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          687
-        ],
-        [
-          44,
+          31,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          11240
+          7803
         ],
         [
-          92,
+          78,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          22957
+          17708
         ],
         [
-          128,
+          115,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          329
+          294
         ]
       ],
       "p": {
@@ -875,28 +643,22 @@
     "0014227": {
       "e": [
         [
-          3,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          1019
-        ],
-        [
-          45,
+          32,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          11523
+          8024
         ],
         [
-          93,
+          80,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          23225
+          19309
         ],
         [
-          130,
+          116,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          330
+          295
         ]
       ],
       "p": {
@@ -909,10 +671,10 @@
     "0014245": {
       "e": [
         [
-          83,
+          70,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          20130
+          15655
         ]
       ],
       "p": {
@@ -925,34 +687,34 @@
     "0014264": {
       "e": [
         [
-          13,
+          1,
+          "PRAZA AMÉRICA",
+          "C1",
+          307
+        ],
+        [
+          1,
           "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          3685
+          167
         ],
         [
-          15,
+          32,
           "PRAZA AMÉRICA",
           "C1",
-          3266
+          6066
         ],
         [
-          45,
-          "PRAZA AMÉRICA",
-          "C1",
-          9118
-        ],
-        [
-          51,
+          36,
           "URZAIZ - T.VIGO",
           "N1",
-          13875
+          8993
         ],
         [
-          99,
+          86,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          26283
+          21806
         ]
       ],
       "p": {
@@ -965,16 +727,10 @@
     "0014267": {
       "e": [
         [
-          8,
+          85,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          3380
-        ],
-        [
-          97,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          25569
+          21125
         ]
       ],
       "p": {
@@ -987,16 +743,16 @@
     "0014299": {
       "e": [
         [
-          13,
+          2,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          5917
+          827
         ],
         [
-          103,
+          89,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          27909
+          24244
         ]
       ],
       "p": {
@@ -1006,53 +762,13 @@
         "sv": 14299
       }
     },
-    "0014300": {
-      "e": [
-        [
-          572,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          587,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          627,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          653,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          689,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.217907548,
-        "lon": -8.73707436,
-        "n": "Avda. da Florida  30",
-        "sv": 14300
-      }
-    },
     "0014331": {
       "e": [
         [
-          40,
+          26,
           "URZAIZ - T.VIGO",
           "N1",
-          10605
+          5453
         ]
       ],
       "p": {
@@ -1065,16 +781,10 @@
     "0014333": {
       "e": [
         [
-          9,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          2670
-        ],
-        [
-          96,
+          82,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          25279
+          20801
         ]
       ],
       "p": {
@@ -1087,10 +797,10 @@
     "0014337": {
       "e": [
         [
-          74,
+          60,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          18995
+          14575
         ]
       ],
       "p": {
@@ -1103,16 +813,16 @@
     "0014358": {
       "e": [
         [
-          59,
+          46,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          17044
+          13163
         ],
         [
-          143,
+          130,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          335
+          303
         ]
       ],
       "p": {
@@ -1125,16 +835,16 @@
     "0014359": {
       "e": [
         [
-          58,
+          44,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          16600
+          12736
         ],
         [
-          142,
+          128,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          335
+          303
         ]
       ],
       "p": {
@@ -1147,10 +857,10 @@
     "0014360": {
       "e": [
         [
-          72,
+          59,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          17162
+          13964
         ]
       ],
       "p": {
@@ -1163,10 +873,10 @@
     "0014361": {
       "e": [
         [
-          73,
+          59,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          17327
+          14113
         ]
       ],
       "p": {
@@ -1179,10 +889,10 @@
     "0014388": {
       "e": [
         [
-          73,
+          60,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          17520
+          14294
         ]
       ],
       "p": {
@@ -1195,16 +905,16 @@
     "0014389": {
       "e": [
         [
-          59,
+          45,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          16831
+          12959
         ],
         [
-          143,
+          129,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          335
+          303
         ]
       ],
       "p": {
@@ -1214,93 +924,13 @@
         "sv": 14389
       }
     },
-    "0014392": {
-      "e": [
-        [
-          523,
-          "URZAIZ - TVA DE VIGO *",
-          "5A",
-          -1
-        ],
-        [
-          583,
-          "URZAIZ - TVA DE VIGO *",
-          "5A",
-          -1
-        ],
-        [
-          643,
-          "URZAIZ - TVA DE VIGO *",
-          "5A",
-          -1
-        ],
-        [
-          703,
-          "URZAIZ - TVA DE VIGO *",
-          "5A",
-          -1
-        ],
-        [
-          763,
-          "URZAIZ - TVA DE VIGO *",
-          "5A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.209458591,
-        "lon": -8.760561083,
-        "n": "Rúa da Pedra Seixa (Colexio)",
-        "sv": 14392
-      }
-    },
-    "0014393": {
-      "e": [
-        [
-          636,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          972,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          1006,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          1040,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          1081,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.209568936,
-        "lon": -8.760777001,
-        "n": "Rúa da Pedra Seixa (fronte Colexio)",
-        "sv": 14393
-      }
-    },
     "0014397": {
       "e": [
         [
-          80,
+          67,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          19318
+          15045
         ]
       ],
       "p": {
@@ -1313,10 +943,10 @@
     "0014890": {
       "e": [
         [
-          72,
+          58,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          16949
+          13768
         ]
       ],
       "p": {
@@ -1329,28 +959,22 @@
     "0014892": {
       "e": [
         [
-          3,
+          20,
           "PRAZA AMÉRICA",
           "C1",
-          426
+          3206
         ],
         [
-          3,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          692
-        ],
-        [
-          34,
+          51,
           "PRAZA AMÉRICA",
           "C1",
-          6303
+          9763
         ],
         [
-          89,
+          76,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          23319
+          19520
         ]
       ],
       "p": {
@@ -1363,16 +987,16 @@
     "0014900": {
       "e": [
         [
-          53,
+          40,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          13816
+          11117
         ],
         [
-          137,
+          124,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          333
+          300
         ]
       ],
       "p": {
@@ -1385,10 +1009,10 @@
     "001880": {
       "e": [
         [
-          33,
+          20,
           "URZAIZ - T.VIGO",
           "N1",
-          7855
+          2924
         ]
       ],
       "p": {
@@ -1401,10 +1025,10 @@
     "001890": {
       "e": [
         [
-          32,
+          19,
           "URZAIZ - T.VIGO",
           "N1",
-          7655
+          2654
         ]
       ],
       "p": {
@@ -1417,10 +1041,10 @@
     "001900": {
       "e": [
         [
-          31,
+          17,
           "URZAIZ - T.VIGO",
           "N1",
-          6831
+          1934
         ]
       ],
       "p": {
@@ -1433,16 +1057,16 @@
     "001920": {
       "e": [
         [
-          30,
+          16,
           "URZAIZ - T.VIGO",
           "N1",
-          6383
+          1288
         ],
         [
-          115,
+          101,
           "URZAIZ - T.VIGO",
           "N1",
-          28350
+          24649
         ]
       ],
       "p": {
@@ -1455,16 +1079,16 @@
     "0020024": {
       "e": [
         [
-          60,
+          46,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          17253
+          13368
         ],
         [
-          144,
+          130,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          335
+          304
         ]
       ],
       "p": {
@@ -1477,16 +1101,16 @@
     "0020025": {
       "e": [
         [
-          60,
+          47,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          17399
+          13505
         ],
         [
-          144,
+          131,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          335
+          304
         ]
       ],
       "p": {
@@ -1499,10 +1123,10 @@
     "0020026": {
       "e": [
         [
-          72,
+          58,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          17563
+          13661
         ]
       ],
       "p": {
@@ -1515,16 +1139,16 @@
     "0020027": {
       "e": [
         [
-          55,
+          41,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          15432
+          11624
         ],
         [
-          139,
+          125,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          333
+          301
         ]
       ],
       "p": {
@@ -1537,10 +1161,10 @@
     "0020044": {
       "e": [
         [
-          80,
+          66,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          21087
+          17530
         ]
       ],
       "p": {
@@ -1553,10 +1177,10 @@
     "0020061": {
       "e": [
         [
-          79,
+          65,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          20795
+          17236
         ]
       ],
       "p": {
@@ -1569,16 +1193,16 @@
     "0020075": {
       "e": [
         [
-          36,
+          22,
           "URZAIZ - T.VIGO",
           "N1",
-          8852
+          4092
         ],
         [
-          78,
+          65,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          20640
+          17087
         ]
       ],
       "p": {
@@ -1591,10 +1215,10 @@
     "0020076": {
       "e": [
         [
-          37,
+          23,
           "URZAIZ - T.VIGO",
           "N1",
-          9308
+          4563
         ]
       ],
       "p": {
@@ -1604,53 +1228,13 @@
         "sv": 20076
       }
     },
-    "0020077": {
-      "e": [
-        [
-          545,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          565,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          566,
-          "COIA por PRAZA AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          593,
-          "BOUZAS - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          595,
-          "NAVIA por CASTELAO *",
-          "5B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.219259727,
-        "lon": -8.739809435,
-        "n": "Avda. de Castelao  40",
-        "sv": 20077
-      }
-    },
     "0020078": {
       "e": [
         [
-          44,
+          29,
           "URZAIZ - T.VIGO",
           "N1",
-          11684
+          6961
         ]
       ],
       "p": {
@@ -1663,16 +1247,16 @@
     "002430": {
       "e": [
         [
-          23,
+          10,
           "PRAZA AMÉRICA",
           "C1",
-          5000
+          2214
         ],
         [
-          54,
+          40,
           "PRAZA AMÉRICA",
           "C1",
-          10613
+          7972
         ]
       ],
       "p": {
@@ -1685,16 +1269,16 @@
     "002440": {
       "e": [
         [
-          21,
+          8,
           "PRAZA AMÉRICA",
           "C1",
-          4607
+          1632
         ],
         [
-          52,
+          39,
           "PRAZA AMÉRICA",
           "C1",
-          10319
+          7637
         ]
       ],
       "p": {
@@ -1707,16 +1291,16 @@
     "002450": {
       "e": [
         [
-          22,
+          9,
           "PRAZA AMÉRICA",
           "C1",
-          4766
+          1885
         ],
         [
-          53,
+          39,
           "PRAZA AMÉRICA",
           "C1",
-          10467
+          7782
         ]
       ],
       "p": {
@@ -1729,10 +1313,10 @@
     "002780": {
       "e": [
         [
-          39,
+          25,
           "URZAIZ - T.VIGO",
           "N1",
-          10355
+          5200
         ]
       ],
       "p": {
@@ -1745,10 +1329,10 @@
     "002790": {
       "e": [
         [
-          43,
+          28,
           "URZAIZ - T.VIGO",
           "N1",
-          11424
+          6680
         ]
       ],
       "p": {
@@ -1761,10 +1345,10 @@
     "002820": {
       "e": [
         [
-          42,
+          27,
           "URZAIZ - T.VIGO",
           "N1",
-          11067
+          6313
         ]
       ],
       "p": {
@@ -1777,16 +1361,16 @@
     "003240": {
       "e": [
         [
-          48,
+          34,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          12105
+          8675
         ],
         [
-          132,
+          119,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          331
+          297
         ]
       ],
       "p": {
@@ -1799,28 +1383,22 @@
     "003250": {
       "e": [
         [
-          2,
+          19,
           "PRAZA AMÉRICA",
           "C1",
-          144
+          2958
         ],
         [
-          2,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          414
-        ],
-        [
-          33,
+          50,
           "PRAZA AMÉRICA",
           "C1",
-          6008
+          8842
         ],
         [
-          88,
+          74,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          23040
+          19493
         ]
       ],
       "p": {
@@ -1830,53 +1408,13 @@
         "sv": 3250
       }
     },
-    "003510": {
-      "e": [
-        [
-          592,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          659,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          719,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          780,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          841,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.202849227,
-        "lon": -8.753870291,
-        "n": "Estrada de Camposancos  28",
-        "sv": 3510
-      }
-    },
     "005060": {
       "e": [
         [
-          82,
+          69,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          21608
+          18048
         ]
       ],
       "p": {
@@ -1886,213 +1424,13 @@
         "sv": 5060
       }
     },
-    "005290": {
-      "e": [
-        [
-          573,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          588,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          628,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          654,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          690,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.215060936,
-        "lon": -8.741309568,
-        "n": "Avda. da Florida  60",
-        "sv": 5290
-      }
-    },
-    "005310": {
-      "e": [
-        [
-          576,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          591,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          631,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          657,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          693,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.208024308,
-        "lon": -8.750412985,
-        "n": "Avda. da Florida  140",
-        "sv": 5310
-      }
-    },
-    "005350": {
-      "e": [
-        [
-          573,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          588,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          628,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          654,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          690,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.216779248,
-        "lon": -8.738705143,
-        "n": "Avda. da Florida  40",
-        "sv": 5350
-      }
-    },
-    "005360": {
-      "e": [
-        [
-          574,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          589,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          629,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          655,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          691,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.212804215,
-        "lon": -8.744506761,
-        "n": "Avda. da Florida  70",
-        "sv": 5360
-      }
-    },
-    "005380": {
-      "e": [
-        [
-          571,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          586,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          626,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          652,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          688,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.219743053,
-        "lon": -8.734322187,
-        "n": "Avda. da Florida  8",
-        "sv": 5380
-      }
-    },
     "005400": {
       "e": [
         [
-          83,
+          70,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          21835
+          18283
         ]
       ],
       "p": {
@@ -2105,16 +1443,16 @@
     "005410": {
       "e": [
         [
-          49,
+          35,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          12413
+          8949
         ],
         [
-          133,
+          120,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          331
+          298
         ]
       ],
       "p": {
@@ -2127,16 +1465,10 @@
     "005420": {
       "e": [
         [
-          0,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          70
-        ],
-        [
-          87,
+          73,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          22698
+          19156
         ]
       ],
       "p": {
@@ -2149,16 +1481,16 @@
     "005430": {
       "e": [
         [
-          49,
+          36,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          12683
+          9943
         ],
         [
-          134,
+          120,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          332
+          298
         ]
       ],
       "p": {
@@ -2171,10 +1503,10 @@
     "005440": {
       "e": [
         [
-          85,
+          72,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          22333
+          18785
         ]
       ],
       "p": {
@@ -2187,16 +1519,16 @@
     "005450": {
       "e": [
         [
-          50,
+          37,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          12820
+          10149
         ],
         [
-          134,
+          121,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          332
+          298
         ]
       ],
       "p": {
@@ -2209,10 +1541,10 @@
     "005460": {
       "e": [
         [
-          84,
+          70,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          22073
+          18523
         ]
       ],
       "p": {
@@ -2225,16 +1557,16 @@
     "005470": {
       "e": [
         [
-          51,
+          38,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          13128
+          10445
         ],
         [
-          135,
+          122,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          332
+          299
         ]
       ],
       "p": {
@@ -2247,10 +1579,10 @@
     "005490": {
       "e": [
         [
-          80,
+          66,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          19176
+          14845
         ]
       ],
       "p": {
@@ -2263,10 +1595,10 @@
     "005510": {
       "e": [
         [
-          81,
+          68,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          19605
+          15294
         ]
       ],
       "p": {
@@ -2279,22 +1611,22 @@
     "005520": {
       "e": [
         [
-          36,
+          22,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          9010
+          5577
         ],
         [
-          84,
+          71,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          20408
+          15904
         ],
         [
-          120,
+          107,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          325
+          289
         ]
       ],
       "p": {
@@ -2307,10 +1639,10 @@
     "005570": {
       "e": [
         [
-          82,
+          69,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          19778
+          15416
         ]
       ],
       "p": {
@@ -2323,16 +1655,16 @@
     "005610": {
       "e": [
         [
-          17,
+          4,
           "PRAZA AMÉRICA",
           "C1",
-          3633
+          798
         ],
         [
-          48,
+          34,
           "PRAZA AMÉRICA",
           "C1",
-          9718
+          6532
         ]
       ],
       "p": {
@@ -2345,10 +1677,10 @@
     "005660": {
       "e": [
         [
-          48,
+          33,
           "URZAIZ - T.VIGO",
           "N1",
-          12923
+          8039
         ]
       ],
       "p": {
@@ -2361,16 +1693,16 @@
     "005670": {
       "e": [
         [
-          19,
+          6,
           "PRAZA AMÉRICA",
           "C1",
-          3844
+          1103
         ],
         [
-          50,
+          36,
           "PRAZA AMÉRICA",
           "C1",
-          9933
+          7237
         ]
       ],
       "p": {
@@ -2383,16 +1715,16 @@
     "005740": {
       "e": [
         [
-          28,
+          15,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          6701
+          3535
         ],
         [
-          113,
+          100,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          322
+          283
         ]
       ],
       "p": {
@@ -2405,16 +1737,16 @@
     "005750": {
       "e": [
         [
-          28,
+          14,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          6782
+          3170
         ],
         [
-          113,
+          99,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          29395
+          24896
         ]
       ],
       "p": {
@@ -2427,16 +1759,16 @@
     "005810": {
       "e": [
         [
-          20,
+          8,
           "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          5051
+          1558
         ],
         [
-          106,
+          93,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          27702
+          23182
         ]
       ],
       "p": {
@@ -2449,16 +1781,16 @@
     "005820": {
       "e": [
         [
-          21,
+          7,
           "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          5230
+          1755
         ],
         [
-          107,
+          93,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          27877
+          23359
         ]
       ],
       "p": {
@@ -2471,16 +1803,16 @@
     "006187": {
       "e": [
         [
-          52,
+          39,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          13605
+          10907
         ],
         [
-          136,
+          123,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          333
+          300
         ]
       ],
       "p": {
@@ -2493,16 +1825,16 @@
     "006210": {
       "e": [
         [
-          22,
+          9,
           "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          5765
+          2232
         ],
         [
-          109,
+          95,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          28399
+          23889
         ]
       ],
       "p": {
@@ -2515,16 +1847,16 @@
     "006250": {
       "e": [
         [
-          24,
+          10,
           "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          6161
+          2597
         ],
         [
-          110,
+          96,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          28788
+          24283
         ]
       ],
       "p": {
@@ -2537,22 +1869,22 @@
     "006300": {
       "e": [
         [
-          39,
+          26,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          9882
+          6389
         ],
         [
-          88,
+          74,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          21399
+          16849
         ],
         [
-          123,
+          110,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          327
+          291
         ]
       ],
       "p": {
@@ -2565,16 +1897,16 @@
     "006530": {
       "e": [
         [
-          25,
+          11,
           "PRAZA AMÉRICA",
           "C1",
-          5421
+          2436
         ],
         [
-          56,
+          42,
           "PRAZA AMÉRICA",
           "C1",
-          11432
+          8660
         ]
       ],
       "p": {
@@ -2587,16 +1919,10 @@
     "006620": {
       "e": [
         [
-          12,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          3470
-        ],
-        [
-          98,
+          85,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          26068
+          21588
         ]
       ],
       "p": {
@@ -2606,59 +1932,13 @@
         "sv": 6620
       }
     },
-    "006640": {
-      "e": [
-        [
-          549,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          555,
-          "COIA por GARCIA BARBON*",
-          "C3i",
-          -1
-        ],
-        [
-          569,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          570,
-          "COIA por PRAZA AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          579,
-          "COIA por GARCIA BARBON*",
-          "C3i",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.215506175,
-        "lon": -8.753186569,
-        "n": "Rúa do Porriño (fronte Instituto)",
-        "sv": 6640
-      }
-    },
     "006750": {
       "e": [
         [
-          11,
+          88,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          5000
-        ],
-        [
-          100,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          26988
+          23097
         ]
       ],
       "p": {
@@ -2671,22 +1951,22 @@
     "006860": {
       "e": [
         [
-          37,
+          24,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          9430
+          5878
         ],
         [
-          86,
+          72,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          20961
+          16330
         ],
         [
-          122,
+          108,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          326
+          290
         ]
       ],
       "p": {
@@ -2699,10 +1979,10 @@
     "006880": {
       "e": [
         [
-          77,
+          63,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          20160
+          15640
         ]
       ],
       "p": {
@@ -2715,28 +1995,22 @@
     "006930": {
       "e": [
         [
-          1,
+          18,
           "PRAZA AMÉRICA",
           "C1",
-          0
+          2808
         ],
         [
-          1,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          210
-        ],
-        [
-          32,
+          49,
           "PRAZA AMÉRICA",
           "C1",
-          5771
+          8544
         ],
         [
-          87,
+          74,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          22831
+          19293
         ]
       ],
       "p": {
@@ -2749,16 +2023,16 @@
     "006940": {
       "e": [
         [
-          48,
+          35,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          12269
+          8808
         ],
         [
-          133,
+          119,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          331
+          297
         ]
       ],
       "p": {
@@ -2771,28 +2045,22 @@
     "006970": {
       "e": [
         [
-          2,
+          19,
           "PRAZA AMÉRICA",
           "C1",
-          304
+          3113
         ],
         [
-          2,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          577
-        ],
-        [
-          34,
+          50,
           "PRAZA AMÉRICA",
           "C1",
-          6177
+          9008
         ],
         [
-          88,
+          76,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          23203
+          19397
         ]
       ],
       "p": {
@@ -2805,16 +2073,10 @@
     "006980": {
       "e": [
         [
-          4,
+          81,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          1489
-        ],
-        [
-          94,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          23538
+          19709
         ]
       ],
       "p": {
@@ -2827,22 +2089,22 @@
     "007000": {
       "e": [
         [
-          17,
+          5,
           "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          4286
+          1067
         ],
         [
-          56,
+          41,
           "URZAIZ - T.VIGO",
           "N1",
-          14780
+          9830
         ],
         [
-          104,
+          90,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          27168
+          22658
         ]
       ],
       "p": {
@@ -2855,16 +2117,16 @@
     "007030": {
       "e": [
         [
-          51,
+          38,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          13251
+          10565
         ],
         [
-          136,
+          122,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          332
+          299
         ]
       ],
       "p": {
@@ -2877,10 +2139,10 @@
     "008020": {
       "e": [
         [
-          78,
+          63,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          18655
+          13167
         ]
       ],
       "p": {
@@ -2893,10 +2155,10 @@
     "008040": {
       "e": [
         [
-          76,
+          62,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          18386
+          13087
         ]
       ],
       "p": {
@@ -2909,10 +2171,10 @@
     "008060": {
       "e": [
         [
-          78,
+          64,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          18939
+          13517
         ]
       ],
       "p": {
@@ -2925,16 +2187,10 @@
     "008330": {
       "e": [
         [
-          5,
+          82,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          1834
-        ],
-        [
-          94,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          23912
+          20120
         ]
       ],
       "p": {
@@ -2947,28 +2203,22 @@
     "008450": {
       "e": [
         [
-          5,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          1500
-        ],
-        [
-          6,
+          23,
           "PRAZA AMÉRICA",
           "C1",
-          1101
+          3929
         ],
         [
-          37,
+          54,
           "PRAZA AMÉRICA",
           "C1",
-          6949
+          10216
         ],
         [
-          92,
+          79,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          24120
+          20315
         ]
       ],
       "p": {
@@ -2981,28 +2231,22 @@
     "008460": {
       "e": [
         [
-          4,
+          21,
           "PRAZA AMÉRICA",
           "C1",
-          724
+          3623
         ],
         [
-          4,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          1020
-        ],
-        [
-          35,
+          52,
           "PRAZA AMÉRICA",
           "C1",
-          6522
+          9925
         ],
         [
-          90,
+          78,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          23644
+          19840
         ]
       ],
       "p": {
@@ -3015,28 +2259,22 @@
     "008470": {
       "e": [
         [
-          6,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          1655
-        ],
-        [
-          7,
+          24,
           "PRAZA AMÉRICA",
           "C1",
-          1478
+          4463
         ],
         [
-          38,
+          55,
           "PRAZA AMÉRICA",
           "C1",
-          7209
+          10446
         ],
         [
-          93,
+          80,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          24411
+          20607
         ]
       ],
       "p": {
@@ -3049,28 +2287,22 @@
     "008480": {
       "e": [
         [
-          5,
+          22,
           "PRAZA AMÉRICA",
           "C1",
-          978
+          3844
         ],
         [
-          5,
-          "P. AMERICA - P. SANZ - G. ESPINO",
-          "N4",
-          1280
-        ],
-        [
-          36,
+          53,
           "PRAZA AMÉRICA",
           "C1",
-          6760
+          10143
         ],
         [
-          91,
+          78,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          23902
+          20097
         ]
       ],
       "p": {
@@ -3083,10 +2315,10 @@
     "008490": {
       "e": [
         [
-          64,
+          48,
           "URZAIZ - T.VIGO",
           "N1",
-          16990
+          11848
         ]
       ],
       "p": {
@@ -3099,10 +2331,10 @@
     "008510": {
       "e": [
         [
-          60,
+          45,
           "URZAIZ - T.VIGO",
           "N1",
-          15962
+          10790
         ]
       ],
       "p": {
@@ -3115,10 +2347,10 @@
     "008530": {
       "e": [
         [
-          61,
+          46,
           "URZAIZ - T.VIGO",
           "N1",
-          16293
+          11135
         ]
       ],
       "p": {
@@ -3131,10 +2363,10 @@
     "008550": {
       "e": [
         [
-          65,
+          49,
           "URZAIZ - T.VIGO",
           "N1",
-          17290
+          12157
         ]
       ],
       "p": {
@@ -3147,10 +2379,10 @@
     "008580": {
       "e": [
         [
-          59,
+          43,
           "URZAIZ - T.VIGO",
           "N1",
-          15373
+          10180
         ]
       ],
       "p": {
@@ -3163,22 +2395,22 @@
     "008610": {
       "e": [
         [
-          19,
+          7,
           "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          4821
+          1367
         ],
         [
-          58,
+          43,
           "URZAIZ - T.VIGO",
           "N1",
-          15095
+          10123
         ],
         [
-          106,
+          92,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          27474
+          22955
         ]
       ],
       "p": {
@@ -3191,10 +2423,10 @@
     "008620": {
       "e": [
         [
-          60,
+          44,
           "URZAIZ - T.VIGO",
           "N1",
-          15700
+          10522
         ]
       ],
       "p": {
@@ -3207,16 +2439,16 @@
     "008630": {
       "e": [
         [
-          31,
+          17,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          7758
+          4186
         ],
         [
-          116,
+          102,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          323
+          285
         ]
       ],
       "p": {
@@ -3229,16 +2461,16 @@
     "008750": {
       "e": [
         [
-          33,
+          19,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          8317
+          4852
         ],
         [
-          118,
+          104,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          324
+          287
         ]
       ],
       "p": {
@@ -3251,22 +2483,22 @@
     "008770": {
       "e": [
         [
-          34,
+          21,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          8718
+          5254
         ],
         [
-          49,
+          34,
           "URZAIZ - T.VIGO",
           "N1",
-          13304
+          8420
         ],
         [
-          119,
+          105,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          325
+          288
         ]
       ],
       "p": {
@@ -3279,34 +2511,34 @@
     "008820": {
       "e": [
         [
-          13,
+          1,
           "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          3552
+          339
         ],
         [
-          16,
+          2,
           "PRAZA AMÉRICA",
           "C1",
-          3540
+          434
         ],
         [
-          47,
+          33,
           "PRAZA AMÉRICA",
           "C1",
-          9307
+          6237
         ],
         [
-          52,
+          37,
           "URZAIZ - T.VIGO",
           "N1",
-          14062
+          9162
         ],
         [
-          100,
+          87,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          26462
+          21978
         ]
       ],
       "p": {
@@ -3319,22 +2551,22 @@
     "008840": {
       "e": [
         [
-          15,
+          3,
           "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          3871
+          624
         ],
         [
-          54,
+          39,
           "URZAIZ - T.VIGO",
           "N1",
-          14367
+          9445
         ],
         [
-          102,
+          88,
           "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          26764
+          22267
         ]
       ],
       "p": {
@@ -3347,16 +2579,16 @@
     "008850": {
       "e": [
         [
-          31,
+          18,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          7975
+          4401
         ],
         [
-          116,
+          103,
           "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          323
+          286
         ]
       ],
       "p": {
@@ -3369,10 +2601,10 @@
     "008870": {
       "e": [
         [
-          45,
+          30,
           "URZAIZ - T.VIGO",
           "N1",
-          12172
+          7451
         ]
       ],
       "p": {
@@ -3385,10 +2617,10 @@
     "008880": {
       "e": [
         [
-          46,
+          31,
           "URZAIZ - T.VIGO",
           "N1",
-          12437
+          7708
         ]
       ],
       "p": {
@@ -3401,10 +2633,10 @@
     "008910": {
       "e": [
         [
-          47,
+          32,
           "URZAIZ - T.VIGO",
           "N1",
-          12670
+          7787
         ]
       ],
       "p": {
