@@ -3,13 +3,13 @@
   "format_version": 1,
   "meta": {
     "counts": {
-      "estimaciones": 920,
+      "estimaciones": 597,
       "failed": 0,
-      "ok": 279,
-      "requested": 279,
+      "ok": 201,
+      "requested": 201,
       "skipped_no_realtime_id": 76,
-      "skipped_no_scheduled_service": 802,
-      "stops_with_estimations": 279
+      "skipped_no_scheduled_service": 880,
+      "stops_with_estimations": 201
     },
     "description": "Vitrasa realtime snapshot: next-arrival estimations for every queried stop. Git-scraped: one commit per run.",
     "encoding": "ISO-8859-1",
@@ -59,28 +59,22 @@
     "001010": {
       "e": [
         [
-          1,
-          "SAMIL por T. ALONSO",
-          "15C",
-          408
-        ],
-        [
-          14,
+          2,
           "REMATA SAMIL (POLIDEPORTIVO)",
           "10",
-          6258
+          1456
         ],
         [
-          36,
+          21,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          11372
+          8363
         ],
         [
-          130,
+          112,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          305
+          29983
         ]
       ],
       "p": {
@@ -93,28 +87,22 @@
     "001020": {
       "e": [
         [
-          1,
-          "SAMIL por T. ALONSO",
-          "15C",
-          617
-        ],
-        [
-          14,
+          2,
           "REMATA SAMIL (POLIDEPORTIVO)",
           "10",
-          6467
+          1673
         ],
         [
-          37,
+          21,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          11579
+          8578
         ],
         [
-          130,
+          112,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          305
+          30195
         ]
       ],
       "p": {
@@ -127,22 +115,22 @@
     "001040": {
       "e": [
         [
-          12,
+          0,
           "REMATA SAMIL (POLIDEPORTIVO)",
           "10",
-          5217
+          379
         ],
         [
-          35,
+          19,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          10514
+          7290
         ],
         [
-          127,
+          110,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          303
+          28924
         ]
       ],
       "p": {
@@ -155,22 +143,22 @@
     "001060": {
       "e": [
         [
-          13,
+          1,
           "REMATA SAMIL (POLIDEPORTIVO)",
           "10",
-          5606
+          704
         ],
         [
-          35,
+          20,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          10828
+          7693
         ],
         [
-          128,
+          110,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          304
+          29322
         ]
       ],
       "p": {
@@ -183,28 +171,22 @@
     "001070": {
       "e": [
         [
-          0,
-          "SAMIL por T. ALONSO",
-          "15C",
-          153
-        ],
-        [
-          14,
+          2,
           "REMATA SAMIL (POLIDEPORTIVO)",
           "10",
-          6018
+          1216
         ],
         [
-          36,
+          20,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          11238
+          8116
         ],
         [
-          129,
+          111,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          304
+          29740
         ]
       ],
       "p": {
@@ -217,10 +199,34 @@
     "001110": {
       "e": [
         [
-          8,
-          "Rúa das Teixugueiras, 38",
+          1376,
+          "PORTO - UNIVERSIDADE*",
+          "A",
+          -1
+        ],
+        [
+          1433,
+          "NAVIA por CASTELAO *",
           "5B",
-          1869
+          -1
+        ],
+        [
+          1923,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          1958,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          2873,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
         ]
       ],
       "p": {
@@ -233,16 +239,28 @@
     "001150": {
       "e": [
         [
-          9,
+          23,
           "PRAZA AMÉRICA",
           "C1",
-          1879
+          4597
         ],
         [
-          39,
+          24,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          373
+        ],
+        [
+          54,
           "PRAZA AMÉRICA",
           "C1",
-          7784
+          10595
+        ],
+        [
+          109,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          359
         ]
       ],
       "p": {
@@ -255,16 +273,10 @@
     "001230": {
       "e": [
         [
-          14,
+          89,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          2884
-        ],
-        [
-          104,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          24642
+          21074
         ]
       ],
       "p": {
@@ -277,40 +289,10 @@
     "001250": {
       "e": [
         [
-          5,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          1255
-        ],
-        [
-          7,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          2021
-        ],
-        [
-          9,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          2973
-        ],
-        [
-          13,
-          "REMATA LIMPIÑO",
-          "15A",
-          3501
-        ],
-        [
-          14,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          4382
-        ],
-        [
-          21,
+          8,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          4874
+          1936
         ]
       ],
       "p": {
@@ -323,10 +305,10 @@
     "001260": {
       "e": [
         [
-          69,
+          54,
           "URZAIZ - T.VIGO",
           "N1",
-          17162
+          13443
         ]
       ],
       "p": {
@@ -339,40 +321,16 @@
     "001270": {
       "e": [
         [
-          6,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          1521
-        ],
-        [
-          8,
+          0,
           "Rúa das Teixugueiras, 38",
           "5B",
-          2445
+          194
         ],
         [
           10,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          3386
-        ],
-        [
-          14,
-          "REMATA LIMPIÑO",
-          "15A",
-          3926
-        ],
-        [
-          15,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          4811
-        ],
-        [
-          22,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          5294
+          2333
         ]
       ],
       "p": {
@@ -385,10 +343,10 @@
     "001280": {
       "e": [
         [
-          67,
+          52,
           "URZAIZ - T.VIGO",
           "N1",
-          16599
+          12879
         ]
       ],
       "p": {
@@ -401,40 +359,28 @@
     "001290": {
       "e": [
         [
-          8,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          2017
-        ],
-        [
-          9,
+          1,
           "Rúa das Teixugueiras, 38",
           "5B",
-          2735
+          491
         ],
         [
-          10,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          3668
-        ],
-        [
-          15,
-          "REMATA LIMPIÑO",
-          "15A",
-          4109
-        ],
-        [
-          16,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          5105
-        ],
-        [
-          23,
+          11,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          5586
+          2618
+        ],
+        [
+          70,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          379
+        ],
+        [
+          153,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          370
         ]
       ],
       "p": {
@@ -447,40 +393,34 @@
     "001300": {
       "e": [
         [
-          9,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          2425
-        ],
-        [
-          10,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          3183
-        ],
-        [
-          11,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          4103
-        ],
-        [
-          17,
+          1,
           "REMATA LIMPIÑO",
           "15A",
-          4847
+          359
         ],
         [
-          17,
+          2,
           "Rúa das Teixugueiras, 38",
           "5B",
-          5555
+          918
         ],
         [
-          24,
+          12,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          6029
+          3045
+        ],
+        [
+          71,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          379
+        ],
+        [
+          154,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          370
         ]
       ],
       "p": {
@@ -493,10 +433,22 @@
     "001310": {
       "e": [
         [
-          65,
+          7,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          385
+        ],
+        [
+          50,
           "URZAIZ - T.VIGO",
           "N1",
-          16221
+          12511
+        ],
+        [
+          93,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          392
         ]
       ],
       "p": {
@@ -509,10 +461,10 @@
     "001320": {
       "e": [
         [
-          65,
+          50,
           "URZAIZ - T.VIGO",
           "N1",
-          15971
+          12288
         ]
       ],
       "p": {
@@ -522,53 +474,37 @@
         "sv": 1320
       }
     },
-    "001350": {
-      "e": [
-        [
-          567,
-          "S. BADIA - A GUÍA*",
-          "17",
-          -1
-        ],
-        [
-          613,
-          "RÍOS - A GUÍA *",
-          "17",
-          -1
-        ],
-        [
-          631,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          660,
-          "PRAZA DO REI*",
-          "27",
-          -1
-        ],
-        [
-          673,
-          "S. BADIA - A GUÍA*",
-          "17",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.208026488,
-        "lon": -8.7312098,
-        "n": "Avda. de Castrelos  121",
-        "sv": 1350
-      }
-    },
     "001360": {
       "e": [
         [
-          4,
-          "REMATA EN PORTANET",
+          469,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          517,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          527,
+          "FREIXO*",
+          "17",
+          -1
+        ],
+        [
+          543,
+          "HOSPITAL ALVARO CUNQUEIRO*",
           "12B",
-          1335
+          -1
+        ],
+        [
+          564,
+          "ZAMANS por CAMELIAS*",
+          "7",
+          -1
         ]
       ],
       "p": {
@@ -578,53 +514,37 @@
         "sv": 1360
       }
     },
-    "001380": {
-      "e": [
-        [
-          566,
-          "S. BADIA - A GUÍA*",
-          "17",
-          -1
-        ],
-        [
-          612,
-          "RÍOS - A GUÍA *",
-          "17",
-          -1
-        ],
-        [
-          630,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          672,
-          "S. BADIA - A GUÍA*",
-          "17",
-          -1
-        ],
-        [
-          708,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.20533568,
-        "lon": -8.730078621,
-        "n": "Avda. de Castrelos  179",
-        "sv": 1380
-      }
-    },
     "001390": {
       "e": [
         [
-          6,
-          "REMATA EN PORTANET",
+          471,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          519,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          529,
+          "FREIXO*",
+          "17",
+          -1
+        ],
+        [
+          545,
+          "HOSPITAL ALVARO CUNQUEIRO*",
           "12B",
-          1994
+          -1
+        ],
+        [
+          567,
+          "ZAMANS por CAMELIAS*",
+          "7",
+          -1
         ]
       ],
       "p": {
@@ -637,34 +557,16 @@
     "0014121": {
       "e": [
         [
-          11,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
-        ],
-        [
-          41,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
-        ],
-        [
-          42,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          28,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          386
         ],
         [
-          71,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
-        ],
-        [
-          101,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
+          112,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          359
         ]
       ],
       "p": {
@@ -677,34 +579,16 @@
     "0014123": {
       "e": [
         [
-          19,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          5,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          365
         ],
         [
-          105,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          91,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          188,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          273,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          352,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          391
         ]
       ],
       "p": {
@@ -717,10 +601,34 @@
     "0014124": {
       "e": [
         [
-          13,
-          "BOUZAS por PRAZA AMERICA",
+          616,
+          "BOUZAS - SAMIL por P. AMERICA*",
           "C3d",
-          3945
+          -1
+        ],
+        [
+          650,
+          "BOUZAS - SAMIL por G. BARBON *",
+          "C3i",
+          -1
+        ],
+        [
+          672,
+          "BOUZAS - SAMIL por P. AMERICA*",
+          "C3d",
+          -1
+        ],
+        [
+          713,
+          "BOUZAS - SAMIL por G. BARBON *",
+          "C3i",
+          -1
+        ],
+        [
+          741,
+          "BOUZAS - SAMIL por P. AMERICA*",
+          "C3d",
+          -1
         ]
       ],
       "p": {
@@ -733,10 +641,10 @@
     "0014125": {
       "e": [
         [
-          18,
+          3,
           "REMATA LIMPIÑO",
           "15A",
-          5234
+          872
         ]
       ],
       "p": {
@@ -749,16 +657,10 @@
     "0014126": {
       "e": [
         [
-          8,
+          82,
           "URZAIZ - T.VIGO",
           "N1",
-          1825
-        ],
-        [
-          97,
-          "URZAIZ - T.VIGO",
-          "N1",
-          23729
+          20091
         ]
       ],
       "p": {
@@ -771,16 +673,10 @@
     "0014127": {
       "e": [
         [
-          14,
+          90,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          3085
-        ],
-        [
-          104,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          288
+          21541
         ]
       ],
       "p": {
@@ -793,10 +689,10 @@
     "0014128": {
       "e": [
         [
-          17,
+          2,
           "NAVIA por FLORIDA",
           "5A",
-          5060
+          726
         ]
       ],
       "p": {
@@ -806,59 +702,19 @@
         "sv": 14128
       }
     },
-    "0014131": {
-      "e": [
-        [
-          583,
-          "COIA por GARCIA BARBON*",
-          "C3i",
-          -1
-        ],
-        [
-          595,
-          "BOUZAS - CHAPELA por TRV. VIGO*",
-          "C3i",
-          -1
-        ],
-        [
-          607,
-          "COIA por GARCIA BARBON*",
-          "C3i",
-          -1
-        ],
-        [
-          633,
-          "COIA - SAMIL por G. BARBON*",
-          "C3i",
-          -1
-        ],
-        [
-          634,
-          "P. AMÉRICA*",
-          "10",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.221948768,
-        "lon": -8.753171211,
-        "n": "Rúa de Tomás Paredes  4",
-        "sv": 14131
-      }
-    },
     "0014135": {
       "e": [
         [
-          20,
+          5,
           "PRAZA AMÉRICA",
           "C1",
-          4248
+          987
         ],
         [
-          50,
+          34,
           "PRAZA AMÉRICA",
           "C1",
-          9918
+          6978
         ]
       ],
       "p": {
@@ -871,34 +727,16 @@
     "0014140": {
       "e": [
         [
-          53,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          39,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          380
         ],
         [
-          138,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          124,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          218,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          303,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          383,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          363
         ]
       ],
       "p": {
@@ -908,53 +746,37 @@
         "sv": 14140
       }
     },
-    "0014141": {
-      "e": [
-        [
-          542,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          580,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          593,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          593,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          631,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.231379202,
-        "lon": -8.699876213,
-        "n": "Rúa de Jenaro de la Fuente  43",
-        "sv": 14141
-      }
-    },
     "0014161": {
       "e": [
         [
-          4,
-          "Rúa das Teixugueiras, 38",
+          607,
+          "NAVIA por CASTELAO *",
           "5B",
-          1011
+          -1
+        ],
+        [
+          673,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          735,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          797,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          860,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
         ]
       ],
       "p": {
@@ -967,22 +789,16 @@
     "0014162": {
       "e": [
         [
-          1,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          310
-        ],
-        [
-          16,
+          0,
           "NAVIA por FLORIDA",
           "5A",
-          4427
+          55
         ],
         [
-          24,
+          6,
           "REMATA ESTR. CAMPOSANCOS 28",
           "11",
-          6647
+          2216
         ]
       ],
       "p": {
@@ -995,16 +811,16 @@
     "0014164": {
       "e": [
         [
-          32,
+          17,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          9610
+          6194
         ],
         [
-          125,
+          108,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          302
+          27862
         ]
       ],
       "p": {
@@ -1017,16 +833,10 @@
     "0014166": {
       "e": [
         [
-          1,
-          "REMATA EN PORTANET",
-          "12B",
-          442
-        ],
-        [
-          16,
+          4,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          3790
+          1009
         ]
       ],
       "p": {
@@ -1039,10 +849,10 @@
     "0014168": {
       "e": [
         [
-          72,
+          57,
           "URZAIZ - T.VIGO",
           "N1",
-          17714
+          14037
         ]
       ],
       "p": {
@@ -1055,28 +865,22 @@
     "0014169": {
       "e": [
         [
-          2,
-          "REMATA EN PORTANET",
-          "12B",
-          729
-        ],
-        [
-          18,
+          6,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          4189
+          1277
         ],
         [
-          25,
+          10,
           "PRAZA AMÉRICA",
           "C1",
-          5722
+          2233
         ],
         [
-          55,
+          40,
           "PRAZA AMÉRICA",
           "C1",
-          11722
+          8240
         ]
       ],
       "p": {
@@ -1089,28 +893,22 @@
     "0014170": {
       "e": [
         [
-          2,
-          "SAMIL por T. ALONSO",
-          "15C",
-          1239
-        ],
-        [
-          15,
+          3,
           "REMATA SAMIL (POLIDEPORTIVO)",
           "10",
-          7089
+          2061
         ],
         [
-          38,
+          22,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          12183
+          9261
         ],
         [
-          131,
+          113,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          305
+          30900
         ]
       ],
       "p": {
@@ -1123,16 +921,28 @@
     "0014173": {
       "e": [
         [
-          8,
+          22,
           "PRAZA AMÉRICA",
           "C1",
-          1671
+          4308
         ],
         [
-          38,
+          23,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          369
+        ],
+        [
+          53,
           "PRAZA AMÉRICA",
           "C1",
-          7481
+          10305
+        ],
+        [
+          108,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          398
         ]
       ],
       "p": {
@@ -1142,77 +952,19 @@
         "sv": 14173
       }
     },
-    "0014174": {
-      "e": [
-        [
-          600,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          660,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          720,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          782,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          845,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.211844516,
-        "lon": -8.749287921,
-        "n": "Rúa do Padre Seixas (Parque da Bouza)",
-        "sv": 14174
-      }
-    },
     "0014180": {
       "e": [
         [
-          55,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          41,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          381
         ],
         [
-          140,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          126,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          220,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          305,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          385,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          364
         ]
       ],
       "p": {
@@ -1222,83 +974,31 @@
         "sv": 14180
       }
     },
-    "001420": {
-      "e": [
-        [
-          629,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          707,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          789,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          865,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          945,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.201440099,
-        "lon": -8.726409762,
-        "n": "Avda. de Castrelos  297",
-        "sv": 1420
-      }
-    },
     "0014223": {
       "e": [
         [
-          1,
-          "REMATA EN FRAGOSO",
-          "A",
-          508
-        ],
-        [
-          4,
-          "NAVIA por FLORIDA",
-          "5A",
-          1081
-        ],
-        [
-          9,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          2013
-        ],
-        [
-          14,
-          "REMATA ESTR. CAMPOSANCOS 28",
-          "11",
-          3046
-        ],
-        [
-          27,
+          12,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7332
+          3887
         ],
         [
-          119,
+          56,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          364
+        ],
+        [
+          103,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          298
+          25574
+        ],
+        [
+          140,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          367
         ]
       ],
       "p": {
@@ -1311,46 +1011,28 @@
     "0014224": {
       "e": [
         [
-          2,
-          "REMATA EN FRAGOSO",
-          "A",
-          823
-        ],
-        [
-          3,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          880
-        ],
-        [
-          5,
-          "NAVIA por FLORIDA",
-          "5A",
-          1402
-        ],
-        [
-          9,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          2321
-        ],
-        [
-          14,
-          "REMATA ESTR. CAMPOSANCOS 28",
-          "11",
-          3169
-        ],
-        [
-          28,
+          13,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7532
+          4210
         ],
         [
-          120,
+          58,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          365
+        ],
+        [
+          103,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          298
+          25895
+        ],
+        [
+          142,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          367
         ]
       ],
       "p": {
@@ -1363,46 +1045,28 @@
     "0014225": {
       "e": [
         [
-          3,
-          "REMATA EN FRAGOSO",
-          "A",
-          1114
-        ],
-        [
-          4,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          1176
-        ],
-        [
-          6,
-          "NAVIA por FLORIDA",
-          "5A",
-          1572
-        ],
-        [
-          10,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          2607
-        ],
-        [
-          15,
-          "REMATA ESTR. CAMPOSANCOS 28",
-          "11",
-          3441
-        ],
-        [
-          29,
+          13,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7773
+          4506
         ],
         [
-          121,
+          59,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          368
+        ],
+        [
+          104,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          299
+          26188
+        ],
+        [
+          143,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          367
         ]
       ],
       "p": {
@@ -1415,46 +1079,28 @@
     "0014226": {
       "e": [
         [
-          4,
-          "REMATA EN FRAGOSO",
-          "A",
-          1362
-        ],
-        [
-          5,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          1422
-        ],
-        [
-          7,
-          "NAVIA por FLORIDA",
-          "5A",
-          1806
-        ],
-        [
-          11,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          2842
-        ],
-        [
-          16,
-          "REMATA ESTR. CAMPOSANCOS 28",
-          "11",
-          3676
-        ],
-        [
-          30,
+          14,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7975
+          4750
         ],
         [
-          121,
+          59,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          369
+        ],
+        [
+          105,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          299
+          26431
+        ],
+        [
+          143,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          368
         ]
       ],
       "p": {
@@ -1467,46 +1113,34 @@
     "0014227": {
       "e": [
         [
-          5,
-          "REMATA EN FRAGOSO",
-          "A",
-          1685
-        ],
-        [
-          6,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          1751
-        ],
-        [
-          8,
-          "NAVIA por FLORIDA",
-          "5A",
-          2124
-        ],
-        [
-          11,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          3162
-        ],
-        [
-          17,
+          0,
           "REMATA ESTR. CAMPOSANCOS 28",
           "11",
-          3991
+          21
         ],
         [
-          30,
+          15,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          8245
+          5080
         ],
         [
-          122,
+          61,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          369
+        ],
+        [
+          105,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          300
+          26758
+        ],
+        [
+          145,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          368
         ]
       ],
       "p": {
@@ -1519,22 +1153,16 @@
     "0014245": {
       "e": [
         [
-          4,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          407
-        ],
-        [
-          23,
+          7,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          5448
+          2146
         ],
         [
-          113,
+          98,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          294
+          23841
         ]
       ],
       "p": {
@@ -1544,65 +1172,31 @@
         "sv": 14245
       }
     },
-    "0014250": {
-      "e": [
-        [
-          615,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          678,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          741,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          799,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          859,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.234914814,
-        "lon": -8.658983411,
-        "n": "Avda. do Aeroporto  463",
-        "sv": 14250
-      }
-    },
     "0014264": {
       "e": [
         [
-          15,
+          29,
           "PRAZA AMÉRICA",
           "C1",
-          3452
+          5976
         ],
         [
-          44,
-          "PRAZA AMÉRICA",
-          "C1",
-          8977
+          30,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          393
         ],
         [
-          85,
+          70,
           "URZAIZ - T.VIGO",
           "N1",
-          21071
+          17382
+        ],
+        [
+          114,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          360
         ]
       ],
       "p": {
@@ -1615,22 +1209,22 @@
     "0014267": {
       "e": [
         [
-          13,
+          1,
           "REMATA SAMIL (POLIDEPORTIVO)",
           "10",
-          5341
+          387
         ],
         [
-          35,
+          19,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          10674
+          7461
         ],
         [
-          128,
+          110,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          303
+          29119
         ]
       ],
       "p": {
@@ -1643,22 +1237,16 @@
     "0014299": {
       "e": [
         [
-          5,
-          "REMATA LIMPIÑO",
-          "15A",
-          2108
-        ],
-        [
-          39,
+          23,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          12740
+          9840
         ],
         [
-          133,
+          114,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          306
+          31474
         ]
       ],
       "p": {
@@ -1671,16 +1259,10 @@
     "0014300": {
       "e": [
         [
-          13,
-          "NAVIA por FLORIDA",
-          "5A",
-          3381
-        ],
-        [
-          21,
+          4,
           "REMATA ESTR. CAMPOSANCOS 28",
           "11",
-          5367
+          1191
         ]
       ],
       "p": {
@@ -1693,10 +1275,10 @@
     "0014331": {
       "e": [
         [
-          71,
+          56,
           "URZAIZ - T.VIGO",
           "N1",
-          17705
+          14014
         ]
       ],
       "p": {
@@ -1709,34 +1291,16 @@
     "0014333": {
       "e": [
         [
-          9,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
-        ],
-        [
-          39,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
-        ],
-        [
-          40,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          26,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          378
         ],
         [
-          69,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
-        ],
-        [
-          99,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
+          110,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          359
         ]
       ],
       "p": {
@@ -1749,10 +1313,34 @@
     "0014336": {
       "e": [
         [
-          9,
-          "REMATA LIMPIÑO",
+          559,
+          "R. NIETO - CABRAL*",
           "15A",
-          4429
+          -1
+        ],
+        [
+          614,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
+        ],
+        [
+          658,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
+        ],
+        [
+          718,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
+        ],
+        [
+          779,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
         ]
       ],
       "p": {
@@ -1765,34 +1353,16 @@
     "0014337": {
       "e": [
         [
-          17,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          2,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          329
         ],
         [
-          103,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          89,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          186,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          271,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          351,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          391
         ]
       ],
       "p": {
@@ -1802,65 +1372,31 @@
         "sv": 14337
       }
     },
-    "0014355": {
-      "e": [
-        [
-          572,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          586,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          587,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          623,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          627,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.226638363,
-        "lon": -8.676135104,
-        "n": "Avda. de Ramón Nieto  409",
-        "sv": 14355
-      }
-    },
     "0014358": {
       "e": [
         [
-          14,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          4641
-        ],
-        [
-          20,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          6981
-        ],
-        [
-          21,
+          5,
           "NAVIA por FLORIDA",
           "5A",
-          6489
+          2207
+        ],
+        [
+          5,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          2310
+        ],
+        [
+          75,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          382
+        ],
+        [
+          158,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          370
         ]
       ],
       "p": {
@@ -1873,22 +1409,28 @@
     "0014359": {
       "e": [
         [
-          13,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          4152
-        ],
-        [
-          19,
+          4,
           "NAVIA por FLORIDA",
           "5A",
-          6027
+          1672
         ],
         [
-          19,
+          4,
           "Rúa das Teixugueiras, 38",
           "5B",
-          6526
+          1930
+        ],
+        [
+          74,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          382
+        ],
+        [
+          157,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          370
         ]
       ],
       "p": {
@@ -1901,34 +1443,16 @@
     "0014360": {
       "e": [
         [
-          15,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          1,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          217
         ],
         [
-          102,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          87,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          185,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          270,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          350,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          388
         ]
       ],
       "p": {
@@ -1941,10 +1465,22 @@
     "0014361": {
       "e": [
         [
-          20,
+          1,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          274
+        ],
+        [
+          6,
           "REMATA LIMPIÑO",
           "15A",
-          5993
+          1766
+        ],
+        [
+          88,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          389
         ]
       ],
       "p": {
@@ -1957,10 +1493,22 @@
     "0014388": {
       "e": [
         [
-          21,
+          2,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          310
+        ],
+        [
+          6,
           "REMATA LIMPIÑO",
           "15A",
-          6213
+          1983
+        ],
+        [
+          88,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          389
         ]
       ],
       "p": {
@@ -1973,22 +1521,28 @@
     "0014389": {
       "e": [
         [
-          14,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          4423
-        ],
-        [
-          20,
+          5,
           "NAVIA por FLORIDA",
           "5A",
-          6266
+          1985
         ],
         [
-          20,
+          5,
           "Rúa das Teixugueiras, 38",
           "5B",
-          6763
+          2171
+        ],
+        [
+          74,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          382
+        ],
+        [
+          158,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          370
         ]
       ],
       "p": {
@@ -2001,31 +1555,31 @@
     "0014392": {
       "e": [
         [
-          553,
+          538,
           "URZAIZ - TVA DE VIGO *",
           "5A",
           -1
         ],
         [
-          613,
+          598,
           "URZAIZ - TVA DE VIGO *",
           "5A",
           -1
         ],
         [
-          673,
+          658,
           "URZAIZ - TVA DE VIGO *",
           "5A",
           -1
         ],
         [
-          733,
+          718,
           "URZAIZ - TVA DE VIGO *",
           "5A",
           -1
         ],
         [
-          793,
+          778,
           "URZAIZ - TVA DE VIGO *",
           "5A",
           -1
@@ -2041,10 +1595,10 @@
     "0014393": {
       "e": [
         [
-          22,
+          6,
           "NAVIA por FLORIDA",
           "5A",
-          6870
+          2544
         ]
       ],
       "p": {
@@ -2057,16 +1611,16 @@
     "0014397": {
       "e": [
         [
-          20,
+          4,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          4691
+          1315
         ],
         [
-          110,
+          95,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          292
+          23015
         ]
       ],
       "p": {
@@ -2079,10 +1633,34 @@
     "0014398": {
       "e": [
         [
-          8,
-          "REMATA LIMPIÑO",
+          466,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          514,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          574,
+          "COIA - SAMIL*",
           "15A",
-          2119
+          -1
+        ],
+        [
+          574,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          575,
+          "COIA por PRAZA AMERICA*",
+          "C3d",
+          -1
         ]
       ],
       "p": {
@@ -2092,157 +1670,13 @@
         "sv": 14398
       }
     },
-    "001440": {
-      "e": [
-        [
-          628,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          706,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          788,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          864,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          944,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.198480135,
-        "lon": -8.723827649,
-        "n": "Avda. de Castrelos  339",
-        "sv": 1440
-      }
-    },
-    "0014415": {
-      "e": [
-        [
-          582,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          646,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          706,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          766,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          827,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.221557416,
-        "lon": -8.665381534,
-        "n": "Avda. de Santa Mariña (antes 49)",
-        "sv": 14415
-      }
-    },
-    "001470": {
-      "e": [
-        [
-          628,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          706,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          788,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          863,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          944,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.194996678,
-        "lon": -8.72097155,
-        "n": "Avda. de Castrelos  399",
-        "sv": 1470
-      }
-    },
     "0014890": {
       "e": [
         [
-          14,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          87,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          101,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          184,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          269,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          349,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          388
         ]
       ],
       "p": {
@@ -2255,16 +1689,28 @@
     "0014892": {
       "e": [
         [
-          3,
+          18,
           "PRAZA AMÉRICA",
           "C1",
-          473
+          3020
         ],
         [
-          33,
+          18,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          379
+        ],
+        [
+          49,
           "PRAZA AMÉRICA",
           "C1",
-          6271
+          8999
+        ],
+        [
+          103,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          396
         ]
       ],
       "p": {
@@ -2277,10 +1723,34 @@
     "0014894": {
       "e": [
         [
-          7,
-          "REMATA EN PORTANET",
+          530,
+          "PZA. ESPAÑA - COLON por G. VIA*",
+          "7",
+          -1
+        ],
+        [
+          553,
+          "S. BADIA - A GUÍA*",
+          "17",
+          -1
+        ],
+        [
+          579,
+          "HOSPITAL MEIXOEIRO*",
           "12B",
-          2232
+          -1
+        ],
+        [
+          599,
+          "RÍOS - A GUÍA *",
+          "17",
+          -1
+        ],
+        [
+          618,
+          "PZA. ESPAÑA - COLON por G. VIA*",
+          "7",
+          -1
         ]
       ],
       "p": {
@@ -2293,33 +1763,33 @@
     "001490": {
       "e": [
         [
-          0,
-          "RETIRA EN PORTANET*",
-          "7",
-          -1
-        ],
-        [
-          503,
+          488,
           "P.ESPAÑA - G.ESPINO por P.RICO*",
           "H2",
           -1
         ],
         [
-          544,
+          529,
           "PZA. ESPAÑA - COLON por G. VIA*",
           "7",
           -1
         ],
         [
-          562,
+          547,
           "P.ESPAÑA- ESPINO por AV.MADRID*",
           "H2",
           -1
         ],
         [
-          567,
+          552,
           "S. BADIA - A GUÍA*",
           "17",
+          -1
+        ],
+        [
+          579,
+          "HOSPITAL MEIXOEIRO*",
+          "12B",
           -1
         ]
       ],
@@ -2333,34 +1803,16 @@
     "0014900": {
       "e": [
         [
-          83,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          68,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
+          377
         ],
         [
-          166,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          152,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
-        ],
-        [
-          246,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          331,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          412,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
+          369
         ]
       ],
       "p": {
@@ -2373,31 +1825,31 @@
     "0014903": {
       "e": [
         [
-          2,
+          604,
           "NAVIA por CASTELAO *",
           "5B",
           -1
         ],
         [
-          619,
+          670,
           "NAVIA por CASTELAO *",
           "5B",
           -1
         ],
         [
-          685,
+          731,
           "NAVIA por CASTELAO *",
           "5B",
           -1
         ],
         [
-          746,
+          793,
           "NAVIA por CASTELAO *",
           "5B",
           -1
         ],
         [
-          808,
+          856,
           "NAVIA por CASTELAO *",
           "5B",
           -1
@@ -2413,10 +1865,34 @@
     "001500": {
       "e": [
         [
-          5,
-          "REMATA EN PORTANET",
+          470,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          518,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          528,
+          "FREIXO*",
+          "17",
+          -1
+        ],
+        [
+          544,
+          "HOSPITAL ALVARO CUNQUEIRO*",
           "12B",
-          1579
+          -1
+        ],
+        [
+          565,
+          "ZAMANS por CAMELIAS*",
+          "7",
+          -1
         ]
       ],
       "p": {
@@ -2426,99 +1902,13 @@
         "sv": 1500
       }
     },
-    "001540": {
-      "e": [
-        [
-          570,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          584,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          585,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          621,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          625,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.221677429,
-        "lon": -8.66978207,
-        "n": "Avda. da Ponte  15",
-        "sv": 1540
-      }
-    },
-    "00180": {
-      "e": [
-        [
-          621,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          699,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          781,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          856,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          937,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.166144986,
-        "lon": -8.720162371,
-        "n": "Estrada de Valadares  451",
-        "sv": 180
-      }
-    },
     "001880": {
       "e": [
         [
-          9,
-          "REMATA LIMPIÑO",
-          "15A",
-          4254
-        ],
-        [
-          63,
+          48,
           "URZAIZ - T.VIGO",
           "N1",
-          15558
+          11866
         ]
       ],
       "p": {
@@ -2531,16 +1921,10 @@
     "001890": {
       "e": [
         [
-          8,
-          "REMATA LIMPIÑO",
-          "15A",
-          3984
-        ],
-        [
-          62,
+          47,
           "URZAIZ - T.VIGO",
           "N1",
-          15351
+          11680
         ]
       ],
       "p": {
@@ -2553,16 +1937,10 @@
     "001900": {
       "e": [
         [
-          7,
-          "REMATA LIMPIÑO",
-          "15A",
-          3266
-        ],
-        [
-          61,
+          46,
           "URZAIZ - T.VIGO",
           "N1",
-          14055
+          10606
         ]
       ],
       "p": {
@@ -2575,16 +1953,16 @@
     "001920": {
       "e": [
         [
-          6,
-          "REMATA LIMPIÑO",
-          "15A",
-          2611
-        ],
-        [
-          60,
+          45,
           "URZAIZ - T.VIGO",
           "N1",
-          13522
+          10318
+        ],
+        [
+          130,
+          "URZAIZ - T.VIGO",
+          "N1",
+          31919
         ]
       ],
       "p": {
@@ -2597,10 +1975,34 @@
     "0020013": {
       "e": [
         [
-          5,
-          "REMATA EN PORTANET",
+          470,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          518,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          528,
+          "FREIXO*",
+          "17",
+          -1
+        ],
+        [
+          544,
+          "HOSPITAL ALVARO CUNQUEIRO*",
           "12B",
-          1620
+          -1
+        ],
+        [
+          566,
+          "ZAMANS por CAMELIAS*",
+          "7",
+          -1
         ]
       ],
       "p": {
@@ -2613,16 +2015,28 @@
     "0020024": {
       "e": [
         [
-          14,
+          1,
           "Rúa das Teixugueiras, 38",
           "5B",
-          4465
+          228
         ],
         [
-          21,
+          6,
           "Rúa das Teixugueiras, 38",
           "5B",
-          7192
+          2731
+        ],
+        [
+          76,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          382
+        ],
+        [
+          159,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          370
         ]
       ],
       "p": {
@@ -2635,34 +2049,16 @@
     "0020025": {
       "e": [
         [
-          91,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          76,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
+          382
         ],
         [
-          174,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          159,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
-        ],
-        [
-          254,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          339,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          700,
-          "NAVIA por CASTELAO *",
-          "5B",
-          -1
+          370
         ]
       ],
       "p": {
@@ -2675,34 +2071,10 @@
     "0020026": {
       "e": [
         [
-          14,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          87,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          101,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          184,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          269,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          349,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          388
         ]
       ],
       "p": {
@@ -2715,40 +2087,34 @@
     "0020027": {
       "e": [
         [
-          7,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          2001
-        ],
-        [
-          9,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          2945
-        ],
-        [
-          10,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          3852
-        ],
-        [
-          16,
+          0,
           "REMATA LIMPIÑO",
           "15A",
-          4445
+          138
         ],
         [
-          16,
+          2,
           "Rúa das Teixugueiras, 38",
           "5B",
-          5314
+          825
         ],
         [
-          24,
+          11,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          5816
+          2858
+        ],
+        [
+          70,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          378
+        ],
+        [
+          154,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          369
         ]
       ],
       "p": {
@@ -2761,34 +2127,16 @@
     "0020044": {
       "e": [
         [
-          23,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          9,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          342
         ],
         [
-          109,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          95,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          192,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          277,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          356,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          393
         ]
       ],
       "p": {
@@ -2798,93 +2146,37 @@
         "sv": 20044
       }
     },
-    "0020052": {
-      "e": [
-        [
-          550,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          607,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          669,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          730,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          793,
-          "COIA - MUIÑOS por CAMELIAS*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.232748414,
-        "lon": -8.702539655,
-        "n": "Rúa de Aragón  21",
-        "sv": 20052
-      }
-    },
-    "0020054": {
-      "e": [
-        [
-          575,
-          "COIA por PRAZA AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          602,
-          "BOUZAS - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          625,
-          "COIA - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          655,
-          "BOUZAS - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          690,
-          "COIA - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.248897377,
-        "lon": -8.689150714,
-        "n": "Rúa de Ángel de Lema  33",
-        "sv": 20054
-      }
-    },
     "0020057": {
       "e": [
         [
-          2,
-          "Rúa das Teixugueiras, 38",
+          544,
+          "J. FUENTE - POULO *",
+          "24",
+          -1
+        ],
+        [
+          562,
+          "HISPANIDAD - COIA*",
+          "16",
+          -1
+        ],
+        [
+          588,
+          "NAVIA por CASTELAO *",
           "5B",
-          0
+          -1
+        ],
+        [
+          597,
+          "J. FUENTE - POULO *",
+          "24",
+          -1
+        ],
+        [
+          622,
+          "HISPANIDAD - COIA*",
+          "16",
+          -1
         ]
       ],
       "p": {
@@ -2897,10 +2189,34 @@
     "0020058": {
       "e": [
         [
-          3,
-          "Rúa das Teixugueiras, 38",
+          563,
+          "HISPANIDAD - COIA*",
+          "16",
+          -1
+        ],
+        [
+          589,
+          "NAVIA por CASTELAO *",
           "5B",
-          108
+          -1
+        ],
+        [
+          623,
+          "HISPANIDAD - COIA*",
+          "16",
+          -1
+        ],
+        [
+          655,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          683,
+          "HISPANIDAD - COIA*",
+          "16",
+          -1
         ]
       ],
       "p": {
@@ -2913,34 +2229,16 @@
     "0020061": {
       "e": [
         [
-          22,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          8,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          353
         ],
         [
-          108,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          94,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          191,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          276,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          355,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          393
         ]
       ],
       "p": {
@@ -2953,10 +2251,22 @@
     "0020075": {
       "e": [
         [
-          66,
+          7,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          350
+        ],
+        [
+          51,
           "URZAIZ - T.VIGO",
           "N1",
-          16257
+          12576
+        ],
+        [
+          93,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          391
         ]
       ],
       "p": {
@@ -2969,10 +2279,10 @@
     "0020076": {
       "e": [
         [
-          67,
+          52,
           "URZAIZ - T.VIGO",
           "N1",
-          16798
+          13075
         ]
       ],
       "p": {
@@ -2985,40 +2295,10 @@
     "0020077": {
       "e": [
         [
-          5,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          1218
-        ],
-        [
-          7,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          2121
-        ],
-        [
           9,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          3054
-        ],
-        [
-          13,
-          "REMATA LIMPIÑO",
-          "15A",
-          3488
-        ],
-        [
-          15,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          4477
-        ],
-        [
-          21,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          4988
+          2059
         ]
       ],
       "p": {
@@ -3031,10 +2311,10 @@
     "0020078": {
       "e": [
         [
-          76,
+          61,
           "URZAIZ - T.VIGO",
           "N1",
-          18859
+          15176
         ]
       ],
       "p": {
@@ -3047,10 +2327,34 @@
     "0020079": {
       "e": [
         [
-          12,
-          "Rúa do Porriño (fronte 9)",
+          538,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "12B",
+          -1
+        ],
+        [
+          550,
+          "COIA por CAMELIAS*",
           "4A",
-          2804
+          -1
+        ],
+        [
+          558,
+          "ZAMANS por CAMELIAS*",
+          "7",
+          -1
+        ],
+        [
+          599,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          600,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "12B",
+          -1
         ]
       ],
       "p": {
@@ -3060,299 +2364,19 @@
         "sv": 20079
       }
     },
-    "0020082": {
-      "e": [
-        [
-          581,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          705,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          826,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          915,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          971,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.221758032,
-        "lon": -8.661135597,
-        "n": "Avda. de Santa Mariña (fronte 66)",
-        "sv": 20082
-      }
-    },
-    "0020089": {
-      "e": [
-        [
-          547,
-          "ESTACION TREN (GUIXAR)*",
-          "16",
-          -1
-        ],
-        [
-          607,
-          "ESTACION TREN (GUIXAR)*",
-          "16",
-          -1
-        ],
-        [
-          667,
-          "ESTACION TREN (GUIXAR)*",
-          "16",
-          -1
-        ],
-        [
-          727,
-          "ESTACION TREN (GUIXAR)*",
-          "16",
-          -1
-        ],
-        [
-          787,
-          "ESTACION TREN (GUIXAR)*",
-          "16",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.213044566,
-        "lon": -8.751396835,
-        "n": "Porriño - Padre Seixas ©",
-        "sv": 20089
-      }
-    },
-    "002210": {
-      "e": [
-        [
-          580,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          640,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          704,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          760,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          825,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.222538699,
-        "lon": -8.656616496,
-        "n": "Avda. de Santa Mariña  137",
-        "sv": 2210
-      }
-    },
-    "002220": {
-      "e": [
-        [
-          583,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          647,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          707,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          767,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          828,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.220338634,
-        "lon": -8.668666271,
-        "n": "Avda. de Santa Mariña  17",
-        "sv": 2220
-      }
-    },
-    "002240": {
-      "e": [
-        [
-          582,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          646,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          706,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          766,
-          "SAN MIGUEL por FLORIDA *",
-          "11",
-          -1
-        ],
-        [
-          827,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.222432209,
-        "lon": -8.662773458,
-        "n": "Avda. de Santa Mariña  77",
-        "sv": 2240
-      }
-    },
-    "002270": {
-      "e": [
-        [
-          580,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          704,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          825,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          914,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          970,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.22113201,
-        "lon": -8.658591621,
-        "n": "Avda. de Santa Mariña  103",
-        "sv": 2270
-      }
-    },
-    "00240": {
-      "e": [
-        [
-          576,
-          "COIA por PRAZA AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          603,
-          "BOUZAS - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          626,
-          "COIA - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          656,
-          "BOUZAS - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          691,
-          "COIA - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.247513476,
-        "lon": -8.691874301,
-        "n": "Rúa de Ángel de Lema  19",
-        "sv": 240
-      }
-    },
     "002430": {
       "e": [
         [
-          24,
+          8,
           "PRAZA AMÉRICA",
           "C1",
-          5006
+          1917
         ],
         [
-          54,
+          38,
           "PRAZA AMÉRICA",
           "C1",
-          10558
+          7929
         ]
       ],
       "p": {
@@ -3365,16 +2389,16 @@
     "002440": {
       "e": [
         [
-          21,
+          6,
           "PRAZA AMÉRICA",
           "C1",
-          4700
+          1314
         ],
         [
-          51,
+          36,
           "PRAZA AMÉRICA",
           "C1",
-          10214
+          7317
         ]
       ],
       "p": {
@@ -3387,16 +2411,16 @@
     "002450": {
       "e": [
         [
-          22,
+          7,
           "PRAZA AMÉRICA",
           "C1",
-          4763
+          1577
         ],
         [
-          52,
+          36,
           "PRAZA AMÉRICA",
           "C1",
-          10388
+          7586
         ]
       ],
       "p": {
@@ -3406,93 +2430,13 @@
         "sv": 2450
       }
     },
-    "002510": {
-      "e": [
-        [
-          627,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          705,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          787,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          863,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          943,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.191323803,
-        "lon": -8.721049887,
-        "n": "Avda. de Castrelos  439",
-        "sv": 2510
-      }
-    },
-    "00260": {
-      "e": [
-        [
-          575,
-          "COIA por PRAZA AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          601,
-          "BOUZAS - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          625,
-          "COIA - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          655,
-          "BOUZAS - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          689,
-          "COIA - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.250421216,
-        "lon": -8.685464716,
-        "n": "Rúa de Ángel de Lema  91",
-        "sv": 260
-      }
-    },
     "002780": {
       "e": [
         [
-          71,
+          55,
           "URZAIZ - T.VIGO",
           "N1",
-          17612
+          13772
         ]
       ],
       "p": {
@@ -3505,10 +2449,10 @@
     "002790": {
       "e": [
         [
-          75,
+          60,
           "URZAIZ - T.VIGO",
           "N1",
-          18608
+          14911
         ]
       ],
       "p": {
@@ -3521,10 +2465,10 @@
     "002800": {
       "e": [
         [
-          14,
+          2,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          3235
+          387
         ]
       ],
       "p": {
@@ -3537,16 +2481,10 @@
     "002810": {
       "e": [
         [
-          1,
-          "REMATA EN PORTANET",
-          "12B",
-          209
-        ],
-        [
-          15,
+          3,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          3551
+          701
         ]
       ],
       "p": {
@@ -3559,10 +2497,10 @@
     "002820": {
       "e": [
         [
-          74,
+          59,
           "URZAIZ - T.VIGO",
           "N1",
-          18234
+          14538
         ]
       ],
       "p": {
@@ -3575,10 +2513,34 @@
     "002830": {
       "e": [
         [
-          12,
-          "BOUZAS por PRAZA AMERICA",
+          519,
+          "XESTOSO por HOSPITAL *",
+          "15C",
+          -1
+        ],
+        [
+          522,
+          "CHAPELA por GARCIA BARBON*",
           "C3d",
-          3278
+          -1
+        ],
+        [
+          546,
+          "COIA - CHAPELA por G. BARBON*",
+          "C3d",
+          -1
+        ],
+        [
+          554,
+          "XESTOSO por HOSPITAL *",
+          "15C",
+          -1
+        ],
+        [
+          571,
+          "CHAPELA por GARCIA BARBON*",
+          "C3d",
+          -1
         ]
       ],
       "p": {
@@ -3591,10 +2553,34 @@
     "003130": {
       "e": [
         [
-          13,
-          "Avda. de Ricardo Mella, 518",
+          618,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          5984
+          -1
+        ],
+        [
+          685,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          745,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
+        ],
+        [
+          807,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          867,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -3607,10 +2593,34 @@
     "003230": {
       "e": [
         [
-          8,
-          "REMATA ESTR. CAMPOSANCOS 28",
+          535,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          572,
+          "S. BADIA - A GUÍA*",
+          "17",
+          -1
+        ],
+        [
+          574,
+          "NAVIA por FLORIDA  *",
+          "5A",
+          -1
+        ],
+        [
+          586,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          589,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          1421
+          -1
         ]
       ],
       "p": {
@@ -3623,34 +2633,22 @@
     "003240": {
       "e": [
         [
-          7,
-          "REMATA EN FRAGOSO",
-          "A",
-          2402
-        ],
-        [
-          8,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          2446
-        ],
-        [
-          10,
-          "NAVIA por FLORIDA",
-          "5A",
-          2800
-        ],
-        [
-          13,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          3839
-        ],
-        [
-          19,
+          2,
           "REMATA ESTR. CAMPOSANCOS 28",
           "11",
-          5006
+          670
+        ],
+        [
+          63,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          371
+        ],
+        [
+          147,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          369
         ]
       ],
       "p": {
@@ -3663,16 +2661,28 @@
     "003250": {
       "e": [
         [
-          2,
+          17,
           "PRAZA AMÉRICA",
           "C1",
-          140
+          2728
         ],
         [
-          32,
+          17,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          372
+        ],
+        [
+          48,
           "PRAZA AMÉRICA",
           "C1",
-          5900
+          8707
+        ],
+        [
+          102,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          396
         ]
       ],
       "p": {
@@ -3682,53 +2692,37 @@
         "sv": 3250
       }
     },
-    "00340": {
-      "e": [
-        [
-          601,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          663,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          724,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          787,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          847,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.238036494,
-        "lon": -8.700921187,
-        "n": "Rúa de Aragón  116",
-        "sv": 340
-      }
-    },
     "003470": {
       "e": [
         [
-          7,
-          "Avda. de Ricardo Mella, 518",
+          612,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          3192
+          -1
+        ],
+        [
+          679,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          739,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
+        ],
+        [
+          800,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          861,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -3738,53 +2732,37 @@
         "sv": 3470
       }
     },
-    "00350": {
-      "e": [
-        [
-          602,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          664,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          725,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          788,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          848,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.240488915,
-        "lon": -8.700357923,
-        "n": "Rúa de Aragón  162",
-        "sv": 350
-      }
-    },
     "003500": {
       "e": [
         [
-          6,
-          "Avda. de Ricardo Mella, 518",
+          611,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          2986
+          -1
+        ],
+        [
+          678,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          738,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
+        ],
+        [
+          799,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          860,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -3797,10 +2775,34 @@
     "003510": {
       "e": [
         [
-          3,
-          "Avda. de Ricardo Mella, 518",
+          607,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          1551
+          -1
+        ],
+        [
+          674,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          734,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
+        ],
+        [
+          795,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          856,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -3813,10 +2815,34 @@
     "003530": {
       "e": [
         [
-          4,
-          "Avda. de Ricardo Mella, 518",
+          609,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          2155
+          -1
+        ],
+        [
+          675,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          735,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
+        ],
+        [
+          796,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          858,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -3829,10 +2855,34 @@
     "003540": {
       "e": [
         [
-          6,
-          "Avda. de Ricardo Mella, 518",
+          611,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          2614
+          -1
+        ],
+        [
+          677,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          737,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
+        ],
+        [
+          798,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          860,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -3842,93 +2892,37 @@
         "sv": 3540
       }
     },
-    "00360": {
-      "e": [
-        [
-          548,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          605,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          667,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          728,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          791,
-          "COIA - MUIÑOS por CAMELIAS*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.24013184,
-        "lon": -8.700947033,
-        "n": "Rúa de Aragón  193",
-        "sv": 360
-      }
-    },
-    "00370": {
-      "e": [
-        [
-          602,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          664,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          725,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          788,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          848,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.242101304,
-        "lon": -8.698394546,
-        "n": "Rúa de Aragón  212",
-        "sv": 370
-      }
-    },
     "003750": {
       "e": [
         [
-          12,
-          "Avda. de Ricardo Mella, 518",
+          618,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          5623
+          -1
+        ],
+        [
+          653,
+          "SAMIL - VAO - SAIANS*",
+          "10",
+          -1
+        ],
+        [
+          685,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          713,
+          "SAMIL - VAO - SAIANS*",
+          "10",
+          -1
+        ],
+        [
+          745,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -3941,10 +2935,34 @@
     "003760": {
       "e": [
         [
-          11,
-          "Avda. de Ricardo Mella, 518",
+          617,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          5097
+          -1
+        ],
+        [
+          652,
+          "SAMIL - VAO - SAIANS*",
+          "10",
+          -1
+        ],
+        [
+          684,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          712,
+          "SAMIL - VAO - SAIANS*",
+          "10",
+          -1
+        ],
+        [
+          744,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -3954,453 +2972,37 @@
         "sv": 3760
       }
     },
-    "00380": {
-      "e": [
-        [
-          547,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          604,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          666,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          727,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          790,
-          "COIA - MUIÑOS por CAMELIAS*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.242091376,
-        "lon": -8.698668131,
-        "n": "Rúa de Aragón  221",
-        "sv": 380
-      }
-    },
-    "00400": {
-      "e": [
-        [
-          549,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          606,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          668,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          729,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          792,
-          "COIA - MUIÑOS por CAMELIAS*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.235598195,
-        "lon": -8.701426538,
-        "n": "Rúa de Aragón  91",
-        "sv": 400
-      }
-    },
-    "004060": {
-      "e": [
-        [
-          620,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          698,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          780,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          855,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          936,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.164326088,
-        "lon": -8.716892619,
-        "n": "Estrada da Gándara  7",
-        "sv": 4060
-      }
-    },
-    "004070": {
-      "e": [
-        [
-          619,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          698,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          780,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          855,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          935,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.162254659,
-        "lon": -8.713740793,
-        "n": "Estrada da Gándara  55",
-        "sv": 4070
-      }
-    },
-    "00410": {
-      "e": [
-        [
-          600,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          662,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          723,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          786,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ],
-        [
-          846,
-          "ARAGÓN por URZÁIZ*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.235524387,
-        "lon": -8.701248417,
-        "n": "Rúa de Aragón  82",
-        "sv": 410
-      }
-    },
-    "00420": {
-      "e": [
-        [
-          549,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          605,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          668,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          729,
-          "COIA por CAMELIAS*",
-          "4A",
-          -1
-        ],
-        [
-          792,
-          "COIA - MUIÑOS por CAMELIAS*",
-          "4A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.238092485,
-        "lon": -8.701156245,
-        "n": "Rúa de Aragón  147",
-        "sv": 420
-      }
-    },
-    "004560": {
-      "e": [
-        [
-          624,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          702,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          784,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          859,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          940,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.177017792,
-        "lon": -8.721519832,
-        "n": "Estrada de Valadares  233",
-        "sv": 4560
-      }
-    },
-    "004590": {
-      "e": [
-        [
-          624,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          702,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          784,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          860,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          940,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.180670846,
-        "lon": -8.721533506,
-        "n": "Estrada de Valadares  173",
-        "sv": 4590
-      }
-    },
-    "004620": {
-      "e": [
-        [
-          623,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          701,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          783,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          858,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          939,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.172330151,
-        "lon": -8.723766367,
-        "n": "Estrada de Valadares  329",
-        "sv": 4620
-      }
-    },
-    "004640": {
-      "e": [
-        [
-          626,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          704,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          786,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          862,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          942,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.18659932,
-        "lon": -8.719619913,
-        "n": "Estrada de Valadares (cruce Camiño do Canizo)",
-        "sv": 4640
-      }
-    },
-    "004660": {
-      "e": [
-        [
-          625,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          703,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          785,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          861,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          941,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.183997801,
-        "lon": -8.723857214,
-        "n": "Estrada de Valadares  99",
-        "sv": 4660
-      }
-    },
     "004680": {
       "e": [
         [
-          9,
-          "Avda. de Ricardo Mella, 518",
+          615,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          4614
+          -1
+        ],
+        [
+          682,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          742,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
+        ],
+        [
+          803,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          864,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -4413,10 +3015,34 @@
     "004700": {
       "e": [
         [
-          8,
-          "Avda. de Ricardo Mella, 518",
+          613,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          3792
+          -1
+        ],
+        [
+          680,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          740,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
+        ],
+        [
+          801,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          862,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -4429,10 +3055,34 @@
     "004720": {
       "e": [
         [
-          8,
-          "Avda. de Ricardo Mella, 518",
+          614,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          4191
+          -1
+        ],
+        [
+          681,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          741,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
+        ],
+        [
+          802,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          863,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -4445,10 +3095,34 @@
     "004740": {
       "e": [
         [
-          10,
-          "Avda. de Ricardo Mella, 518",
+          616,
+          "SAN MIGUEL por FLORIDA*",
           "11",
-          4690
+          -1
+        ],
+        [
+          683,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          743,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
+        ],
+        [
+          804,
+          "SAN MIGUEL por FLORIDA *",
+          "11",
+          -1
+        ],
+        [
+          865,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
         ]
       ],
       "p": {
@@ -4461,34 +3135,16 @@
     "005060": {
       "e": [
         [
-          25,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          11,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          389
         ],
         [
-          111,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          97,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          194,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          279,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          358,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          394
         ]
       ],
       "p": {
@@ -4498,179 +3154,13 @@
         "sv": 5060
       }
     },
-    "005170": {
-      "e": [
-        [
-          1069,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          1205,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          1420,
-          "REMATA LIMPIÑO*",
-          "15A",
-          -1
-        ],
-        [
-          1839,
-          "PRAZA AMERICA*",
-          "15A",
-          -1
-        ],
-        [
-          1904,
-          "PIZARRO 7*",
-          "25",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.227529644,
-        "lon": -8.66169041,
-        "n": "Rúa das Figueiras (Praza da Feira)",
-        "sv": 5170
-      }
-    },
-    "005250": {
-      "e": [
-        [
-          1071,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          1207,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          1422,
-          "REMATA LIMPIÑO*",
-          "15A",
-          -1
-        ],
-        [
-          1841,
-          "PRAZA AMERICA*",
-          "15A",
-          -1
-        ],
-        [
-          1906,
-          "PIZARRO 7*",
-          "25",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.223048763,
-        "lon": -8.667374011,
-        "n": "Rúa das Figueiras  29",
-        "sv": 5250
-      }
-    },
-    "005270": {
-      "e": [
-        [
-          1071,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          1207,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          1421,
-          "REMATA LIMPIÑO*",
-          "15A",
-          -1
-        ],
-        [
-          1841,
-          "PRAZA AMERICA*",
-          "15A",
-          -1
-        ],
-        [
-          1905,
-          "PIZARRO 7*",
-          "25",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.224367639,
-        "lon": -8.665989991,
-        "n": "Rúa das Figueiras  65",
-        "sv": 5270
-      }
-    },
-    "005280": {
-      "e": [
-        [
-          1070,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          1206,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          1421,
-          "REMATA LIMPIÑO*",
-          "15A",
-          -1
-        ],
-        [
-          1840,
-          "PRAZA AMERICA*",
-          "15A",
-          -1
-        ],
-        [
-          1905,
-          "PIZARRO 7*",
-          "25",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.225940716,
-        "lon": -8.663830813,
-        "n": "Rúa das Figueiras  113",
-        "sv": 5280
-      }
-    },
     "005290": {
       "e": [
         [
-          14,
-          "NAVIA por FLORIDA",
-          "5A",
-          3886
-        ],
-        [
-          22,
+          5,
           "REMATA ESTR. CAMPOSANCOS 28",
           "11",
-          5695
+          1690
         ]
       ],
       "p": {
@@ -4683,22 +3173,16 @@
     "005310": {
       "e": [
         [
-          2,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          882
-        ],
-        [
-          17,
+          1,
           "NAVIA por FLORIDA",
           "5A",
-          4941
+          606
         ],
         [
-          25,
+          8,
           "REMATA ESTR. CAMPOSANCOS 28",
           "11",
-          7274
+          2948
         ]
       ],
       "p": {
@@ -4711,16 +3195,10 @@
     "005350": {
       "e": [
         [
-          13,
-          "NAVIA por FLORIDA",
-          "5A",
-          3615
-        ],
-        [
-          21,
+          4,
           "REMATA ESTR. CAMPOSANCOS 28",
           "11",
-          5420
+          1415
         ]
       ],
       "p": {
@@ -4733,22 +3211,10 @@
     "005360": {
       "e": [
         [
-          0,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          116
-        ],
-        [
-          15,
-          "NAVIA por FLORIDA",
-          "5A",
-          4244
-        ],
-        [
-          23,
+          6,
           "REMATA ESTR. CAMPOSANCOS 28",
           "11",
-          6475
+          2038
         ]
       ],
       "p": {
@@ -4761,16 +3227,10 @@
     "005380": {
       "e": [
         [
-          12,
-          "NAVIA por FLORIDA",
-          "5A",
-          3138
-        ],
-        [
-          20,
+          3,
           "REMATA ESTR. CAMPOSANCOS 28",
           "11",
-          5130
+          964
         ]
       ],
       "p": {
@@ -4783,34 +3243,16 @@
     "005400": {
       "e": [
         [
-          26,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          12,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          360
         ],
         [
-          112,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          98,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          194,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          279,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          358,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          394
         ]
       ],
       "p": {
@@ -4823,10 +3265,16 @@
     "005410": {
       "e": [
         [
-          8,
-          "REMATA EN FRAGOSO",
-          "A",
-          2707
+          64,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          374
+        ],
+        [
+          148,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          369
         ]
       ],
       "p": {
@@ -4839,34 +3287,16 @@
     "005420": {
       "e": [
         [
-          30,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          16,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          359
         ],
         [
-          115,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          101,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          198,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          283,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          362,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          396
         ]
       ],
       "p": {
@@ -4879,10 +3309,16 @@
     "005430": {
       "e": [
         [
-          9,
-          "REMATA EN FRAGOSO",
-          "A",
-          2973
+          65,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          374
+        ],
+        [
+          149,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          369
         ]
       ],
       "p": {
@@ -4895,34 +3331,16 @@
     "005440": {
       "e": [
         [
-          29,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          14,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          391
         ],
         [
-          114,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          100,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          196,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          281,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          360,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          396
         ]
       ],
       "p": {
@@ -4935,10 +3353,16 @@
     "005450": {
       "e": [
         [
-          9,
-          "REMATA EN FRAGOSO",
-          "A",
-          3225
+          66,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          375
+        ],
+        [
+          149,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          369
         ]
       ],
       "p": {
@@ -4951,34 +3375,16 @@
     "005460": {
       "e": [
         [
-          28,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          13,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          376
         ],
         [
-          113,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          99,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          195,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          280,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          359,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          394
         ]
       ],
       "p": {
@@ -4991,34 +3397,16 @@
     "005470": {
       "e": [
         [
-          81,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          66,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
+          375
         ],
         [
-          165,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          150,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
-        ],
-        [
-          245,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          330,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          410,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
+          369
         ]
       ],
       "p": {
@@ -5031,16 +3419,16 @@
     "005490": {
       "e": [
         [
-          20,
+          4,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          4324
+          1130
         ],
         [
-          110,
+          95,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          292
+          22824
         ]
       ],
       "p": {
@@ -5053,16 +3441,16 @@
     "005510": {
       "e": [
         [
-          21,
+          5,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          4936
+          1582
         ],
         [
-          111,
+          96,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          293
+          23274
         ]
       ],
       "p": {
@@ -5075,28 +3463,28 @@
     "005520": {
       "e": [
         [
-          4,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          1017
-        ],
-        [
-          5,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          627
-        ],
-        [
-          24,
+          8,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          5703
+          2412
         ],
         [
-          114,
+          51,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          358
+        ],
+        [
+          99,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          295
+          24099
+        ],
+        [
+          135,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          366
         ]
       ],
       "p": {
@@ -5109,16 +3497,16 @@
     "005570": {
       "e": [
         [
-          22,
+          6,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          5249
+          1921
         ],
         [
-          112,
+          97,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          294
+          23611
         ]
       ],
       "p": {
@@ -5131,31 +3519,31 @@
     "00560": {
       "e": [
         [
-          672,
+          657,
           "SAMIL - VAO - SAIANS*",
           "10",
           -1
         ],
         [
-          732,
+          717,
           "SAMIL - VAO - SAIANS*",
           "10",
           -1
         ],
         [
-          792,
+          777,
           "SAMIL - VAO - SAIANS*",
           "10",
           -1
         ],
         [
-          860,
+          845,
           "SAMIL - VAO - SAIANS*",
           "10",
           -1
         ],
         [
-          925,
+          910,
           "SAMIL - VAO - SAIANS*",
           "10",
           -1
@@ -5171,22 +3559,16 @@
     "005610": {
       "e": [
         [
-          7,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          1649
-        ],
-        [
-          18,
+          2,
           "PRAZA AMÉRICA",
           "C1",
-          3824
+          407
         ],
         [
-          47,
+          32,
           "PRAZA AMÉRICA",
           "C1",
-          9383
+          6445
         ]
       ],
       "p": {
@@ -5199,16 +3581,34 @@
     "005620": {
       "e": [
         [
-          1,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          204
+          467,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
         ],
         [
-          9,
-          "REMATA LIMPIÑO",
+          515,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          575,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          576,
+          "COIA - SAMIL*",
           "15A",
-          2356
+          -1
+        ],
+        [
+          577,
+          "COIA por PRAZA AMERICA*",
+          "C3d",
+          -1
         ]
       ],
       "p": {
@@ -5221,16 +3621,34 @@
     "005640": {
       "e": [
         [
-          2,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          509
+          468,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
         ],
         [
-          10,
-          "REMATA LIMPIÑO",
+          516,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          576,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          577,
+          "COIA - SAMIL*",
           "15A",
-          2830
+          -1
+        ],
+        [
+          578,
+          "COIA por PRAZA AMERICA*",
+          "C3d",
+          -1
         ]
       ],
       "p": {
@@ -5243,10 +3661,10 @@
     "005660": {
       "e": [
         [
-          81,
+          66,
           "URZAIZ - T.VIGO",
           "N1",
-          20126
+          16428
         ]
       ],
       "p": {
@@ -5259,16 +3677,16 @@
     "005670": {
       "e": [
         [
-          19,
+          4,
           "PRAZA AMÉRICA",
           "C1",
-          4169
+          766
         ],
         [
-          49,
+          33,
           "PRAZA AMÉRICA",
           "C1",
-          9774
+          6747
         ]
       ],
       "p": {
@@ -5281,10 +3699,34 @@
     "005680": {
       "e": [
         [
-          6,
-          "REMATA LIMPIÑO",
+          464,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          512,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          572,
+          "COIA - SAMIL*",
           "15A",
-          1620
+          -1
+        ],
+        [
+          572,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          573,
+          "COIA por PRAZA AMERICA*",
+          "C3d",
+          -1
         ]
       ],
       "p": {
@@ -5297,10 +3739,34 @@
     "005700": {
       "e": [
         [
-          7,
-          "REMATA LIMPIÑO",
+          465,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          513,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          573,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          574,
+          "COIA - SAMIL*",
           "15A",
-          1976
+          -1
+        ],
+        [
+          575,
+          "COIA por PRAZA AMERICA*",
+          "C3d",
+          -1
         ]
       ],
       "p": {
@@ -5313,34 +3779,16 @@
     "005740": {
       "e": [
         [
-          58,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          43,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
+          387
         ],
         [
-          143,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          128,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
-        ],
-        [
-          223,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          308,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          388,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
+          364
         ]
       ],
       "p": {
@@ -5353,34 +3801,16 @@
     "005750": {
       "e": [
         [
-          57,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          43,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
+          383
         ],
         [
-          142,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          128,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
-        ],
-        [
-          222,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          307,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          387,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
+          364
         ]
       ],
       "p": {
@@ -5390,93 +3820,19 @@
         "sv": 5750
       }
     },
-    "005760": {
-      "e": [
-        [
-          622,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          700,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          782,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          857,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          938,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.16929549,
-        "lon": -8.723249687,
-        "n": "Estrada de Valadares  377",
-        "sv": 5760
-      }
-    },
-    "005800": {
-      "e": [
-        [
-          0,
-          "REMATA LIMPIÑO",
-          "15A",
-          0
-        ]
-      ],
-      "p": {
-        "lat": 42.232202275,
-        "lon": -8.703792246,
-        "n": "Rúa de Jenaro de la Fuente  29",
-        "sv": 5800
-      }
-    },
     "005810": {
       "e": [
         [
-          51,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          36,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          370
         ],
         [
-          136,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          121,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          215,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          300,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          380,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          363
         ]
       ],
       "p": {
@@ -5489,34 +3845,16 @@
     "005820": {
       "e": [
         [
-          51,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          37,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          371
         ],
         [
-          136,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          122,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          215,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          300,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          380,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          363
         ]
       ],
       "p": {
@@ -5526,29 +3864,37 @@
         "sv": 5820
       }
     },
-    "005830": {
-      "e": [
-        [
-          1,
-          "REMATA LIMPIÑO",
-          "15A",
-          152
-        ]
-      ],
-      "p": {
-        "lat": 42.23238699,
-        "lon": -8.705610784,
-        "n": "Rúa de Jenaro de la Fuente  11",
-        "sv": 5830
-      }
-    },
     "005870": {
       "e": [
         [
-          3,
-          "Rúa das Teixugueiras, 38",
+          606,
+          "NAVIA por CASTELAO *",
           "5B",
-          678
+          -1
+        ],
+        [
+          672,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          733,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          795,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          858,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
         ]
       ],
       "p": {
@@ -5561,10 +3907,34 @@
     "005890": {
       "e": [
         [
-          5,
-          "Rúa das Teixugueiras, 38",
+          608,
+          "NAVIA por CASTELAO *",
           "5B",
-          1240
+          -1
+        ],
+        [
+          674,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          736,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          798,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          861,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
         ]
       ],
       "p": {
@@ -5577,10 +3947,34 @@
     "00600": {
       "e": [
         [
-          13,
-          "Avda. de Ricardo Mella, 518",
+          565,
+          "CABRAL por VIA TRANVIA*",
           "11",
-          6198
+          -1
+        ],
+        [
+          601,
+          "P. AMÉRICA*",
+          "10",
+          -1
+        ],
+        [
+          619,
+          "SAN MIGUEL por FLORIDA*",
+          "11",
+          -1
+        ],
+        [
+          625,
+          "CABRAL por STA MARINA*",
+          "11",
+          -1
+        ],
+        [
+          661,
+          "P. AMÉRICA*",
+          "10",
+          -1
         ]
       ],
       "p": {
@@ -5593,34 +3987,16 @@
     "006187": {
       "e": [
         [
-          82,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          68,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
+          375
         ],
         [
-          166,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          151,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
-        ],
-        [
-          246,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          331,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          411,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
+          369
         ]
       ],
       "p": {
@@ -5633,34 +4009,16 @@
     "006210": {
       "e": [
         [
-          53,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          39,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          376
         ],
         [
-          138,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          124,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          217,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          302,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          382,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          363
         ]
       ],
       "p": {
@@ -5673,34 +4031,16 @@
     "006250": {
       "e": [
         [
-          54,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          40,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          382
         ],
         [
-          139,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          125,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          219,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          304,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          384,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          363
         ]
       ],
       "p": {
@@ -5713,34 +4053,28 @@
     "006300": {
       "e": [
         [
-          2,
-          "NAVIA por FLORIDA",
-          "5A",
-          548
-        ],
-        [
-          7,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          1501
-        ],
-        [
-          12,
-          "REMATA ESTR. CAMPOSANCOS 28",
-          "11",
-          2372
-        ],
-        [
-          26,
+          11,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          6464
+          3354
         ],
         [
-          117,
+          54,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          364
+        ],
+        [
+          101,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          297
+          25037
+        ],
+        [
+          138,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          367
         ]
       ],
       "p": {
@@ -5750,93 +4084,37 @@
         "sv": 6300
       }
     },
-    "006380": {
-      "e": [
-        [
-          597,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          657,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          717,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          778,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          841,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.211811672,
-        "lon": -8.742420889,
-        "n": "Rúa de Pablo Iglesias  2",
-        "sv": 6380
-      }
-    },
-    "006390": {
-      "e": [
-        [
-          599,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          659,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          719,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          780,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ],
-        [
-          843,
-          "HISPANIDAD - COIA*",
-          "16",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.210204472,
-        "lon": -8.74559126,
-        "n": "Rúa de Pablo Iglesias  20",
-        "sv": 6390
-      }
-    },
     "006460": {
       "e": [
         [
-          14,
-          "BOUZAS por PRAZA AMERICA",
+          615,
+          "BOUZAS - SAMIL por P. AMERICA*",
           "C3d",
-          3900
+          -1
+        ],
+        [
+          649,
+          "BOUZAS - SAMIL por G. BARBON *",
+          "C3i",
+          -1
+        ],
+        [
+          671,
+          "BOUZAS - SAMIL por P. AMERICA*",
+          "C3d",
+          -1
+        ],
+        [
+          712,
+          "BOUZAS - SAMIL por G. BARBON *",
+          "C3i",
+          -1
+        ],
+        [
+          740,
+          "BOUZAS - SAMIL por P. AMERICA*",
+          "C3d",
+          -1
         ]
       ],
       "p": {
@@ -5849,10 +4127,34 @@
     "006470": {
       "e": [
         [
-          2,
-          "Rúa das Teixugueiras, 38",
+          605,
+          "NAVIA por CASTELAO *",
           "5B",
-          411
+          -1
+        ],
+        [
+          671,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          732,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          794,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          857,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
         ]
       ],
       "p": {
@@ -5865,31 +4167,31 @@
     "006490": {
       "e": [
         [
-          1,
+          603,
           "NAVIA por CASTELAO *",
           "5B",
           -1
         ],
         [
-          618,
+          669,
           "NAVIA por CASTELAO *",
           "5B",
           -1
         ],
         [
-          684,
+          729,
           "NAVIA por CASTELAO *",
           "5B",
           -1
         ],
         [
-          744,
+          791,
           "NAVIA por CASTELAO *",
           "5B",
           -1
         ],
         [
-          806,
+          854,
           "NAVIA por CASTELAO *",
           "5B",
           -1
@@ -5905,10 +4207,34 @@
     "006510": {
       "e": [
         [
-          1,
-          "Rúa das Teixugueiras, 38",
+          604,
+          "NAVIA por CASTELAO *",
           "5B",
-          167
+          -1
+        ],
+        [
+          670,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          731,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          793,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
+        ],
+        [
+          856,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
         ]
       ],
       "p": {
@@ -5921,16 +4247,16 @@
     "006530": {
       "e": [
         [
-          25,
+          10,
           "PRAZA AMÉRICA",
           "C1",
-          5101
+          2118
         ],
         [
-          55,
+          39,
           "PRAZA AMÉRICA",
           "C1",
-          10629
+          8126
         ]
       ],
       "p": {
@@ -5943,10 +4269,34 @@
     "006570": {
       "e": [
         [
-          3,
-          "REMATA LIMPIÑO",
+          461,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          509,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          569,
+          "COIA - SAMIL*",
           "15A",
-          840
+          -1
+        ],
+        [
+          569,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          570,
+          "COIA por PRAZA AMERICA*",
+          "C3d",
+          -1
         ]
       ],
       "p": {
@@ -5959,10 +4309,34 @@
     "006580": {
       "e": [
         [
-          5,
-          "REMATA LIMPIÑO",
+          463,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          511,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          571,
+          "COIA - SAMIL*",
           "15A",
-          1289
+          -1
+        ],
+        [
+          571,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          572,
+          "COIA por PRAZA AMERICA*",
+          "C3d",
+          -1
         ]
       ],
       "p": {
@@ -5975,31 +4349,31 @@
     "00660": {
       "e": [
         [
-          546,
+          531,
           "PZA. ESPAÑA - COLON por G. VIA*",
           "7",
           -1
         ],
         [
-          569,
+          554,
           "S. BADIA - A GUÍA*",
           "17",
           -1
         ],
         [
-          595,
+          580,
           "HOSPITAL MEIXOEIRO*",
           "12B",
           -1
         ],
         [
-          615,
+          600,
           "RÍOS - A GUÍA *",
           "17",
           -1
         ],
         [
-          634,
+          619,
           "PZA. ESPAÑA - COLON por G. VIA*",
           "7",
           -1
@@ -6015,34 +4389,16 @@
     "006620": {
       "e": [
         [
-          13,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
-        ],
-        [
-          43,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
-        ],
-        [
-          43,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          29,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          394
         ],
         [
-          72,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
-        ],
-        [
-          102,
-          "PRAZA AMÉRICA*",
-          "C1",
-          -1
+          113,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          360
         ]
       ],
       "p": {
@@ -6055,16 +4411,16 @@
     "006640": {
       "e": [
         [
-          18,
+          2,
           "REMATA LIMPIÑO",
           "15A",
-          5225
+          686
         ],
         [
-          26,
+          13,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          6409
+          3427
         ]
       ],
       "p": {
@@ -6077,28 +4433,22 @@
     "006750": {
       "e": [
         [
-          2,
-          "SAMIL por T. ALONSO",
-          "15C",
-          911
-        ],
-        [
-          15,
+          3,
           "REMATA SAMIL (POLIDEPORTIVO)",
           "10",
-          6770
+          1963
         ],
         [
-          37,
+          22,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          11852
+          8913
         ],
         [
-          131,
+          113,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          305
+          30545
         ]
       ],
       "p": {
@@ -6111,10 +4461,10 @@
     "006780": {
       "e": [
         [
-          16,
+          4,
           "REMATA SAMIL (POLIDEPORTIVO)",
           "10",
-          8085
+          3093
         ]
       ],
       "p": {
@@ -6127,10 +4477,10 @@
     "006790": {
       "e": [
         [
-          16,
+          4,
           "REMATA SAMIL (POLIDEPORTIVO)",
           "10",
-          7711
+          2711
         ]
       ],
       "p": {
@@ -6140,53 +4490,13 @@
         "sv": 6790
       }
     },
-    "00680": {
-      "e": [
-        [
-          611,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          673,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          736,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          794,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          854,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.229005723,
-        "lon": -8.634356866,
-        "n": "Avda. do Aeroporto (Aeroclub)",
-        "sv": 680
-      }
-    },
     "006810": {
       "e": [
         [
-          17,
+          5,
           "REMATA SAMIL (POLIDEPORTIVO)",
           "10",
-          8413
+          3429
         ]
       ],
       "p": {
@@ -6199,31 +4509,31 @@
     "006820": {
       "e": [
         [
-          663,
+          648,
           "SAMIL - VAO - SAIANS*",
           "10",
           -1
         ],
         [
-          723,
+          708,
           "SAMIL - VAO - SAIANS*",
           "10",
           -1
         ],
         [
-          783,
+          768,
           "SAMIL - VAO - SAIANS*",
           "10",
           -1
         ],
         [
-          851,
+          836,
           "SAMIL - VAO - SAIANS*",
           "10",
           -1
         ],
         [
-          916,
+          901,
           "SAMIL - VAO - SAIANS*",
           "10",
           -1
@@ -6239,28 +4549,28 @@
     "006860": {
       "e": [
         [
-          1,
-          "NAVIA por FLORIDA",
-          "5A",
-          158
-        ],
-        [
-          11,
-          "REMATA ESTR. CAMPOSANCOS 28",
-          "11",
-          2011
-        ],
-        [
-          26,
+          9,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          6248
+          2829
         ],
         [
-          116,
+          53,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          359
+        ],
+        [
+          100,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          298
+          24516
+        ],
+        [
+          137,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          366
         ]
       ],
       "p": {
@@ -6273,34 +4583,16 @@
     "006880": {
       "e": [
         [
-          20,
-          "P. AMERICA - P. SANZ - G. ESPINO*",
+          6,
+          "P. AMERICA - P. SANZ - G. ESPINO",
           "N4",
-          -1
+          346
         ],
         [
-          106,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
+          92,
+          "P. AMERICA - URZAIZ - G.ESPINO",
           "N4",
-          -1
-        ],
-        [
-          189,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          274,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
-        ],
-        [
-          353,
-          "P. AMERICA - URZAIZ - G.ESPINO*",
-          "N4",
-          -1
+          391
         ]
       ],
       "p": {
@@ -6313,16 +4605,28 @@
     "006930": {
       "e": [
         [
-          1,
+          16,
           "PRAZA AMÉRICA",
           "C1",
-          0
+          2470
         ],
         [
-          31,
+          17,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          369
+        ],
+        [
+          47,
           "PRAZA AMÉRICA",
           "C1",
-          5542
+          8470
+        ],
+        [
+          102,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          396
         ]
       ],
       "p": {
@@ -6335,52 +4639,28 @@
     "006940": {
       "e": [
         [
-          4,
-          "REMATA EN PORTANET",
-          "12B",
-          1312
-        ],
-        [
-          4,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          1005
+          3,
+          "REMATA ESTR. CAMPOSANCOS 28",
+          "11",
+          816
         ],
         [
           7,
-          "Rúa das Teixugueiras, 38",
-          "5B",
-          1797
-        ],
-        [
-          9,
-          "REMATA SAMIL (POLIDEPORTIVO)",
-          "10",
-          2793
-        ],
-        [
-          11,
-          "NAVIA por FLORIDA",
-          "5A",
-          3129
-        ],
-        [
-          12,
-          "REMATA LIMPIÑO",
-          "15A",
-          3291
-        ],
-        [
-          20,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          4652
+          1586
         ],
         [
-          21,
-          "REMATA ESTR. CAMPOSANCOS 28",
-          "11",
-          5152
+          64,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          374
+        ],
+        [
+          148,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          369
         ]
       ],
       "p": {
@@ -6393,10 +4673,34 @@
     "006960": {
       "e": [
         [
-          11,
-          "Rúa do Porriño (fronte 9)",
+          538,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "12B",
+          -1
+        ],
+        [
+          549,
+          "COIA por CAMELIAS*",
           "4A",
-          2570
+          -1
+        ],
+        [
+          557,
+          "ZAMANS por CAMELIAS*",
+          "7",
+          -1
+        ],
+        [
+          572,
+          "HISPANIDAD - COIA*",
+          "16",
+          -1
+        ],
+        [
+          598,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
         ]
       ],
       "p": {
@@ -6409,16 +4713,28 @@
     "006970": {
       "e": [
         [
-          2,
+          17,
           "PRAZA AMÉRICA",
           "C1",
-          291
+          2891
         ],
         [
-          32,
+          18,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          381
+        ],
+        [
+          48,
           "PRAZA AMÉRICA",
           "C1",
-          6150
+          8870
+        ],
+        [
+          103,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          396
         ]
       ],
       "p": {
@@ -6431,16 +4747,16 @@
     "006980": {
       "e": [
         [
-          31,
+          15,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          8528
+          5418
         ],
         [
-          124,
+          106,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          301
+          27088
         ]
       ],
       "p": {
@@ -6453,31 +4769,31 @@
     "006990": {
       "e": [
         [
-          529,
+          514,
           "RABADEIRA por RINXELA*",
           "9B",
           -1
         ],
         [
-          538,
+          523,
           "XESTOSO por HOSPITAL *",
           "15C",
           -1
         ],
         [
-          540,
+          525,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          564,
+          549,
           "COIA - CHAPELA por G. BARBON*",
           "C3d",
           -1
         ],
         [
-          572,
+          557,
           "XESTOSO por HOSPITAL *",
           "15C",
           -1
@@ -6493,16 +4809,22 @@
     "007000": {
       "e": [
         [
-          1,
-          "URZAIZ - T.VIGO",
-          "N1",
-          179
+          34,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          368
         ],
         [
-          90,
+          75,
           "URZAIZ - T.VIGO",
           "N1",
-          21919
+          18472
+        ],
+        [
+          119,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          362
         ]
       ],
       "p": {
@@ -6515,34 +4837,16 @@
     "007030": {
       "e": [
         [
-          81,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          67,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
+          375
         ],
         [
-          165,
-          "P. SANZ - BALAIDOS - NAVIA*",
+          151,
+          "P. SANZ - BALAIDOS - NAVIA",
           "N4",
-          -1
-        ],
-        [
-          245,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          330,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
-        ],
-        [
-          410,
-          "P. SANZ - BALAIDOS - NAVIA*",
-          "N4",
-          -1
+          369
         ]
       ],
       "p": {
@@ -6552,474 +4856,34 @@
         "sv": 7030
       }
     },
-    "00720": {
-      "e": [
-        [
-          571,
-          "COLÓN*",
-          "9B",
-          -1
-        ],
-        [
-          620,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          639,
-          "COLÓN*",
-          "9B",
-          -1
-        ],
-        [
-          684,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          698,
-          "COLÓN*",
-          "9B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.235739016,
-        "lon": -8.684254232,
-        "n": "Avda. do Aeroporto  215",
-        "sv": 720
-      }
-    },
-    "007200": {
-      "e": [
-        [
-          578,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          591,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          591,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          629,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          633,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.231023929,
-        "lon": -8.69459232,
-        "n": "Avda. de Ramón Nieto  125",
-        "sv": 7200
-      }
-    },
-    "007220": {
-      "e": [
-        [
-          577,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          590,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          591,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          628,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          632,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.229736581,
-        "lon": -8.691879077,
-        "n": "Avda. de Ramón Nieto  173",
-        "sv": 7220
-      }
-    },
-    "007250": {
-      "e": [
-        [
-          575,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          589,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          589,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          626,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          630,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.229533333,
-        "lon": -8.684593198,
-        "n": "Avda. de Ramón Nieto  273",
-        "sv": 7250
-      }
-    },
-    "007270": {
-      "e": [
-        [
-          574,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          588,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          588,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          625,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          629,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.229570145,
-        "lon": -8.681232237,
-        "n": "Avda. de Ramón Nieto  341",
-        "sv": 7270
-      }
-    },
-    "007280": {
-      "e": [
-        [
-          573,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          587,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          588,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          624,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          628,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.228432118,
-        "lon": -8.67827376,
-        "n": "Avda. de Ramón Nieto  355",
-        "sv": 7280
-      }
-    },
-    "007320": {
-      "e": [
-        [
-          571,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          585,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          586,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          622,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          626,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.224462184,
-        "lon": -8.673842935,
-        "n": "Avda. de Ramón Nieto  475",
-        "sv": 7320
-      }
-    },
-    "007340": {
-      "e": [
-        [
-          570,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          585,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          586,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          622,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          625,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.223272423,
-        "lon": -8.67216119,
-        "n": "Avda. de Ramón Nieto  503",
-        "sv": 7340
-      }
-    },
-    "007350": {
-      "e": [
-        [
-          579,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          592,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          592,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          630,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          634,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.231927571,
-        "lon": -8.697668814,
-        "n": "Avda. de Ramón Nieto  57",
-        "sv": 7350
-      }
-    },
-    "007370": {
-      "e": [
-        [
-          576,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ],
-        [
-          589,
-          "SAN MIGUEL por FLORIDA*",
-          "11",
-          -1
-        ],
-        [
-          590,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          627,
-          "SAMIL por T. ALONSO *",
-          "15C",
-          -1
-        ],
-        [
-          631,
-          "COIA - SAMIL*",
-          "15A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.229607881,
-        "lon": -8.686980211,
-        "n": "Avda. de Ramón Nieto  247",
-        "sv": 7370
-      }
-    },
-    "00740": {
-      "e": [
-        [
-          572,
-          "COLÓN*",
-          "9B",
-          -1
-        ],
-        [
-          621,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          640,
-          "COLÓN*",
-          "9B",
-          -1
-        ],
-        [
-          685,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          699,
-          "COLÓN*",
-          "9B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.233560754,
-        "lon": -8.686937524,
-        "n": "Avda. do Aeroporto  181",
-        "sv": 740
-      }
-    },
     "007410": {
       "e": [
         [
-          584,
+          569,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          593,
+          578,
           "BOUZAS - CHAPELA por TRV. VIGO*",
           "C3i",
           -1
         ],
         [
-          644,
+          629,
           "BOUZAS - CHAPELA por G. BARBON*",
           "C3d",
           -1
         ],
         [
-          690,
+          675,
           "BOUZAS - CHAPELA por TRV. VIGO*",
           "C3i",
           -1
         ],
         [
-          712,
+          697,
           "BOUZAS - CHAPELA por G. BARBON*",
           "C3d",
           -1
@@ -7032,99 +4896,19 @@
         "sv": 7410
       }
     },
-    "00770": {
-      "e": [
-        [
-          570,
-          "COLÓN*",
-          "9B",
-          -1
-        ],
-        [
-          619,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          638,
-          "COLÓN*",
-          "9B",
-          -1
-        ],
-        [
-          683,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          697,
-          "COLÓN*",
-          "9B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.238939528,
-        "lon": -8.681422497,
-        "n": "Avda. do Aeroporto  273",
-        "sv": 770
-      }
-    },
-    "00790": {
-      "e": [
-        [
-          569,
-          "COLÓN*",
-          "9B",
-          -1
-        ],
-        [
-          618,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          637,
-          "COLÓN*",
-          "9B",
-          -1
-        ],
-        [
-          682,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          696,
-          "COLÓN*",
-          "9B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.237426811,
-        "lon": -8.675474476,
-        "n": "Avda. do Aeroporto  325",
-        "sv": 790
-      }
-    },
     "008020": {
       "e": [
         [
-          16,
+          1,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          3538
+          226
         ],
         [
-          106,
+          92,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          289
+          21929
         ]
       ],
       "p": {
@@ -7137,16 +4921,10 @@
     "008040": {
       "e": [
         [
-          15,
+          91,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          3310
-        ],
-        [
-          105,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          288
+          21616
         ]
       ],
       "p": {
@@ -7159,16 +4937,16 @@
     "008060": {
       "e": [
         [
-          18,
+          2,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          3855
+          575
         ],
         [
-          108,
+          93,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          290
+          22277
         ]
       ],
       "p": {
@@ -7178,139 +4956,19 @@
         "sv": 8060
       }
     },
-    "008100": {
-      "e": [
-        [
-          618,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ],
-        [
-          697,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          779,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          854,
-          "PZA. ESPAÑA - COLON por G. VIA *",
-          "7",
-          -1
-        ],
-        [
-          934,
-          "PZA. ESPAÑA - COLON por G. VIA*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.160735669,
-        "lon": -8.709771124,
-        "n": "Estrada da Gándara  79",
-        "sv": 8100
-      }
-    },
-    "008110": {
-      "e": [
-        [
-          596,
-          "ZAMANS por CAMELIAS*",
-          "7",
-          -1
-        ],
-        [
-          685,
-          "SEOANE por CAMELIAS*",
-          "7",
-          -1
-        ],
-        [
-          764,
-          "SEOANE por CAMELIAS*",
-          "7",
-          -1
-        ],
-        [
-          847,
-          "SEOANE por CAMELIAS*",
-          "7",
-          -1
-        ],
-        [
-          921,
-          "ZAMANS por CAMELIAS*",
-          "7",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.160670051,
-        "lon": -8.709878412,
-        "n": "Estrada da Gándara (Seoane)",
-        "sv": 8110
-      }
-    },
-    "00820": {
-      "e": [
-        [
-          617,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          681,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          744,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          801,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          861,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.234766626,
-        "lon": -8.671305131,
-        "n": "Avda. do Aeroporto  377",
-        "sv": 820
-      }
-    },
     "008330": {
       "e": [
         [
-          32,
+          16,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          9242
+          5786
         ],
         [
-          124,
+          107,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          301
+          27454
         ]
       ],
       "p": {
@@ -7323,10 +4981,34 @@
     "008370": {
       "e": [
         [
-          12,
-          "BOUZAS por PRAZA AMERICA",
+          615,
+          "BOUZAS - SAMIL por P. AMERICA*",
           "C3d",
-          3530
+          -1
+        ],
+        [
+          649,
+          "BOUZAS - SAMIL por G. BARBON *",
+          "C3i",
+          -1
+        ],
+        [
+          671,
+          "BOUZAS - SAMIL por P. AMERICA*",
+          "C3d",
+          -1
+        ],
+        [
+          712,
+          "BOUZAS - SAMIL por G. BARBON *",
+          "C3i",
+          -1
+        ],
+        [
+          739,
+          "BOUZAS - SAMIL por P. AMERICA*",
+          "C3d",
+          -1
         ]
       ],
       "p": {
@@ -7336,59 +5018,37 @@
         "sv": 8370
       }
     },
-    "00840": {
-      "e": [
-        [
-          575,
-          "COLÓN*",
-          "9B",
-          -1
-        ],
-        [
-          581,
-          "ESTACION TREN*",
-          "24",
-          -1
-        ],
-        [
-          624,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          634,
-          "ESTACION TREN*",
-          "24",
-          -1
-        ],
-        [
-          644,
-          "COLÓN*",
-          "9B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.234904325,
-        "lon": -8.699245802,
-        "n": "Avda. do Aeroporto  43",
-        "sv": 840
-      }
-    },
     "008410": {
       "e": [
         [
-          8,
-          "BOUZAS por PRAZA AMERICA",
+          520,
+          "CHAPELA por GARCIA BARBON*",
           "C3d",
-          2499
+          -1
         ],
         [
-          11,
-          "REMATA SAMIL (POLIDEPORTIVO)",
+          544,
+          "COIA - CHAPELA por G. BARBON*",
+          "C3d",
+          -1
+        ],
+        [
+          596,
+          "CHAPELA por GARCIA BARBON*",
+          "C3d",
+          -1
+        ],
+        [
+          612,
+          "BOUZAS - SAMIL por P. AMERICA*",
+          "C3d",
+          -1
+        ],
+        [
+          638,
+          "SAMIL - VAO - SAIANS*",
           "10",
-          4339
+          -1
         ]
       ],
       "p": {
@@ -7398,59 +5058,37 @@
         "sv": 8410
       }
     },
-    "008420": {
-      "e": [
-        [
-          584,
-          "COIA por GARCIA BARBON*",
-          "C3i",
-          -1
-        ],
-        [
-          608,
-          "COIA por GARCIA BARBON*",
-          "C3i",
-          -1
-        ],
-        [
-          634,
-          "COIA - SAMIL por G. BARBON*",
-          "C3i",
-          -1
-        ],
-        [
-          635,
-          "P. AMÉRICA*",
-          "10",
-          -1
-        ],
-        [
-          695,
-          "P. AMÉRICA*",
-          "10",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.218031265,
-        "lon": -8.754258995,
-        "n": "Rúa de Tomás Paredes  114",
-        "sv": 8420
-      }
-    },
     "008430": {
       "e": [
         [
-          10,
-          "BOUZAS por PRAZA AMERICA",
+          521,
+          "CHAPELA por GARCIA BARBON*",
           "C3d",
-          2869
+          -1
         ],
         [
-          12,
-          "REMATA SAMIL (POLIDEPORTIVO)",
+          545,
+          "COIA - CHAPELA por G. BARBON*",
+          "C3d",
+          -1
+        ],
+        [
+          597,
+          "CHAPELA por GARCIA BARBON*",
+          "C3d",
+          -1
+        ],
+        [
+          613,
+          "BOUZAS - SAMIL por P. AMERICA*",
+          "C3d",
+          -1
+        ],
+        [
+          639,
+          "SAMIL - VAO - SAIANS*",
           "10",
-          4691
+          -1
         ]
       ],
       "p": {
@@ -7460,59 +5098,31 @@
         "sv": 8430
       }
     },
-    "008440": {
-      "e": [
-        [
-          583,
-          "COIA por GARCIA BARBON*",
-          "C3i",
-          -1
-        ],
-        [
-          595,
-          "BOUZAS - CHAPELA por TRV. VIGO*",
-          "C3i",
-          -1
-        ],
-        [
-          608,
-          "COIA por GARCIA BARBON*",
-          "C3i",
-          -1
-        ],
-        [
-          634,
-          "COIA - SAMIL por G. BARBON*",
-          "C3i",
-          -1
-        ],
-        [
-          635,
-          "P. AMÉRICA*",
-          "10",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.220192578,
-        "lon": -8.754164587,
-        "n": "Rúa de Tomás Paredes  86",
-        "sv": 8440
-      }
-    },
     "008450": {
       "e": [
         [
-          6,
+          21,
           "PRAZA AMÉRICA",
           "C1",
-          1169
+          3801
         ],
         [
-          36,
+          21,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          359
+        ],
+        [
+          52,
           "PRAZA AMÉRICA",
           "C1",
-          6974
+          9792
+        ],
+        [
+          106,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          398
         ]
       ],
       "p": {
@@ -7525,16 +5135,28 @@
     "008460": {
       "e": [
         [
-          4,
+          19,
           "PRAZA AMÉRICA",
           "C1",
-          789
+          3330
         ],
         [
-          34,
+          20,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          391
+        ],
+        [
+          50,
           "PRAZA AMÉRICA",
           "C1",
-          6592
+          9316
+        ],
+        [
+          104,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          398
         ]
       ],
       "p": {
@@ -7547,16 +5169,28 @@
     "008470": {
       "e": [
         [
-          7,
+          22,
           "PRAZA AMÉRICA",
           "C1",
-          1459
+          4092
         ],
         [
-          37,
+          23,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          361
+        ],
+        [
+          53,
           "PRAZA AMÉRICA",
           "C1",
-          7267
+          10087
+        ],
+        [
+          107,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          398
         ]
       ],
       "p": {
@@ -7569,16 +5203,28 @@
     "008480": {
       "e": [
         [
-          5,
+          20,
           "PRAZA AMÉRICA",
           "C1",
-          959
+          3588
         ],
         [
-          35,
+          21,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          392
+        ],
+        [
+          51,
           "PRAZA AMÉRICA",
           "C1",
-          6759
+          9576
+        ],
+        [
+          105,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          398
         ]
       ],
       "p": {
@@ -7591,16 +5237,10 @@
     "008490": {
       "e": [
         [
-          10,
+          83,
           "URZAIZ - T.VIGO",
           "N1",
-          2407
-        ],
-        [
-          99,
-          "URZAIZ - T.VIGO",
-          "N1",
-          24154
+          20526
         ]
       ],
       "p": {
@@ -7610,59 +5250,13 @@
         "sv": 8490
       }
     },
-    "00850": {
-      "e": [
-        [
-          616,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          680,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          743,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          800,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          860,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.23630176,
-        "lon": -8.665791599,
-        "n": "Avda. do Aeroporto  423",
-        "sv": 850
-      }
-    },
     "008510": {
       "e": [
         [
-          6,
+          80,
           "URZAIZ - T.VIGO",
           "N1",
-          1237
-        ],
-        [
-          95,
-          "URZAIZ - T.VIGO",
-          "N1",
-          23096
+          19653
         ]
       ],
       "p": {
@@ -7675,16 +5269,10 @@
     "008530": {
       "e": [
         [
-          7,
+          81,
           "URZAIZ - T.VIGO",
           "N1",
-          1548
-        ],
-        [
-          96,
-          "URZAIZ - T.VIGO",
-          "N1",
-          23439
+          19866
         ]
       ],
       "p": {
@@ -7697,16 +5285,10 @@
     "008550": {
       "e": [
         [
-          11,
+          84,
           "URZAIZ - T.VIGO",
           "N1",
-          2706
-        ],
-        [
-          100,
-          "URZAIZ - T.VIGO",
-          "N1",
-          24460
+          20869
         ]
       ],
       "p": {
@@ -7719,16 +5301,10 @@
     "008580": {
       "e": [
         [
-          4,
+          78,
           "URZAIZ - T.VIGO",
           "N1",
-          803
-        ],
-        [
-          93,
-          "URZAIZ - T.VIGO",
-          "N1",
-          22485
+          19138
         ]
       ],
       "p": {
@@ -7738,99 +5314,25 @@
         "sv": 8580
       }
     },
-    "008590": {
-      "e": [
-        [
-          463,
-          "HOSPITAL ALVARO CUNQUEIRO*",
-          "H2",
-          -1
-        ],
-        [
-          582,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          583,
-          "COIA por PRAZA AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          596,
-          "H. MEIXOEIRO - R. ASISTIDA*",
-          "31",
-          -1
-        ],
-        [
-          610,
-          "BOUZAS - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.233681224,
-        "lon": -8.706702136,
-        "n": "Rúa da Travesía de Vigo  37",
-        "sv": 8590
-      }
-    },
-    "008600": {
-      "e": [
-        [
-          462,
-          "HOSPITAL ALVARO CUNQUEIRO*",
-          "H2",
-          -1
-        ],
-        [
-          580,
-          "NAVIA por FLORIDA  *",
-          "5A",
-          -1
-        ],
-        [
-          582,
-          "COIA por PRAZA AMERICA*",
-          "C3d",
-          -1
-        ],
-        [
-          595,
-          "H. MEIXOEIRO - R. ASISTIDA*",
-          "31",
-          -1
-        ],
-        [
-          609,
-          "BOUZAS - SAMIL por P. AMERICA*",
-          "C3d",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.236350093,
-        "lon": -8.70429745,
-        "n": "Rúa da Travesía de Vigo  71",
-        "sv": 8600
-      }
-    },
     "008610": {
       "e": [
         [
-          4,
-          "URZAIZ - T.VIGO",
-          "N1",
-          647
+          36,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          369
         ],
         [
-          93,
+          77,
           "URZAIZ - T.VIGO",
           "N1",
-          22415
+          18972
+        ],
+        [
+          121,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          362
         ]
       ],
       "p": {
@@ -7843,16 +5345,10 @@
     "008620": {
       "e": [
         [
-          5,
+          79,
           "URZAIZ - T.VIGO",
           "N1",
-          995
-        ],
-        [
-          94,
-          "URZAIZ - T.VIGO",
-          "N1",
-          22827
+          19426
         ]
       ],
       "p": {
@@ -7865,22 +5361,16 @@
     "008630": {
       "e": [
         [
-          0,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          17
+          46,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          392
         ],
         [
-          2,
-          "REMATA ESTR. CAMPOSANCOS 28",
-          "11",
-          416
-        ],
-        [
-          2,
-          "REMATA LIMPIÑO",
-          "15A",
-          679
+          131,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          365
         ]
       ],
       "p": {
@@ -7890,59 +5380,19 @@
         "sv": 8630
       }
     },
-    "00870": {
-      "e": [
-        [
-          616,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          679,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          742,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          799,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          859,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.23543058,
-        "lon": -8.66197943,
-        "n": "Avda. do Aeroporto  447",
-        "sv": 870
-      }
-    },
     "008750": {
       "e": [
         [
-          2,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          384
+          48,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          392
         ],
         [
-          4,
-          "REMATA ESTR. CAMPOSANCOS 28",
-          "11",
-          788
+          133,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          365
         ]
       ],
       "p": {
@@ -7955,22 +5405,22 @@
     "008770": {
       "e": [
         [
-          3,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          783
+          50,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          357
         ],
         [
-          6,
-          "REMATA ESTR. CAMPOSANCOS 28",
-          "11",
-          1190
-        ],
-        [
-          83,
+          68,
           "URZAIZ - T.VIGO",
           "N1",
-          20497
+          16807
+        ],
+        [
+          134,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          366
         ]
       ],
       "p": {
@@ -7983,22 +5433,34 @@
     "008820": {
       "e": [
         [
-          16,
+          1,
           "PRAZA AMÉRICA",
           "C1",
-          3512
+          111
         ],
         [
-          46,
+          30,
           "PRAZA AMÉRICA",
           "C1",
-          9181
+          6142
         ],
         [
-          86,
+          30,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          394
+        ],
+        [
+          71,
           "URZAIZ - T.VIGO",
           "N1",
-          21242
+          17570
+        ],
+        [
+          115,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          360
         ]
       ],
       "p": {
@@ -8011,10 +5473,22 @@
     "008840": {
       "e": [
         [
-          88,
+          32,
+          "P. AMERICA - P. SANZ - G. ESPINO",
+          "N4",
+          356
+        ],
+        [
+          73,
           "URZAIZ - T.VIGO",
           "N1",
-          21646
+          17979
+        ],
+        [
+          116,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          361
         ]
       ],
       "p": {
@@ -8027,16 +5501,16 @@
     "008850": {
       "e": [
         [
-          0,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          57
+          47,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          392
         ],
         [
-          2,
-          "REMATA ESTR. CAMPOSANCOS 28",
-          "11",
-          462
+          131,
+          "P. SANZ - BALAIDOS - NAVIA",
+          "N4",
+          365
         ]
       ],
       "p": {
@@ -8049,10 +5523,10 @@
     "008870": {
       "e": [
         [
-          78,
+          63,
           "URZAIZ - T.VIGO",
           "N1",
-          19367
+          15679
         ]
       ],
       "p": {
@@ -8065,10 +5539,10 @@
     "008880": {
       "e": [
         [
-          79,
+          64,
           "URZAIZ - T.VIGO",
           "N1",
-          19627
+          15945
         ]
       ],
       "p": {
@@ -8081,10 +5555,34 @@
     "008890": {
       "e": [
         [
-          10,
-          "Rúa do Porriño (fronte 9)",
+          536,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "12B",
+          -1
+        ],
+        [
+          547,
+          "COIA por CAMELIAS*",
           "4A",
-          2282
+          -1
+        ],
+        [
+          555,
+          "ZAMANS por CAMELIAS*",
+          "7",
+          -1
+        ],
+        [
+          570,
+          "HISPANIDAD - COIA*",
+          "16",
+          -1
+        ],
+        [
+          597,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
         ]
       ],
       "p": {
@@ -8094,53 +5592,37 @@
         "sv": 8890
       }
     },
-    "00890": {
-      "e": [
-        [
-          614,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          677,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          740,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          798,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          858,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.232066419,
-        "lon": -8.653842977,
-        "n": "Avda. do Aeroporto  491",
-        "sv": 890
-      }
-    },
     "008900": {
       "e": [
         [
-          9,
-          "Rúa do Porriño (fronte 9)",
+          535,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "12B",
+          -1
+        ],
+        [
+          547,
+          "COIA por CAMELIAS*",
           "4A",
-          2019
+          -1
+        ],
+        [
+          554,
+          "ZAMANS por CAMELIAS*",
+          "7",
+          -1
+        ],
+        [
+          569,
+          "HISPANIDAD - COIA*",
+          "16",
+          -1
+        ],
+        [
+          596,
+          "NAVIA por CASTELAO *",
+          "5B",
+          -1
         ]
       ],
       "p": {
@@ -8153,10 +5635,10 @@
     "008910": {
       "e": [
         [
-          80,
+          65,
           "URZAIZ - T.VIGO",
           "N1",
-          19862
+          16175
         ]
       ],
       "p": {
@@ -8164,206 +5646,6 @@
         "lon": -8.718985824,
         "n": "Rúa de Venezuela  42",
         "sv": 8910
-      }
-    },
-    "0090": {
-      "e": [
-        [
-          610,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          672,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          735,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          793,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          853,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.225956918,
-        "lon": -8.63286469,
-        "n": "Aeroporto de Peinador",
-        "sv": 90
-      }
-    },
-    "00900": {
-      "e": [
-        [
-          613,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          676,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          739,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          797,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          857,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.233527998,
-        "lon": -8.648237616,
-        "n": "Avda. do Aeroporto  531",
-        "sv": 900
-      }
-    },
-    "00920": {
-      "e": [
-        [
-          612,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          675,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          738,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          796,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          856,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.233499069,
-        "lon": -8.643325214,
-        "n": "Avda. do Aeroporto (cruce Camiño das Cereixeiras)",
-        "sv": 920
-      }
-    },
-    "00940": {
-      "e": [
-        [
-          611,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          674,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          737,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          795,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          855,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.230493878,
-        "lon": -8.638023273,
-        "n": "Avda. do Aeroporto  605",
-        "sv": 940
-      }
-    },
-    "00970": {
-      "e": [
-        [
-          574,
-          "COLÓN*",
-          "9B",
-          -1
-        ],
-        [
-          623,
-          "PORTO - UNIVERSIDADE*",
-          "A",
-          -1
-        ],
-        [
-          642,
-          "COLÓN*",
-          "9B",
-          -1
-        ],
-        [
-          687,
-          "GARCÍA BARBÓN*",
-          "A",
-          -1
-        ],
-        [
-          701,
-          "COLÓN*",
-          "9B",
-          -1
-        ]
-      ],
-      "p": {
-        "lat": 42.232787318,
-        "lon": -8.693473285,
-        "n": "Avda. do Aeroporto  91",
-        "sv": 970
       }
     }
   }
