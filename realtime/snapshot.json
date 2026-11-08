@@ -3,13 +3,13 @@
   "format_version": 1,
   "meta": {
     "counts": {
-      "estimaciones": 168,
+      "estimaciones": 225,
       "failed": 0,
-      "ok": 36,
-      "requested": 36,
+      "ok": 45,
+      "requested": 45,
       "skipped_no_realtime_id": 76,
-      "skipped_no_scheduled_service": 1045,
-      "stops_with_estimations": 36
+      "skipped_no_scheduled_service": 1036,
+      "stops_with_estimations": 45
     },
     "description": "Vitrasa realtime snapshot: next-arrival estimations for every queried stop. Git-scraped: one commit per run.",
     "encoding": "ISO-8859-1",
@@ -59,31 +59,31 @@
     "001220": {
       "e": [
         [
-          82,
+          67,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          199,
+          184,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          213,
+          198,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
         ],
         [
-          251,
+          236,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          293,
+          278,
           "HOSPITAL MEIXOEIRO*",
           "31",
           -1
@@ -99,31 +99,31 @@
     "001240": {
       "e": [
         [
-          82,
+          67,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          198,
+          183,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          212,
+          197,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
         ],
         [
-          249,
+          234,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          292,
+          277,
           "HOSPITAL MEIXOEIRO*",
           "31",
           -1
@@ -136,34 +136,114 @@
         "sv": 1240
       }
     },
+    "001330": {
+      "e": [
+        [
+          116,
+          "P.ESPAÑA - G.ESPINO por P.RICO*",
+          "H2",
+          -1
+        ],
+        [
+          165,
+          "ESTACION TREN (GUIXAR)*",
+          "16",
+          -1
+        ],
+        [
+          175,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
+        ],
+        [
+          175,
+          "P.ESPAÑA- ESPINO por AV.MADRID*",
+          "H2",
+          -1
+        ],
+        [
+          194,
+          "GREGORIO ESPINO*",
+          "23",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.219553947,
+        "lon": -8.732509436,
+        "n": "Avda. de Castrelos (Pavillón)",
+        "sv": 1330
+      }
+    },
+    "001340": {
+      "e": [
+        [
+          114,
+          "P.ESPAÑA - G.ESPINO por P.RICO*",
+          "H2",
+          -1
+        ],
+        [
+          173,
+          "P.ESPAÑA- ESPINO por AV.MADRID*",
+          "H2",
+          -1
+        ],
+        [
+          233,
+          "P.ESPAÑA - G.ESPINO por P.RICO*",
+          "H2",
+          -1
+        ],
+        [
+          271,
+          "PRAZA DO REI*",
+          "27",
+          -1
+        ],
+        [
+          293,
+          "P.ESPAÑA- ESPINO por AV.MADRID*",
+          "H2",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.212870645,
+        "lon": -8.732131792,
+        "n": "Avda. de Castrelos (Parque)",
+        "sv": 1340
+      }
+    },
     "001360": {
       "e": [
         [
-          109,
+          94,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          157,
+          142,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          167,
+          152,
           "FREIXO*",
           "17",
           -1
         ],
         [
-          183,
+          168,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "12B",
           -1
         ],
         [
-          204,
+          189,
           "ZAMANS por CAMELIAS*",
           "7",
           -1
@@ -179,31 +259,31 @@
     "001390": {
       "e": [
         [
-          111,
+          96,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          159,
+          144,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          169,
+          154,
           "FREIXO*",
           "17",
           -1
         ],
         [
-          185,
+          170,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "12B",
           -1
         ],
         [
-          207,
+          192,
           "ZAMANS por CAMELIAS*",
           "7",
           -1
@@ -219,31 +299,31 @@
     "001400": {
       "e": [
         [
-          111,
+          96,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          159,
+          144,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          169,
+          154,
           "FREIXO*",
           "17",
           -1
         ],
         [
-          186,
+          171,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "12B",
           -1
         ],
         [
-          208,
+          193,
           "ZAMANS por CAMELIAS*",
           "7",
           -1
@@ -256,34 +336,74 @@
         "sv": 1400
       }
     },
+    "001410": {
+      "e": [
+        [
+          115,
+          "P.ESPAÑA - G.ESPINO por P.RICO*",
+          "H2",
+          -1
+        ],
+        [
+          164,
+          "ESTACION TREN (GUIXAR)*",
+          "16",
+          -1
+        ],
+        [
+          174,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
+        ],
+        [
+          175,
+          "P.ESPAÑA- ESPINO por AV.MADRID*",
+          "H2",
+          -1
+        ],
+        [
+          194,
+          "GREGORIO ESPINO*",
+          "23",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.218060161,
+        "lon": -8.732450427,
+        "n": "Avda. de Castrelos  13",
+        "sv": 1410
+      }
+    },
     "0014122": {
       "e": [
         [
-          97,
+          82,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          145,
+          130,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          205,
+          190,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          232,
+          217,
           "BALAIDOS - M. ECHEGARAY*",
           "23",
           -1
         ],
         [
-          265,
+          250,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
@@ -299,31 +419,31 @@
     "0014132": {
       "e": [
         [
-          81,
+          66,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          185,
+          170,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          197,
+          182,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          210,
+          195,
           "COIA - CHAPELA por G. BARBON*",
           "C3d",
           -1
         ],
         [
-          211,
+          196,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
@@ -336,34 +456,74 @@
         "sv": 14132
       }
     },
+    "0014206": {
+      "e": [
+        [
+          116,
+          "P.ESPAÑA - G.ESPINO por P.RICO*",
+          "H2",
+          -1
+        ],
+        [
+          134,
+          "CHAPELA por TRAVESIA DE VIGO*",
+          "C3i",
+          -1
+        ],
+        [
+          159,
+          "CHAPELA por TRAVESIA DE VIGO*",
+          "C3i",
+          -1
+        ],
+        [
+          163,
+          "PZA. ESPAÑA - COLON por G. VIA*",
+          "7",
+          -1
+        ],
+        [
+          176,
+          "P.ESPAÑA- ESPINO por AV.MADRID*",
+          "H2",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.220514043,
+        "lon": -8.731700217,
+        "n": "Avda. da Gran Vía (Instituto)",
+        "sv": 14206
+      }
+    },
     "0014396": {
       "e": [
         [
-          77,
+          62,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          179,
+          164,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          190,
+          175,
           "S. BADIA - TVA DE VIGO *",
           "5B",
           -1
         ],
         [
-          204,
+          189,
           "COIA - CHAPELA por G. BARBON*",
           "C3d",
           -1
         ],
         [
-          205,
+          190,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
@@ -379,31 +539,31 @@
     "0014398": {
       "e": [
         [
-          106,
+          91,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          154,
+          139,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          214,
+          199,
           "COIA - SAMIL*",
           "15A",
           -1
         ],
         [
-          214,
+          199,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          215,
+          200,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
@@ -416,34 +576,74 @@
         "sv": 14398
       }
     },
+    "001490": {
+      "e": [
+        [
+          113,
+          "P.ESPAÑA - G.ESPINO por P.RICO*",
+          "H2",
+          -1
+        ],
+        [
+          154,
+          "PZA. ESPAÑA - COLON por G. VIA*",
+          "7",
+          -1
+        ],
+        [
+          172,
+          "P.ESPAÑA- ESPINO por AV.MADRID*",
+          "H2",
+          -1
+        ],
+        [
+          177,
+          "S. BADIA - A GUÍA*",
+          "17",
+          -1
+        ],
+        [
+          204,
+          "HOSPITAL MEIXOEIRO*",
+          "12B",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.210613294,
+        "lon": -8.732057664,
+        "n": "Avda. de Castrelos  67",
+        "sv": 1490
+      }
+    },
     "001500": {
       "e": [
         [
-          110,
+          95,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          158,
+          143,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          168,
+          153,
           "FREIXO*",
           "17",
           -1
         ],
         [
-          184,
+          169,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "12B",
           -1
         ],
         [
-          205,
+          190,
           "ZAMANS por CAMELIAS*",
           "7",
           -1
@@ -456,34 +656,74 @@
         "sv": 1500
       }
     },
+    "0020012": {
+      "e": [
+        [
+          115,
+          "P.ESPAÑA - G.ESPINO por P.RICO*",
+          "H2",
+          -1
+        ],
+        [
+          163,
+          "ESTACION TREN (GUIXAR)*",
+          "16",
+          -1
+        ],
+        [
+          173,
+          "PEINADOR - AEROPORTO*",
+          "A",
+          -1
+        ],
+        [
+          174,
+          "P.ESPAÑA- ESPINO por AV.MADRID*",
+          "H2",
+          -1
+        ],
+        [
+          193,
+          "GREGORIO ESPINO*",
+          "23",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.215888032,
+        "lon": -8.732331627,
+        "n": "Avda. de Castrelos  33",
+        "sv": 20012
+      }
+    },
     "0020013": {
       "e": [
         [
-          110,
+          95,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          158,
+          143,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          168,
+          153,
           "FREIXO*",
           "17",
           -1
         ],
         [
-          184,
+          169,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "12B",
           -1
         ],
         [
-          206,
+          191,
           "ZAMANS por CAMELIAS*",
           "7",
           -1
@@ -499,31 +739,31 @@
     "005500": {
       "e": [
         [
-          78,
+          63,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          180,
+          165,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          191,
+          176,
           "S. BADIA - TVA DE VIGO *",
           "5B",
           -1
         ],
         [
-          205,
+          190,
           "COIA - CHAPELA por G. BARBON*",
           "C3d",
           -1
         ],
         [
-          206,
+          191,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
@@ -539,31 +779,31 @@
     "005530": {
       "e": [
         [
-          74,
+          59,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          175,
+          160,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          186,
+          171,
           "S. BADIA - TVA DE VIGO *",
           "5B",
           -1
         ],
         [
-          200,
+          185,
           "COIA - CHAPELA por G. BARBON*",
           "C3d",
           -1
         ],
         [
-          213,
+          198,
           "S. BADIA - A GUÍA*",
           "17",
           -1
@@ -579,31 +819,31 @@
     "005540": {
       "e": [
         [
-          75,
+          60,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          176,
+          161,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          187,
+          172,
           "S. BADIA - TVA DE VIGO *",
           "5B",
           -1
         ],
         [
-          191,
+          176,
           "ESTACION TREN (GUIXAR)*",
           "16",
           -1
         ],
         [
-          201,
+          186,
           "COIA - CHAPELA por G. BARBON*",
           "C3d",
           -1
@@ -619,31 +859,31 @@
     "005560": {
       "e": [
         [
-          75,
+          60,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          177,
+          162,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          188,
+          173,
           "S. BADIA - TVA DE VIGO *",
           "5B",
           -1
         ],
         [
-          192,
+          177,
           "ESTACION TREN (GUIXAR)*",
           "16",
           -1
         ],
         [
-          202,
+          187,
           "COIA - CHAPELA por G. BARBON*",
           "C3d",
           -1
@@ -659,31 +899,31 @@
     "005580": {
       "e": [
         [
-          76,
+          61,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          178,
+          163,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          189,
+          174,
           "S. BADIA - TVA DE VIGO *",
           "5B",
           -1
         ],
         [
-          203,
+          188,
           "COIA - CHAPELA por G. BARBON*",
           "C3d",
           -1
         ],
         [
-          216,
+          201,
           "S. BADIA - A GUÍA*",
           "17",
           -1
@@ -696,34 +936,74 @@
         "sv": 5580
       }
     },
+    "005600": {
+      "e": [
+        [
+          119,
+          "P.ESPAÑA - G.ESPINO por P.RICO*",
+          "H2",
+          -1
+        ],
+        [
+          137,
+          "CHAPELA por TRAVESIA DE VIGO*",
+          "C3i",
+          -1
+        ],
+        [
+          162,
+          "CHAPELA por TRAVESIA DE VIGO*",
+          "C3i",
+          -1
+        ],
+        [
+          166,
+          "PZA. ESPAÑA - COLON por G. VIA*",
+          "7",
+          -1
+        ],
+        [
+          179,
+          "P.ESPAÑA- ESPINO por AV.MADRID*",
+          "H2",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.225140059,
+        "lon": -8.72184818,
+        "n": "Avda. da Gran Vía  107",
+        "sv": 5600
+      }
+    },
     "005620": {
       "e": [
         [
-          107,
+          92,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          155,
+          140,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          215,
+          200,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          216,
+          201,
           "COIA - SAMIL*",
           "15A",
           -1
         ],
         [
-          217,
+          202,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
@@ -736,34 +1016,74 @@
         "sv": 5620
       }
     },
+    "005630": {
+      "e": [
+        [
+          118,
+          "P.ESPAÑA - G.ESPINO por P.RICO*",
+          "H2",
+          -1
+        ],
+        [
+          136,
+          "CHAPELA por TRAVESIA DE VIGO*",
+          "C3i",
+          -1
+        ],
+        [
+          161,
+          "CHAPELA por TRAVESIA DE VIGO*",
+          "C3i",
+          -1
+        ],
+        [
+          165,
+          "PZA. ESPAÑA - COLON por G. VIA*",
+          "7",
+          -1
+        ],
+        [
+          178,
+          "P.ESPAÑA- ESPINO por AV.MADRID*",
+          "H2",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.222790356,
+        "lon": -8.724940076,
+        "n": "Avda. da Gran Vía  147",
+        "sv": 5630
+      }
+    },
     "005640": {
       "e": [
         [
-          108,
+          93,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          156,
+          141,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          216,
+          201,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          217,
+          202,
           "COIA - SAMIL*",
           "15A",
           -1
         ],
         [
-          218,
+          203,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
@@ -776,34 +1096,74 @@
         "sv": 5640
       }
     },
+    "005650": {
+      "e": [
+        [
+          117,
+          "P.ESPAÑA - G.ESPINO por P.RICO*",
+          "H2",
+          -1
+        ],
+        [
+          135,
+          "CHAPELA por TRAVESIA DE VIGO*",
+          "C3i",
+          -1
+        ],
+        [
+          160,
+          "CHAPELA por TRAVESIA DE VIGO*",
+          "C3i",
+          -1
+        ],
+        [
+          164,
+          "PZA. ESPAÑA - COLON por G. VIA*",
+          "7",
+          -1
+        ],
+        [
+          177,
+          "P.ESPAÑA- ESPINO por AV.MADRID*",
+          "H2",
+          -1
+        ]
+      ],
+      "p": {
+        "lat": 42.220971136,
+        "lon": -8.729196245,
+        "n": "Avda. da Gran Vía  185",
+        "sv": 5650
+      }
+    },
     "005680": {
       "e": [
         [
-          104,
+          89,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          152,
+          137,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          212,
+          197,
           "COIA - SAMIL*",
           "15A",
           -1
         ],
         [
-          212,
+          197,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          213,
+          198,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
@@ -819,31 +1179,31 @@
     "005700": {
       "e": [
         [
-          105,
+          90,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          153,
+          138,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          213,
+          198,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          214,
+          199,
           "COIA - SAMIL*",
           "15A",
           -1
         ],
         [
-          215,
+          200,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
@@ -859,31 +1219,31 @@
     "005720": {
       "e": [
         [
-          96,
+          81,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          144,
+          129,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          204,
+          189,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          231,
+          216,
           "BALAIDOS - M. ECHEGARAY*",
           "23",
           -1
         ],
         [
-          264,
+          249,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
@@ -899,10 +1259,34 @@
     "005740": {
       "e": [
         [
-          13,
-          "Rúa das Teixugueiras, 38",
-          "N4",
-          3119
+          80,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          128,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          188,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          215,
+          "BALAIDOS - M. ECHEGARAY*",
+          "23",
+          -1
+        ],
+        [
+          248,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
         ]
       ],
       "p": {
@@ -915,10 +1299,34 @@
     "005750": {
       "e": [
         [
-          13,
-          "Rúa das Teixugueiras, 38",
-          "N4",
-          2727
+          78,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          126,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          186,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          214,
+          "BALAIDOS - M. ECHEGARAY*",
+          "23",
+          -1
+        ],
+        [
+          246,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
         ]
       ],
       "p": {
@@ -931,31 +1339,31 @@
     "006570": {
       "e": [
         [
-          101,
+          86,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          149,
+          134,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          209,
+          194,
           "COIA - SAMIL*",
           "15A",
           -1
         ],
         [
-          209,
+          194,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          210,
+          195,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
@@ -971,31 +1379,31 @@
     "006580": {
       "e": [
         [
-          103,
+          88,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          151,
+          136,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          211,
+          196,
           "COIA - SAMIL*",
           "15A",
           -1
         ],
         [
-          211,
+          196,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          212,
+          197,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
@@ -1011,31 +1419,31 @@
     "008010": {
       "e": [
         [
-          79,
+          64,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          182,
+          167,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          193,
+          178,
           "S. BADIA - TVA DE VIGO *",
           "5B",
           -1
         ],
         [
-          207,
+          192,
           "COIA - CHAPELA por G. BARBON*",
           "C3d",
           -1
         ],
         [
-          208,
+          193,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
@@ -1051,31 +1459,31 @@
     "008030": {
       "e": [
         [
-          79,
+          64,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          183,
+          168,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          194,
+          179,
           "S. BADIA - TVA DE VIGO *",
           "5B",
           -1
         ],
         [
-          208,
+          193,
           "COIA - CHAPELA por G. BARBON*",
           "C3d",
           -1
         ],
         [
-          209,
+          194,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
@@ -1091,31 +1499,31 @@
     "008050": {
       "e": [
         [
-          80,
+          65,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          184,
+          169,
           "CHAPELA por GARCIA BARBON*",
           "C3d",
           -1
         ],
         [
-          195,
+          180,
           "S. BADIA - TVA DE VIGO *",
           "5B",
           -1
         ],
         [
-          209,
+          194,
           "COIA - CHAPELA por G. BARBON*",
           "C3d",
           -1
         ],
         [
-          210,
+          195,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
@@ -1131,31 +1539,31 @@
     "008500": {
       "e": [
         [
-          86,
+          71,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          204,
+          189,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          206,
+          191,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
         ],
         [
-          219,
+          204,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
         ],
         [
-          233,
+          218,
           "BOUZAS - SAMIL por P. AMERICA*",
           "C3d",
           -1
@@ -1171,31 +1579,31 @@
     "008520": {
       "e": [
         [
-          85,
+          70,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          203,
+          188,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          204,
+          189,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
         ],
         [
-          218,
+          203,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
         ],
         [
-          231,
+          216,
           "BOUZAS - SAMIL por P. AMERICA*",
           "C3d",
           -1
@@ -1211,31 +1619,31 @@
     "008540": {
       "e": [
         [
-          84,
+          69,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          201,
+          186,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          203,
+          188,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
         ],
         [
-          216,
+          201,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
         ],
         [
-          230,
+          215,
           "BOUZAS - SAMIL por P. AMERICA*",
           "C3d",
           -1
@@ -1251,31 +1659,31 @@
     "008560": {
       "e": [
         [
-          84,
+          69,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          200,
+          185,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          202,
+          187,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
         ],
         [
-          215,
+          200,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
         ],
         [
-          229,
+          214,
           "BOUZAS - SAMIL por P. AMERICA*",
           "C3d",
           -1
@@ -1291,31 +1699,31 @@
     "008570": {
       "e": [
         [
-          83,
+          68,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          199,
+          184,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          201,
+          186,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
         ],
         [
-          214,
+          199,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
         ],
         [
-          228,
+          213,
           "BOUZAS - SAMIL por P. AMERICA*",
           "C3d",
           -1
@@ -1331,31 +1739,31 @@
     "008590": {
       "e": [
         [
-          88,
+          73,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          207,
+          192,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          208,
+          193,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
         ],
         [
-          221,
+          206,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
         ],
         [
-          235,
+          220,
           "BOUZAS - SAMIL por P. AMERICA*",
           "C3d",
           -1
@@ -1371,31 +1779,31 @@
     "008600": {
       "e": [
         [
-          87,
+          72,
           "HOSPITAL ALVARO CUNQUEIRO*",
           "H2",
           -1
         ],
         [
-          205,
+          190,
           "NAVIA por FLORIDA  *",
           "5A",
           -1
         ],
         [
-          207,
+          192,
           "COIA por PRAZA AMERICA*",
           "C3d",
           -1
         ],
         [
-          220,
+          205,
           "H. MEIXOEIRO - R. ASISTIDA*",
           "31",
           -1
         ],
         [
-          234,
+          219,
           "BOUZAS - SAMIL por P. AMERICA*",
           "C3d",
           -1
@@ -1411,10 +1819,34 @@
     "008630": {
       "e": [
         [
-          16,
-          "Rúa das Teixugueiras, 38",
+          0,
+          "P. SANZ - BALAIDOS - NAVIA*",
           "N4",
-          3784
+          -1
+        ],
+        [
+          84,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          132,
+          "HOSPITAL ALVARO CUNQUEIRO*",
+          "H2",
+          -1
+        ],
+        [
+          154,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          163,
+          "COIA por CAMELIAS*",
+          "4A",
+          -1
         ]
       ],
       "p": {
