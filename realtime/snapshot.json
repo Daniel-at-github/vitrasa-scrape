@@ -3,13 +3,13 @@
   "format_version": 1,
   "meta": {
     "counts": {
-      "estimaciones": 65,
+      "estimaciones": 90,
       "failed": 0,
-      "ok": 34,
-      "requested": 34,
+      "ok": 18,
+      "requested": 18,
       "skipped_no_realtime_id": 76,
-      "skipped_no_scheduled_service": 1047,
-      "stops_with_estimations": 34
+      "skipped_no_scheduled_service": 1063,
+      "stops_with_estimations": 18
     },
     "description": "Vitrasa realtime snapshot: next-arrival estimations for every queried stop. Git-scraped: one commit per run.",
     "encoding": "ISO-8859-1",
@@ -59,10 +59,34 @@
     "001010": {
       "e": [
         [
-          11,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          5328
+          115,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          116,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          150,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          159,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          172,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
         ]
       ],
       "p": {
@@ -75,10 +99,34 @@
     "001020": {
       "e": [
         [
-          11,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          5541
+          116,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          117,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          150,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          159,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          173,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
         ]
       ],
       "p": {
@@ -91,10 +139,34 @@
     "001040": {
       "e": [
         [
-          9,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          4267
+          114,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          114,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          148,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          157,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          170,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
         ]
       ],
       "p": {
@@ -107,10 +179,34 @@
     "001060": {
       "e": [
         [
-          10,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          4666
+          114,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          115,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          148,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          158,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          171,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
         ]
       ],
       "p": {
@@ -123,10 +219,34 @@
     "001070": {
       "e": [
         [
-          11,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          5083
+          115,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          116,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          149,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          159,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          172,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
         ]
       ],
       "p": {
@@ -136,79 +256,37 @@
         "sv": 1070
       }
     },
-    "001230": {
-      "e": [
-        [
-          57,
-          "VITRASA",
-          "VIT",
-          15179
-        ],
-        [
-          116,
-          "VITRASA",
-          "VIT",
-          31315
-        ]
-      ],
-      "p": {
-        "lat": 42.247251925,
-        "lon": -8.693122662,
-        "n": "Avda. de Buenos Aires  49",
-        "sv": 1230
-      }
-    },
-    "0014126": {
-      "e": [
-        [
-          55,
-          "VITRASA",
-          "VIT",
-          14338
-        ],
-        [
-          114,
-          "VITRASA",
-          "VIT",
-          30459
-        ]
-      ],
-      "p": {
-        "lat": 42.242494425,
-        "lon": -8.699249038,
-        "n": "Rúa da Travesía de Vigo  194",
-        "sv": 14126
-      }
-    },
-    "0014127": {
-      "e": [
-        [
-          58,
-          "VITRASA",
-          "VIT",
-          15449
-        ],
-        [
-          117,
-          "VITRASA",
-          "VIT",
-          31589
-        ]
-      ],
-      "p": {
-        "lat": 42.249306896,
-        "lon": -8.695179916,
-        "n": "Avda. de Buenos Aires  13",
-        "sv": 14127
-      }
-    },
     "0014164": {
       "e": [
         [
-          7,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          3240
+          108,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          112,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          140,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          146,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          165,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
         ]
       ],
       "p": {
@@ -221,10 +299,34 @@
     "0014170": {
       "e": [
         [
-          13,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          6287
+          117,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          118,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          152,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          161,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          174,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
         ]
       ],
       "p": {
@@ -237,22 +339,34 @@
     "0014223": {
       "e": [
         [
-          2,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          942
+          36,
+          "VITRASA*",
+          "VIT",
+          -1
         ],
         [
-          69,
-          "VITRASA",
+          66,
+          "VITRASA*",
           "VIT",
-          19630
+          -1
         ],
         [
-          128,
-          "VITRASA",
+          96,
+          "VITRASA*",
           "VIT",
-          35834
+          -1
+        ],
+        [
+          102,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          102,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
         ]
       ],
       "p": {
@@ -265,22 +379,34 @@
     "0014224": {
       "e": [
         [
-          3,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          1264
+          37,
+          "VITRASA*",
+          "VIT",
+          -1
         ],
         [
-          69,
-          "VITRASA",
+          67,
+          "VITRASA*",
           "VIT",
-          19944
+          -1
         ],
         [
-          128,
-          "VITRASA",
+          97,
+          "VITRASA*",
           "VIT",
-          36153
+          -1
+        ],
+        [
+          103,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          103,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
         ]
       ],
       "p": {
@@ -293,22 +419,34 @@
     "0014225": {
       "e": [
         [
-          4,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          1559
+          38,
+          "VITRASA*",
+          "VIT",
+          -1
         ],
         [
-          70,
-          "VITRASA",
+          67,
+          "VITRASA*",
           "VIT",
-          20233
+          -1
         ],
         [
-          129,
-          "VITRASA",
+          97,
+          "VITRASA*",
           "VIT",
-          36447
+          -1
+        ],
+        [
+          104,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          104,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
         ]
       ],
       "p": {
@@ -321,22 +459,34 @@
     "0014226": {
       "e": [
         [
-          4,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          1805
+          38,
+          "VITRASA*",
+          "VIT",
+          -1
         ],
         [
-          71,
-          "VITRASA",
+          68,
+          "VITRASA*",
           "VIT",
-          20474
+          -1
         ],
         [
-          130,
-          "VITRASA",
+          98,
+          "VITRASA*",
           "VIT",
-          36691
+          -1
+        ],
+        [
+          104,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          105,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
         ]
       ],
       "p": {
@@ -349,22 +499,34 @@
     "0014227": {
       "e": [
         [
-          5,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          2138
+          39,
+          "VITRASA*",
+          "VIT",
+          -1
         ],
         [
-          71,
-          "VITRASA",
+          69,
+          "VITRASA*",
           "VIT",
-          20799
+          -1
         ],
         [
-          130,
-          "VITRASA",
+          99,
+          "VITRASA*",
           "VIT",
-          37020
+          -1
+        ],
+        [
+          105,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          106,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
         ]
       ],
       "p": {
@@ -374,35 +536,37 @@
         "sv": 14227
       }
     },
-    "0014245": {
-      "e": [
-        [
-          64,
-          "VITRASA",
-          "VIT",
-          17912
-        ],
-        [
-          123,
-          "VITRASA",
-          "VIT",
-          34090
-        ]
-      ],
-      "p": {
-        "lat": 42.23691728,
-        "lon": -8.716743143,
-        "n": "Avda. de García Barbón  43",
-        "sv": 14245
-      }
-    },
     "0014267": {
       "e": [
         [
-          10,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          4495
+          114,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          115,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          148,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          158,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          171,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
         ]
       ],
       "p": {
@@ -415,10 +579,34 @@
     "0014299": {
       "e": [
         [
-          14,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          6938
+          158,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
+        ],
+        [
+          178,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
+        ],
+        [
+          208,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
+        ],
+        [
+          233,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
+        ],
+        [
+          268,
+          "R. NIETO - CABRAL*",
+          "15A",
+          -1
         ]
       ],
       "p": {
@@ -428,56 +616,34 @@
         "sv": 14299
       }
     },
-    "0014397": {
-      "e": [
-        [
-          62,
-          "VITRASA",
-          "VIT",
-          17100
-        ],
-        [
-          121,
-          "VITRASA",
-          "VIT",
-          33266
-        ]
-      ],
-      "p": {
-        "lat": 42.23973713,
-        "lon": -8.708397682,
-        "n": "Avda. de García Barbón (fronte 104)",
-        "sv": 14397
-      }
-    },
     "001920": {
       "e": [
         [
-          174,
+          159,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          194,
+          179,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          224,
+          209,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          249,
+          234,
           "R. NIETO - CABRAL*",
           "15A",
           -1
         ],
         [
-          272,
+          257,
           "GREGORIO ESPINO por URZÁIZ*",
           "4C",
           -1
@@ -490,129 +656,37 @@
         "sv": 1920
       }
     },
-    "005490": {
-      "e": [
-        [
-          62,
-          "VITRASA",
-          "VIT",
-          16892
-        ],
-        [
-          121,
-          "VITRASA",
-          "VIT",
-          33055
-        ]
-      ],
-      "p": {
-        "lat": 42.241557555,
-        "lon": -8.707094861,
-        "n": "Avda. de García Barbón (fronte 120)",
-        "sv": 5490
-      }
-    },
-    "005510": {
-      "e": [
-        [
-          63,
-          "VITRASA",
-          "VIT",
-          17333
-        ],
-        [
-          122,
-          "VITRASA",
-          "VIT",
-          33503
-        ]
-      ],
-      "p": {
-        "lat": 42.238290358,
-        "lon": -8.71014103,
-        "n": "Avda. de García Barbón  127",
-        "sv": 5510
-      }
-    },
-    "005520": {
-      "e": [
-        [
-          65,
-          "VITRASA",
-          "VIT",
-          18148
-        ],
-        [
-          124,
-          "VITRASA",
-          "VIT",
-          34327
-        ]
-      ],
-      "p": {
-        "lat": 42.237485586,
-        "lon": -8.719397801,
-        "n": "Avda. García Barbón  7",
-        "sv": 5520
-      }
-    },
-    "005570": {
-      "e": [
-        [
-          64,
-          "VITRASA",
-          "VIT",
-          17666
-        ],
-        [
-          123,
-          "VITRASA",
-          "VIT",
-          33840
-        ]
-      ],
-      "p": {
-        "lat": 42.237003397,
-        "lon": -8.713586994,
-        "n": "Avda. de García Barbón  87",
-        "sv": 5570
-      }
-    },
-    "006300": {
-      "e": [
-        [
-          1,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          384
-        ],
-        [
-          67,
-          "VITRASA",
-          "VIT",
-          19080
-        ],
-        [
-          126,
-          "VITRASA",
-          "VIT",
-          35275
-        ]
-      ],
-      "p": {
-        "lat": 42.240129541,
-        "lon": -8.727159759,
-        "n": "Rúa de Cánovas del Castillo (Centro Comercial)",
-        "sv": 6300
-      }
-    },
     "006750": {
       "e": [
         [
-          12,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          5920
+          116,
+          "REMATA PRAIA DO VAO*",
+          "10",
+          -1
+        ],
+        [
+          117,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          151,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          160,
+          "SAMIL - VAO - SAIANS *",
+          "10",
+          -1
+        ],
+        [
+          173,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
         ]
       ],
       "p": {
@@ -622,35 +696,37 @@
         "sv": 6750
       }
     },
-    "006860": {
-      "e": [
-        [
-          66,
-          "VITRASA",
-          "VIT",
-          18568
-        ],
-        [
-          125,
-          "VITRASA",
-          "VIT",
-          34755
-        ]
-      ],
-      "p": {
-        "lat": 42.239118346,
-        "lon": -8.722531274,
-        "n": "Praza de Compostela",
-        "sv": 6860
-      }
-    },
     "006980": {
       "e": [
         [
-          6,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          2507
+          106,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          111,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          138,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          144,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          163,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
         ]
       ],
       "p": {
@@ -660,79 +736,37 @@
         "sv": 6980
       }
     },
-    "008020": {
-      "e": [
-        [
-          59,
-          "VITRASA",
-          "VIT",
-          16022
-        ],
-        [
-          118,
-          "VITRASA",
-          "VIT",
-          32172
-        ]
-      ],
-      "p": {
-        "lat": 42.246941664,
-        "lon": -8.700376378,
-        "n": "Rúa de Sanjurjo Badía  123",
-        "sv": 8020
-      }
-    },
-    "008040": {
-      "e": [
-        [
-          59,
-          "VITRASA",
-          "VIT",
-          15712
-        ],
-        [
-          118,
-          "VITRASA",
-          "VIT",
-          31857
-        ]
-      ],
-      "p": {
-        "lat": 42.24874024,
-        "lon": -8.697546209,
-        "n": "Rúa de Sanjurjo Badía  167",
-        "sv": 8040
-      }
-    },
-    "008060": {
-      "e": [
-        [
-          60,
-          "VITRASA",
-          "VIT",
-          16362
-        ],
-        [
-          119,
-          "VITRASA",
-          "VIT",
-          32518
-        ]
-      ],
-      "p": {
-        "lat": 42.244926864,
-        "lon": -8.703642393,
-        "n": "Rúa de Sanjurjo Badía  79",
-        "sv": 8060
-      }
-    },
     "008330": {
       "e": [
         [
-          7,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          2872
+          107,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          112,
+          "SAMIL por BERBES *",
+          "15B",
+          -1
+        ],
+        [
+          139,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
+        ],
+        [
+          145,
+          "SAMIL por T. ALONSO *",
+          "15C",
+          -1
+        ],
+        [
+          164,
+          "COIA por GARCIA BARBON*",
+          "C3i",
+          -1
         ]
       ],
       "p": {
@@ -740,50 +774,6 @@
         "lon": -8.740424721,
         "n": "Rúa de Tomás A. Alonso  86",
         "sv": 8330
-      }
-    },
-    "008490": {
-      "e": [
-        [
-          56,
-          "VITRASA",
-          "VIT",
-          14747
-        ],
-        [
-          115,
-          "VITRASA",
-          "VIT",
-          30875
-        ]
-      ],
-      "p": {
-        "lat": 42.244366441,
-        "lon": -8.695452075,
-        "n": "Rúa da Travesía de Vigo  202",
-        "sv": 8490
-      }
-    },
-    "008550": {
-      "e": [
-        [
-          57,
-          "VITRASA",
-          "VIT",
-          15047
-        ],
-        [
-          116,
-          "VITRASA",
-          "VIT",
-          31181
-        ]
-      ],
-      "p": {
-        "lat": 42.246425568,
-        "lon": -8.692950624,
-        "n": "Rúa da Travesía de Vigo  220",
-        "sv": 8550
       }
     }
   }
