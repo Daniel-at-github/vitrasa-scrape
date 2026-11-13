@@ -3,13 +3,13 @@
   "format_version": 1,
   "meta": {
     "counts": {
-      "estimaciones": 66,
+      "estimaciones": 19,
       "failed": 0,
-      "ok": 34,
-      "requested": 34,
+      "ok": 18,
+      "requested": 18,
       "skipped_no_realtime_id": 76,
-      "skipped_no_scheduled_service": 1045,
-      "stops_with_estimations": 33
+      "skipped_no_scheduled_service": 1061,
+      "stops_with_estimations": 14
     },
     "description": "Vitrasa realtime snapshot: next-arrival estimations for every queried stop. Git-scraped: one commit per run.",
     "encoding": "ISO-8859-1",
@@ -59,10 +59,10 @@
     "001010": {
       "e": [
         [
-          20,
+          3,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          6844
+          1315
         ]
       ],
       "p": {
@@ -75,10 +75,10 @@
     "001020": {
       "e": [
         [
-          20,
+          3,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7048
+          1375
         ]
       ],
       "p": {
@@ -91,10 +91,10 @@
     "001040": {
       "e": [
         [
-          18,
+          0,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          5828
+          173
         ]
       ],
       "p": {
@@ -107,10 +107,10 @@
     "001060": {
       "e": [
         [
-          19,
+          1,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          6211
+          613
         ]
       ],
       "p": {
@@ -123,10 +123,10 @@
     "001070": {
       "e": [
         [
-          19,
+          2,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          6613
+          1077
         ]
       ],
       "p": {
@@ -136,81 +136,8 @@
         "sv": 1070
       }
     },
-    "001230": {
-      "e": [
-        [
-          66,
-          "VITRASA",
-          "VIT",
-          16491
-        ],
-        [
-          126,
-          "VITRASA",
-          "VIT",
-          33005
-        ]
-      ],
-      "p": {
-        "lat": 42.247251925,
-        "lon": -8.693122662,
-        "n": "Avda. de Buenos Aires  49",
-        "sv": 1230
-      }
-    },
-    "0014126": {
-      "e": [
-        [
-          64,
-          "VITRASA",
-          "VIT",
-          15647
-        ],
-        [
-          123,
-          "VITRASA",
-          "VIT",
-          32151
-        ]
-      ],
-      "p": {
-        "lat": 42.242494425,
-        "lon": -8.699249038,
-        "n": "Rúa da Travesía de Vigo  194",
-        "sv": 14126
-      }
-    },
-    "0014127": {
-      "e": [
-        [
-          67,
-          "VITRASA",
-          "VIT",
-          16762
-        ],
-        [
-          127,
-          "VITRASA",
-          "VIT",
-          33278
-        ]
-      ],
-      "p": {
-        "lat": 42.249306896,
-        "lon": -8.695179916,
-        "n": "Avda. de Buenos Aires  13",
-        "sv": 14127
-      }
-    },
     "0014164": {
-      "e": [
-        [
-          16,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          4861
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.225172437,
         "lon": -8.744777354,
@@ -221,10 +148,10 @@
     "0014170": {
       "e": [
         [
-          22,
+          4,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7770
+          2220
         ]
       ],
       "p": {
@@ -237,22 +164,16 @@
     "0014223": {
       "e": [
         [
-          9,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          2645
-        ],
-        [
-          78,
+          60,
           "VITRASA",
           "VIT",
-          20958
+          15879
         ],
         [
-          137,
+          120,
           "VITRASA",
           "VIT",
-          37510
+          32415
         ]
       ],
       "p": {
@@ -265,22 +186,16 @@
     "0014224": {
       "e": [
         [
-          10,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          2959
-        ],
-        [
-          78,
+          61,
           "VITRASA",
           "VIT",
-          21275
+          16193
         ],
         [
-          138,
+          121,
           "VITRASA",
           "VIT",
-          37830
+          32734
         ]
       ],
       "p": {
@@ -293,22 +208,16 @@
     "0014225": {
       "e": [
         [
-          11,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          3248
-        ],
-        [
-          79,
+          62,
           "VITRASA",
           "VIT",
-          21567
+          16484
         ],
         [
-          139,
+          121,
           "VITRASA",
           "VIT",
-          38124
+          33029
         ]
       ],
       "p": {
@@ -321,22 +230,16 @@
     "0014226": {
       "e": [
         [
-          12,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          3489
-        ],
-        [
-          80,
+          62,
           "VITRASA",
           "VIT",
-          21809
+          16724
         ],
         [
-          139,
+          122,
           "VITRASA",
           "VIT",
-          38368
+          33271
         ]
       ],
       "p": {
@@ -349,22 +252,16 @@
     "0014227": {
       "e": [
         [
-          13,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          3813
-        ],
-        [
-          80,
+          63,
           "VITRASA",
           "VIT",
-          22136
+          17048
         ],
         [
-          140,
+          123,
           "VITRASA",
           "VIT",
-          38697
+          33599
         ]
       ],
       "p": {
@@ -374,41 +271,13 @@
         "sv": 14227
       }
     },
-    "0014245": {
-      "e": [
-        [
-          4,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          1064
-        ],
-        [
-          74,
-          "VITRASA",
-          "VIT",
-          19235
-        ],
-        [
-          133,
-          "VITRASA",
-          "VIT",
-          35772
-        ]
-      ],
-      "p": {
-        "lat": 42.23691728,
-        "lon": -8.716743143,
-        "n": "Avda. de García Barbón  43",
-        "sv": 14245
-      }
-    },
     "0014267": {
       "e": [
         [
-          18,
+          1,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          6054
+          449
         ]
       ],
       "p": {
@@ -421,10 +290,10 @@
     "0014299": {
       "e": [
         [
-          23,
+          6,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          8329
+          2875
         ]
       ],
       "p": {
@@ -432,34 +301,6 @@
         "lon": -8.774600284,
         "n": "Avda. de Samil (frente Verbum)",
         "sv": 14299
-      }
-    },
-    "0014397": {
-      "e": [
-        [
-          0,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          112
-        ],
-        [
-          71,
-          "VITRASA",
-          "VIT",
-          18419
-        ],
-        [
-          131,
-          "VITRASA",
-          "VIT",
-          34950
-        ]
-      ],
-      "p": {
-        "lat": 42.23973713,
-        "lon": -8.708397682,
-        "n": "Avda. de García Barbón (fronte 104)",
-        "sv": 14397
       }
     },
     "001920": {
@@ -471,147 +312,13 @@
         "sv": 1920
       }
     },
-    "005490": {
-      "e": [
-        [
-          71,
-          "VITRASA",
-          "VIT",
-          18209
-        ],
-        [
-          130,
-          "VITRASA",
-          "VIT",
-          34738
-        ]
-      ],
-      "p": {
-        "lat": 42.241557555,
-        "lon": -8.707094861,
-        "n": "Avda. de García Barbón (fronte 120)",
-        "sv": 5490
-      }
-    },
-    "005510": {
-      "e": [
-        [
-          1,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          347
-        ],
-        [
-          72,
-          "VITRASA",
-          "VIT",
-          18653
-        ],
-        [
-          132,
-          "VITRASA",
-          "VIT",
-          35186
-        ]
-      ],
-      "p": {
-        "lat": 42.238290358,
-        "lon": -8.71014103,
-        "n": "Avda. de García Barbón  127",
-        "sv": 5510
-      }
-    },
-    "005520": {
+    "006750": {
       "e": [
         [
           4,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          1271
-        ],
-        [
-          74,
-          "VITRASA",
-          "VIT",
-          19469
-        ],
-        [
-          134,
-          "VITRASA",
-          "VIT",
-          36009
-        ]
-      ],
-      "p": {
-        "lat": 42.237485586,
-        "lon": -8.719397801,
-        "n": "Avda. García Barbón  7",
-        "sv": 5520
-      }
-    },
-    "005570": {
-      "e": [
-        [
-          2,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          690
-        ],
-        [
-          73,
-          "VITRASA",
-          "VIT",
-          18987
-        ],
-        [
-          132,
-          "VITRASA",
-          "VIT",
-          35522
-        ]
-      ],
-      "p": {
-        "lat": 42.237003397,
-        "lon": -8.713586994,
-        "n": "Avda. de García Barbón  87",
-        "sv": 5570
-      }
-    },
-    "006300": {
-      "e": [
-        [
-          8,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          2108
-        ],
-        [
-          76,
-          "VITRASA",
-          "VIT",
-          20406
-        ],
-        [
-          136,
-          "VITRASA",
-          "VIT",
-          36954
-        ]
-      ],
-      "p": {
-        "lat": 42.240129541,
-        "lon": -8.727159759,
-        "n": "Rúa de Cánovas del Castillo (Centro Comercial)",
-        "sv": 6300
-      }
-    },
-    "006750": {
-      "e": [
-        [
-          21,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          7418
+          1770
         ]
       ],
       "p": {
@@ -621,43 +328,8 @@
         "sv": 6750
       }
     },
-    "006860": {
-      "e": [
-        [
-          6,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          1621
-        ],
-        [
-          75,
-          "VITRASA",
-          "VIT",
-          19894
-        ],
-        [
-          135,
-          "VITRASA",
-          "VIT",
-          36437
-        ]
-      ],
-      "p": {
-        "lat": 42.239118346,
-        "lon": -8.722531274,
-        "n": "Praza de Compostela",
-        "sv": 6860
-      }
-    },
     "006980": {
-      "e": [
-        [
-          14,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          4129
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.224471236,
         "lon": -8.73619635,
@@ -665,130 +337,13 @@
         "sv": 6980
       }
     },
-    "008020": {
-      "e": [
-        [
-          69,
-          "VITRASA",
-          "VIT",
-          17337
-        ],
-        [
-          128,
-          "VITRASA",
-          "VIT",
-          33858
-        ]
-      ],
-      "p": {
-        "lat": 42.246941664,
-        "lon": -8.700376378,
-        "n": "Rúa de Sanjurjo Badía  123",
-        "sv": 8020
-      }
-    },
-    "008040": {
-      "e": [
-        [
-          68,
-          "VITRASA",
-          "VIT",
-          17025
-        ],
-        [
-          127,
-          "VITRASA",
-          "VIT",
-          33543
-        ]
-      ],
-      "p": {
-        "lat": 42.24874024,
-        "lon": -8.697546209,
-        "n": "Rúa de Sanjurjo Badía  167",
-        "sv": 8040
-      }
-    },
-    "008060": {
-      "e": [
-        [
-          69,
-          "VITRASA",
-          "VIT",
-          17678
-        ],
-        [
-          129,
-          "VITRASA",
-          "VIT",
-          34203
-        ]
-      ],
-      "p": {
-        "lat": 42.244926864,
-        "lon": -8.703642393,
-        "n": "Rúa de Sanjurjo Badía  79",
-        "sv": 8060
-      }
-    },
     "008330": {
-      "e": [
-        [
-          15,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          4471
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.223897608,
         "lon": -8.740424721,
         "n": "Rúa de Tomás A. Alonso  86",
         "sv": 8330
-      }
-    },
-    "008490": {
-      "e": [
-        [
-          65,
-          "VITRASA",
-          "VIT",
-          16057
-        ],
-        [
-          125,
-          "VITRASA",
-          "VIT",
-          32566
-        ]
-      ],
-      "p": {
-        "lat": 42.244366441,
-        "lon": -8.695452075,
-        "n": "Rúa da Travesía de Vigo  202",
-        "sv": 8490
-      }
-    },
-    "008550": {
-      "e": [
-        [
-          66,
-          "VITRASA",
-          "VIT",
-          16359
-        ],
-        [
-          125,
-          "VITRASA",
-          "VIT",
-          32871
-        ]
-      ],
-      "p": {
-        "lat": 42.246425568,
-        "lon": -8.692950624,
-        "n": "Rúa da Travesía de Vigo  220",
-        "sv": 8550
       }
     }
   }
