@@ -3,13 +3,13 @@
   "format_version": 1,
   "meta": {
     "counts": {
-      "estimaciones": 19,
+      "estimaciones": 0,
       "failed": 0,
-      "ok": 18,
-      "requested": 18,
+      "ok": 10,
+      "requested": 10,
       "skipped_no_realtime_id": 76,
-      "skipped_no_scheduled_service": 1061,
-      "stops_with_estimations": 14
+      "skipped_no_scheduled_service": 1069,
+      "stops_with_estimations": 0
     },
     "description": "Vitrasa realtime snapshot: next-arrival estimations for every queried stop. Git-scraped: one commit per run.",
     "encoding": "ISO-8859-1",
@@ -57,14 +57,7 @@
   },
   "stops": {
     "001010": {
-      "e": [
-        [
-          3,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          1315
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.221479642,
         "lon": -8.767482698,
@@ -73,14 +66,7 @@
       }
     },
     "001020": {
-      "e": [
-        [
-          3,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          1375
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.222764778,
         "lon": -8.769405842,
@@ -89,14 +75,7 @@
       }
     },
     "001040": {
-      "e": [
-        [
-          0,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          173
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.223237503,
         "lon": -8.755707801,
@@ -105,14 +84,7 @@
       }
     },
     "001060": {
-      "e": [
-        [
-          1,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          613
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.221789505,
         "lon": -8.759905458,
@@ -121,14 +93,7 @@
       }
     },
     "001070": {
-      "e": [
-        [
-          2,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          1077
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.221148357,
         "lon": -8.764660969,
@@ -136,24 +101,8 @@
         "sv": 1070
       }
     },
-    "0014164": {
-      "e": [],
-      "p": {
-        "lat": 42.225172437,
-        "lon": -8.744777354,
-        "n": "Rúa de Tomás A. Alonso  144",
-        "sv": 14164
-      }
-    },
     "0014170": {
-      "e": [
-        [
-          4,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          2220
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.218831744,
         "lon": -8.77571001,
@@ -161,125 +110,8 @@
         "sv": 14170
       }
     },
-    "0014223": {
-      "e": [
-        [
-          60,
-          "VITRASA",
-          "VIT",
-          15879
-        ],
-        [
-          120,
-          "VITRASA",
-          "VIT",
-          32415
-        ]
-      ],
-      "p": {
-        "lat": 42.236685153,
-        "lon": -8.731609303,
-        "n": "Avda. Beiramar \"Porto Pesqueiro Berbés\"",
-        "sv": 14223
-      }
-    },
-    "0014224": {
-      "e": [
-        [
-          61,
-          "VITRASA",
-          "VIT",
-          16193
-        ],
-        [
-          121,
-          "VITRASA",
-          "VIT",
-          32734
-        ]
-      ],
-      "p": {
-        "lat": 42.234285927,
-        "lon": -8.731266507,
-        "n": "Rúa do Conde de Torrecedeira  16",
-        "sv": 14224
-      }
-    },
-    "0014225": {
-      "e": [
-        [
-          62,
-          "VITRASA",
-          "VIT",
-          16484
-        ],
-        [
-          121,
-          "VITRASA",
-          "VIT",
-          33029
-        ]
-      ],
-      "p": {
-        "lat": 42.231716574,
-        "lon": -8.732308737,
-        "n": "Rúa do Conde de Torrecedeira  50",
-        "sv": 14225
-      }
-    },
-    "0014226": {
-      "e": [
-        [
-          62,
-          "VITRASA",
-          "VIT",
-          16724
-        ],
-        [
-          122,
-          "VITRASA",
-          "VIT",
-          33271
-        ]
-      ],
-      "p": {
-        "lat": 42.229574859,
-        "lon": -8.733073973,
-        "n": "Rúa do Conde de Torrecedeira  70",
-        "sv": 14226
-      }
-    },
-    "0014227": {
-      "e": [
-        [
-          63,
-          "VITRASA",
-          "VIT",
-          17048
-        ],
-        [
-          123,
-          "VITRASA",
-          "VIT",
-          33599
-        ]
-      ],
-      "p": {
-        "lat": 42.22696657,
-        "lon": -8.734559706,
-        "n": "Rúa do Conde de Torrecedeira  86",
-        "sv": 14227
-      }
-    },
     "0014267": {
-      "e": [
-        [
-          1,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          449
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.221892792,
         "lon": -8.758191526,
@@ -288,14 +120,7 @@
       }
     },
     "0014299": {
-      "e": [
-        [
-          6,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          2875
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.213777217,
         "lon": -8.774600284,
@@ -313,37 +138,12 @@
       }
     },
     "006750": {
-      "e": [
-        [
-          4,
-          "TORRECEDEIRA-SAMIL",
-          "N1",
-          1770
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.221783554,
         "lon": -8.773517669,
         "n": "Avda. de Samil (Praia da Fonte)",
         "sv": 6750
-      }
-    },
-    "006980": {
-      "e": [],
-      "p": {
-        "lat": 42.224471236,
-        "lon": -8.73619635,
-        "n": "Praza Eugenio Fadrique  6",
-        "sv": 6980
-      }
-    },
-    "008330": {
-      "e": [],
-      "p": {
-        "lat": 42.223897608,
-        "lon": -8.740424721,
-        "n": "Rúa de Tomás A. Alonso  86",
-        "sv": 8330
       }
     }
   }
