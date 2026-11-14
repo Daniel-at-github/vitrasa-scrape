@@ -4,6 +4,7 @@ This project is dual-licensed. You may use, modify and distribute it under
 either of the following licences, at your option:
 
   1. European Union Public Licence v. 1.2 (EUPL-1.2): see LICENSE-EUPL-1.2.txt
-  2. GNU General Public License v3.0 only (GPL-3.0-only): see LICENSE-GPL-3.0.txt
+  2. GNU General Public License v3.0 or any later version (GPL-3.0-or-later):
+     see LICENSE-GPL-3.0.txt
 
-SPDX-License-Identifier: EUPL-1.2 OR GPL-3.0-only
+SPDX-License-Identifier: EUPL-1.2 OR GPL-3.0-or-later

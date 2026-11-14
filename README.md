@@ -263,6 +263,6 @@ consolidator after new snapshot commits to refresh.
 Dual-licensed under either of:
 
 - **EUPL-1.2**: European Union Public Licence v. 1.2 ([`LICENSE-EUPL-1.2.txt`](LICENSE-EUPL-1.2.txt))
-- **GPL-3.0-only**: GNU General Public License v3.0 only ([`LICENSE-GPL-3.0.txt`](LICENSE-GPL-3.0.txt))
+- **GPL-3.0-or-later**: GNU General Public License v3.0 or any later version ([`LICENSE-GPL-3.0.txt`](LICENSE-GPL-3.0.txt))
 
-See [`LICENSE`](LICENSE) for the notice and the SPDX expression `EUPL-1.2 OR GPL-3.0-only`.
+See [`LICENSE`](LICENSE) for the notice and the SPDX expression `EUPL-1.2 OR GPL-3.0-or-later`.
