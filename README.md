@@ -34,7 +34,7 @@ GitHub Action (cron */15 UTC, uv + stdlib only)
         git history = time-series database
                 │
                 ▼
-  consolidate_snapshots.py  ──►  vitrasa.duckdb (or SQLite)
+  consolidate_vitrasa.py  ──►  vitrasa.duckdb (or SQLite)
                 │                matches each realtime estimation against the
                 ▼                timetable version in effect at that moment
   analysis/delays.py (marimo) ──►  delay dashboards by line / hour / stop
@@ -45,7 +45,7 @@ GitHub Action (cron */15 UTC, uv + stdlib only)
 ```
 .
 ├── fetch_vitrasa_data.py        # GTFS → network + timetable; all-stops realtime snapshotter
-├── consolidate_snapshots.py     # walks git history → SQLite/DuckDB
+├── consolidate_vitrasa.py       # walks git history → SQLite/DuckDB
 ├── analysis/
 │   └── delays.py                # marimo notebook (delay dashboards)
 ├── data/
@@ -105,15 +105,15 @@ Handy flags: `--workers 8` · `--min-interval 0.05` (global request pacing, be p
 
 Exit code `3` if **every** request failed → CI then skips the commit instead of archiving garbage.
 
-## Analytics — `consolidate_snapshots.py`
+## Analytics — `consolidate_vitrasa.py`
 
 | Command | What it does |
 |---|---|
-| `uv run consolidate_snapshots.py --db vitrasa.duckdb` | Full rebuild: walk git history → DuckDB |
-| `uv run consolidate_snapshots.py --db vitrasa.sqlite3 --engine sqlite` | Same, into SQLite (stdlib fallback) |
-| `uv run consolidate_snapshots.py --db vitrasa.duckdb --append` | Incremental: skip already-ingested commits |
-| `uv run consolidate_snapshots.py --db vitrasa.duckdb --since 2025-03-01` | Only commits after a date |
-| `uv run consolidate_snapshots.py --db vitrasa.duckdb --tolerance 60` | Max ±minutes when matching an estimation to the timetable |
+| `uv run consolidate_vitrasa.py --db vitrasa.duckdb` | Full rebuild: walk git history → DuckDB |
+| `uv run consolidate_vitrasa.py --db vitrasa.sqlite3 --engine sqlite` | Same, into SQLite (stdlib fallback) |
+| `uv run consolidate_vitrasa.py --db vitrasa.duckdb --append` | Incremental: skip already-ingested commits |
+| `uv run consolidate_vitrasa.py --db vitrasa.duckdb --since 2025-03-01` | Only commits after a date |
+| `uv run consolidate_vitrasa.py --db vitrasa.duckdb --tolerance 60` | Max ±minutes when matching an estimation to the timetable |
 
 ## Notebook & exports — marimo
 
@@ -233,7 +233,7 @@ consolidator after new snapshot commits to refresh.
 
 | Symptom | Fix |
 |---|---|
-| Notebook says database not found | `uv run consolidate_snapshots.py --db vitrasa.duckdb` |
+| Notebook says database not found | `uv run consolidate_vitrasa.py --db vitrasa.duckdb` |
 | `uv run --frozen` fails in CI | `uv.lock` stale → `uv lock` and commit it |
 | Many `failed` stops in `snapshot.json` | check `errors` map; API outage → CI exits 3, no commit |
 | Workflow not running | enable scheduled workflows; check the 60-day rule |
