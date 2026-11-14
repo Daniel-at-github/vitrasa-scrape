@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# -*- coding: utf-8 -*-
 """
 fetch_vitrasa_data.py
 =====================
@@ -63,8 +62,9 @@ import unicodedata
 import urllib.request
 import zipfile
 from collections import Counter, defaultdict
-from concurrent.futures import ThreadPoolExecutor, as_completed
-from datetime import date, datetime, timedelta, timezone
+from concurrent.futures import ThreadPoolExecutor
+from datetime import date, datetime, timedelta
+from typing import Any
 from zoneinfo import ZoneInfo
 
 FORMAT_VERSION = 1
@@ -226,7 +226,7 @@ def build_network(gtfs_zip_bytes: bytes) -> dict:
     zf = zipfile.ZipFile(io.BytesIO(gtfs_zip_bytes))
 
     # ---- stops -----------------------------------------------------------
-    stops = {}
+    stops: dict[str, dict[str, Any]] = {}
     for row in read_gtfs_table(zf, "stops.txt"):
         stop_id = row["stop_id"].strip()
         code = row["stop_code"].strip()
@@ -248,7 +248,7 @@ def build_network(gtfs_zip_bytes: bytes) -> dict:
         short = row["route_short_name"].strip() or f"route-{row['route_id']}"
         routes_by_key[short].append(row)
 
-    lines = {}
+    lines: dict[str, dict[str, Any]] = {}
     for short, rows in routes_by_key.items():
         long_names = {
             r["route_long_name"].strip() for r in rows if r["route_long_name"].strip()
@@ -257,8 +257,8 @@ def build_network(gtfs_zip_bytes: bytes) -> dict:
             r["route_color"].strip().upper() for r in rows if r["route_color"].strip()
         }
         lines[short] = {
-            "long_name": sorted(long_names)[0] if long_names else "",
-            "color": sorted(colors)[0] if colors else "",
+            "long_name": min(long_names, default=""),
+            "color": min(colors, default=""),
             "route_ids": sorted((r["route_id"].strip() for r in rows), key=int),
             "directions": {},
             "_all_stops": set(),
@@ -387,7 +387,7 @@ def build_network(gtfs_zip_bytes: bytes) -> dict:
 
 def build_services(zf: zipfile.ZipFile) -> dict:
     """service_id -> calendar info, from calendar.txt + calendar_dates.txt."""
-    services = {}
+    services: dict[str, dict[str, Any]] = {}
     names = set(zf.namelist())
     if "calendar.txt" in names:
         cols = (
@@ -478,7 +478,7 @@ def build_stop_schedule(zf: zipfile.ZipFile) -> dict:
 
     out = {}
     for sid, keys in merged.items():
-        entries = [
+        entries: list[dict[str, Any]] = [
             {
                 "sec": k[0],
                 "t": fmt_gtfs_time(k[0]),
