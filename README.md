@@ -115,6 +115,10 @@ Exit code `3` if **every** request failed → CI then skips the commit instead o
 | `uv run consolidate_vitrasa.py --db vitrasa.duckdb --since 2025-03-01` | Only commits after a date |
 | `uv run consolidate_vitrasa.py --db vitrasa.duckdb --tolerance 60` | Max ±minutes when matching an estimation to the timetable |
 
+The consolidator is a PEP 723 script: run it with `uv run`, which installs `duckdb`, `pyarrow` and `rich` automatically. Plain `python3` will not work.
+
+`--append` only ingests commits not yet in the database, and the totals in `ingest_state` keep counting across runs. Windows (`--since`, `--until`, `--max-commits`) still match correctly: the timetable and network are loaded from just before the window.
+
 ## Notebook & exports — marimo
 
 | Command | What it does |
