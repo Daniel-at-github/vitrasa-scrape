@@ -113,16 +113,16 @@ class GitRepo:
         cmd += ["--"] + paths
         entries, cur = [], None
         for line in self._git(cmd).decode("utf-8", "replace").splitlines():
-            if not line.strip():
-                if cur:
-                    entries.append(cur)
-                    cur = None
-                continue
+            line = line.strip()
+            if not line:
+                continue  # git prints a blank line between the header and the file list
             parts = line.split(" ", 1)
             if len(parts) == 2 and len(parts[0]) == 40 and "T" in parts[1]:
+                if cur:
+                    entries.append(cur)
                 cur = (parts[0], parts[1], [])
             elif cur is not None:
-                cur[2].append(line.strip())
+                cur[2].append(line)
         if cur:
             entries.append(cur)
         return entries
