@@ -88,6 +88,15 @@ git clone https://github.com/<you>/vitrasa-git-scrape && cd vitrasa-git-scrape
 uv sync                # .venv + dev group (duckdb, pandas, altair, marimo); writes uv.lock
 ```
 
+## Development — pre-commit
+
+Hooks: whitespace and file checks, `ruff check --fix`, `ruff format`, and `ty check`. The ruff and ty versions are pinned in the `dev` group and match the hook revisions, so local runs and commits agree.
+
+```bash
+uv run pre-commit install        # once: run the hooks on every commit
+uv run pre-commit run --all-files # run them on the whole repo
+```
+
 ## Scraping — `fetch_vitrasa_data.py`
 
 | Command | What it does |
