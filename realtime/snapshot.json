@@ -5,10 +5,10 @@
     "counts": {
       "estimaciones": 0,
       "failed": 0,
-      "ok": 1,
-      "requested": 1,
+      "ok": 19,
+      "requested": 19,
       "skipped_no_realtime_id": 81,
-      "skipped_no_scheduled_service": 1083,
+      "skipped_no_scheduled_service": 1065,
       "stops_with_estimations": 0
     },
     "description": "Vitrasa realtime snapshot: next-arrival estimations for every queried stop. Git-scraped: one commit per run.",
@@ -56,6 +56,51 @@
     }
   },
   "stops": {
+    "001220": {
+      "e": [],
+      "p": {
+        "lat": 42.247097055,
+        "lon": -8.693109251,
+        "n": "Avda. de Buenos Aires  46",
+        "sv": 1220
+      }
+    },
+    "001240": {
+      "e": [],
+      "p": {
+        "lat": 42.249128205,
+        "lon": -8.69514773,
+        "n": "Avda. de Buenos Aires  8",
+        "sv": 1240
+      }
+    },
+    "0014132": {
+      "e": [],
+      "p": {
+        "lat": 42.249307631,
+        "lon": -8.696542008,
+        "n": "Rúa de Sanjurjo Badía  252",
+        "sv": 14132
+      }
+    },
+    "0014396": {
+      "e": [],
+      "p": {
+        "lat": 42.239965365,
+        "lon": -8.708024282,
+        "n": "Avda. de García Barbón  106",
+        "sv": 14396
+      }
+    },
+    "005500": {
+      "e": [],
+      "p": {
+        "lat": 42.24178025,
+        "lon": -8.706720936,
+        "n": "Avda. de García Barbón  126",
+        "sv": 5500
+      }
+    },
     "005530": {
       "e": [],
       "p": {
@@ -63,6 +108,123 @@
         "lon": -8.718680736,
         "n": "Avda. de García Barbón  18",
         "sv": 5530
+      }
+    },
+    "005540": {
+      "e": [],
+      "p": {
+        "lat": 42.236759685,
+        "lon": -8.716384581,
+        "n": "Avda. de García Barbón  28",
+        "sv": 5540
+      }
+    },
+    "005560": {
+      "e": [],
+      "p": {
+        "lat": 42.236896919,
+        "lon": -8.712902905,
+        "n": "Avda. de García Barbón  60",
+        "sv": 5560
+      }
+    },
+    "005580": {
+      "e": [],
+      "p": {
+        "lat": 42.238267348,
+        "lon": -8.709873166,
+        "n": "Avda. de García Barbón  90",
+        "sv": 5580
+      }
+    },
+    "008010": {
+      "e": [],
+      "p": {
+        "lat": 42.245018172,
+        "lon": -8.703349646,
+        "n": "Rúa de Sanjurjo Badía  106",
+        "sv": 8010
+      }
+    },
+    "008030": {
+      "e": [],
+      "p": {
+        "lat": 42.246056261,
+        "lon": -8.701684825,
+        "n": "Rúa de Sanjurjo Badía  136",
+        "sv": 8030
+      }
+    },
+    "008050": {
+      "e": [],
+      "p": {
+        "lat": 42.247765296,
+        "lon": -8.698918203,
+        "n": "Rúa de Sanjurjo Badía  202",
+        "sv": 8050
+      }
+    },
+    "008500": {
+      "e": [],
+      "p": {
+        "lat": 42.238455548,
+        "lon": -8.703814812,
+        "n": "Rúa da Travesía de Vigo  105",
+        "sv": 8500
+      }
+    },
+    "008520": {
+      "e": [],
+      "p": {
+        "lat": 42.241332883,
+        "lon": -8.702059906,
+        "n": "Rúa da Travesía de Vigo  153",
+        "sv": 8520
+      }
+    },
+    "008540": {
+      "e": [],
+      "p": {
+        "lat": 42.242844316,
+        "lon": -8.698295825,
+        "n": "Rúa da Travesía de Vigo  193",
+        "sv": 8540
+      }
+    },
+    "008560": {
+      "e": [],
+      "p": {
+        "lat": 42.24409871,
+        "lon": -8.69614733,
+        "n": "Rúa da Travesía de Vigo  213",
+        "sv": 8560
+      }
+    },
+    "008570": {
+      "e": [],
+      "p": {
+        "lat": 42.246143319,
+        "lon": -8.69359937,
+        "n": "Rúa da Travesía de Vigo  239",
+        "sv": 8570
+      }
+    },
+    "008590": {
+      "e": [],
+      "p": {
+        "lat": 42.233681224,
+        "lon": -8.706702136,
+        "n": "Rúa da Travesía de Vigo  37",
+        "sv": 8590
+      }
+    },
+    "008600": {
+      "e": [],
+      "p": {
+        "lat": 42.236350093,
+        "lon": -8.70429745,
+        "n": "Rúa da Travesía de Vigo  71",
+        "sv": 8600
       }
     }
   }
