@@ -4100,7 +4100,7 @@
             "3948",
             "5415"
           ],
-          "trip_id": "L1302LN500_013002_21"
+          "trip_id": "L1302LN400_013002_22"
         }
       },
       "has_service": true,
@@ -4390,7 +4390,7 @@
       "lines": 58,
       "lines_with_service": 45,
       "overlapping_line_pairs": 732,
-      "stops": 1165
+      "stops": 1164
     },
     "description": "Vitrasa (Vigo, Spain) urban bus network: lines, ordered stops per line and overlapping stops. Deterministic dump (no timestamps) intended for git versioning.",
     "line_definition": "lines are GTFS route_short_name values, whitespace-stripped; duplicated route_ids (e.g. '15A' and '15A.') are merged under the same line.",
@@ -16238,14 +16238,6 @@
       "lon": -8.711386,
       "name": "Camiño de Quirós (cruce Rúa de Dona Cristina)",
       "realtime_id": 3190
-    },
-    "3110": {
-      "code": "P003230",
-      "lat": 42.2364715,
-      "lines": [],
-      "lon": -8.7201649,
-      "name": "Rúa de Colón  27",
-      "realtime_id": 3230
     },
     "3111": {
       "code": "P003240",
