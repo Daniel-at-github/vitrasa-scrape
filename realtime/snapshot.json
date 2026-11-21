@@ -3,13 +3,13 @@
   "format_version": 1,
   "meta": {
     "counts": {
-      "estimaciones": 384,
+      "estimaciones": 419,
       "failed": 0,
-      "ok": 422,
-      "requested": 422,
+      "ok": 269,
+      "requested": 269,
       "skipped_no_realtime_id": 79,
-      "skipped_no_scheduled_service": 660,
-      "stops_with_estimations": 220
+      "skipped_no_scheduled_service": 813,
+      "stops_with_estimations": 170
     },
     "description": "Vitrasa realtime snapshot: next-arrival estimations for every queried stop. Git-scraped: one commit per run.",
     "encoding": "ISO-8859-1",
@@ -59,16 +59,16 @@
     "001010": {
       "e": [
         [
-          52,
+          37,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          15627
+          11786
         ],
         [
-          145,
+          130,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          341
+          305
         ]
       ],
       "p": {
@@ -81,16 +81,16 @@
     "001020": {
       "e": [
         [
-          52,
+          37,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          15821
+          11994
         ],
         [
-          145,
+          130,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          341
+          305
         ]
       ],
       "p": {
@@ -103,16 +103,16 @@
     "001040": {
       "e": [
         [
-          50,
+          35,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          14661
+          10885
         ],
         [
-          142,
+          127,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          340
+          304
         ]
       ],
       "p": {
@@ -125,16 +125,16 @@
     "001060": {
       "e": [
         [
-          51,
+          36,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          15026
+          11130
         ],
         [
-          143,
+          128,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          340
+          304
         ]
       ],
       "p": {
@@ -147,16 +147,16 @@
     "001070": {
       "e": [
         [
-          51,
+          36,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          15406
+          11542
         ],
         [
-          144,
+          129,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          340
+          305
         ]
       ],
       "p": {
@@ -169,16 +169,28 @@
     "001150": {
       "e": [
         [
-          22,
+          8,
           "PRAZA AMÉRICA",
           "C1",
-          4530
+          2039
         ],
         [
-          52,
+          38,
           "PRAZA AMÉRICA",
           "C1",
-          10517
+          7442
+        ],
+        [
+          39,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          389
+        ],
+        [
+          124,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          382
         ]
       ],
       "p": {
@@ -188,28 +200,19 @@
         "sv": 1150
       }
     },
-    "001220": {
-      "e": [],
-      "p": {
-        "lat": 42.247097055,
-        "lon": -8.693109251,
-        "n": "Avda. de Buenos Aires  46",
-        "sv": 1220
-      }
-    },
     "001230": {
       "e": [
         [
-          29,
+          14,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          6389
+          3034
         ],
         [
-          119,
+          104,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          28483
+          25102
         ]
       ],
       "p": {
@@ -219,34 +222,31 @@
         "sv": 1230
       }
     },
-    "001240": {
-      "e": [],
-      "p": {
-        "lat": 42.249128205,
-        "lon": -8.69514773,
-        "n": "Avda. de Buenos Aires  8",
-        "sv": 1240
-      }
-    },
     "001250": {
       "e": [
         [
-          4,
-          "Rúa do Porriño (fronte 9)",
-          "4C",
-          1080
+          0,
+          "BOUZAS por PRAZA AMERICA",
+          "C3d",
+          41
+        ],
+        [
+          12,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          2258
         ],
         [
           14,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          3491
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          4634
         ],
         [
-          35,
+          22,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          8040
+          4951
         ]
       ],
       "p": {
@@ -259,10 +259,10 @@
     "001260": {
       "e": [
         [
-          83,
+          69,
           "URZAIZ - T.VIGO",
           "N1",
-          20762
+          17038
         ]
       ],
       "p": {
@@ -275,22 +275,28 @@
     "001270": {
       "e": [
         [
-          6,
-          "Rúa do Porriño (fronte 9)",
-          "4C",
-          1500
+          2,
+          "BOUZAS por PRAZA AMERICA",
+          "C3d",
+          478
+        ],
+        [
+          13,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          2860
         ],
         [
           15,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          3917
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          5067
         ],
         [
-          37,
+          24,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          8515
+          5358
         ]
       ],
       "p": {
@@ -303,10 +309,10 @@
     "001280": {
       "e": [
         [
-          82,
+          67,
           "URZAIZ - T.VIGO",
           "N1",
-          20541
+          16783
         ]
       ],
       "p": {
@@ -319,22 +325,40 @@
     "001290": {
       "e": [
         [
-          7,
-          "Rúa do Porriño (fronte 9)",
-          "4C",
-          1790
+          3,
+          "BOUZAS por PRAZA AMERICA",
+          "C3d",
+          776
+        ],
+        [
+          14,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          3130
         ],
         [
           16,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          4344
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          5360
         ],
         [
-          38,
+          25,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          8752
+          5639
+        ],
+        [
+          85,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          375
+        ],
+        [
+          168,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          387
         ]
       ],
       "p": {
@@ -347,22 +371,40 @@
     "001300": {
       "e": [
         [
-          8,
-          "Rúa do Porriño (fronte 9)",
-          "4C",
-          2268
+          4,
+          "BOUZAS por PRAZA AMERICA",
+          "C3d",
+          1219
+        ],
+        [
+          15,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          3549
         ],
         [
           17,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          4768
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          5814
         ],
         [
-          40,
+          27,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          9319
+          6080
+        ],
+        [
+          86,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          375
+        ],
+        [
+          169,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          387
         ]
       ],
       "p": {
@@ -375,10 +417,22 @@
     "001310": {
       "e": [
         [
-          80,
+          22,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          356
+        ],
+        [
+          65,
           "URZAIZ - T.VIGO",
           "N1",
-          20021
+          16286
+        ],
+        [
+          108,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          380
         ]
       ],
       "p": {
@@ -391,10 +445,10 @@
     "001320": {
       "e": [
         [
-          79,
+          64,
           "URZAIZ - T.VIGO",
           "N1",
-          19621
+          15903
         ]
       ],
       "p": {
@@ -405,14 +459,7 @@
       }
     },
     "001350": {
-      "e": [
-        [
-          16,
-          "RETIRA EN PORTANET",
-          "7",
-          8200
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.208026488,
         "lon": -8.7312098,
@@ -423,10 +470,10 @@
     "001360": {
       "e": [
         [
-          15,
+          4,
           "REMATA EN PORTANET",
           "12B",
-          4491
+          1071
         ]
       ],
       "p": {
@@ -437,14 +484,7 @@
       }
     },
     "001380": {
-      "e": [
-        [
-          15,
-          "RETIRA EN PORTANET",
-          "7",
-          7848
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.20533568,
         "lon": -8.730078621,
@@ -455,10 +495,10 @@
     "001390": {
       "e": [
         [
-          18,
+          6,
           "REMATA EN PORTANET",
           "12B",
-          5651
+          1819
         ]
       ],
       "p": {
@@ -468,35 +508,21 @@
         "sv": 1390
       }
     },
-    "001400": {
-      "e": [],
-      "p": {
-        "lat": 42.210706683,
-        "lon": -8.732237372,
-        "n": "Avda. de Castrelos  202",
-        "sv": 1400
-      }
-    },
-    "0014107": {
-      "e": [],
-      "p": {
-        "lat": 42.257847205,
-        "lon": -8.677696507,
-        "n": "Camiño Padín (Rotonda Autoestrada)",
-        "sv": 14107
-      }
-    },
-    "0014112": {
-      "e": [],
-      "p": {
-        "lat": 42.204047198,
-        "lon": -8.684697288,
-        "n": "Estrada de Bembrive (Alameda)",
-        "sv": 14112
-      }
-    },
     "0014123": {
-      "e": [],
+      "e": [
+        [
+          19,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          392
+        ],
+        [
+          105,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          378
+        ]
+      ],
       "p": {
         "lat": 42.214127819,
         "lon": -8.752027594,
@@ -507,10 +533,10 @@
     "0014124": {
       "e": [
         [
-          23,
+          9,
           "BOUZAS por PRAZA AMERICA",
           "C3d",
-          6315
+          2782
         ]
       ],
       "p": {
@@ -532,16 +558,16 @@
     "0014126": {
       "e": [
         [
-          19,
+          10,
           "URZAIZ - T.VIGO",
           "N1",
-          5450
+          2153
         ],
         [
-          106,
+          97,
           "URZAIZ - T.VIGO",
           "N1",
-          27552
+          24187
         ]
       ],
       "p": {
@@ -554,16 +580,16 @@
     "0014127": {
       "e": [
         [
-          29,
+          14,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          6884
+          3359
         ],
         [
-          119,
+          104,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          329
+          288
         ]
       ],
       "p": {
@@ -576,10 +602,10 @@
     "0014128": {
       "e": [
         [
-          34,
+          18,
           "NAVIA por FLORIDA",
           "5A",
-          8819
+          5202
         ]
       ],
       "p": {
@@ -590,14 +616,7 @@
       }
     },
     "0014131": {
-      "e": [
-        [
-          8,
-          "Rúa do Porriño (fronte 9)",
-          "C3i",
-          2555
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.221948768,
         "lon": -8.753171211,
@@ -605,28 +624,19 @@
         "sv": 14131
       }
     },
-    "0014132": {
-      "e": [],
-      "p": {
-        "lat": 42.249307631,
-        "lon": -8.696542008,
-        "n": "Rúa de Sanjurjo Badía  252",
-        "sv": 14132
-      }
-    },
     "0014135": {
       "e": [
         [
-          5,
+          20,
           "PRAZA AMÉRICA",
           "C1",
-          967
+          4185
         ],
         [
-          33,
+          50,
           "PRAZA AMÉRICA",
           "C1",
-          6834
+          9790
         ]
       ],
       "p": {
@@ -636,17 +646,21 @@
         "sv": 14135
       }
     },
-    "0014138": {
-      "e": [],
-      "p": {
-        "lat": 42.216459201,
-        "lon": -8.678591709,
-        "n": "Estrada de Madrid (Campo de Fútbol)",
-        "sv": 14138
-      }
-    },
     "0014140": {
-      "e": [],
+      "e": [
+        [
+          54,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          360
+        ],
+        [
+          139,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          383
+        ]
+      ],
       "p": {
         "lat": 42.228210877,
         "lon": -8.699999354,
@@ -663,55 +677,19 @@
         "sv": 14141
       }
     },
-    "0014142": {
-      "e": [],
-      "p": {
-        "lat": 42.231463434,
-        "lon": -8.728844425,
-        "n": "Avda. da Hispanidade  22",
-        "sv": 14142
-      }
-    },
-    "0014143": {
-      "e": [],
-      "p": {
-        "lat": 42.229753483,
-        "lon": -8.729002675,
-        "n": "Avda. da Hispanidade  38",
-        "sv": 14143
-      }
-    },
-    "0014144": {
-      "e": [],
-      "p": {
-        "lat": 42.226760436,
-        "lon": -8.727385303,
-        "n": "Avda. da Hispanidade  82",
-        "sv": 14144
-      }
-    },
-    "0014161": {
-      "e": [],
-      "p": {
-        "lat": 42.224130699,
-        "lon": -8.732568248,
-        "n": "Rúa de López Mora  62",
-        "sv": 14161
-      }
-    },
     "0014162": {
       "e": [
         [
-          16,
+          1,
           "Avda. de Ricardo Mella, 518",
           "11",
-          4869
+          665
         ],
         [
-          32,
+          16,
           "NAVIA por FLORIDA",
           "5A",
-          8152
+          4598
         ]
       ],
       "p": {
@@ -724,22 +702,16 @@
     "0014164": {
       "e": [
         [
-          6,
-          "Rúa do Porriño (fronte 9)",
-          "C3i",
-          1814
-        ],
-        [
-          48,
+          33,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          13643
+          9919
         ],
         [
-          140,
+          125,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          338
+          302
         ]
       ],
       "p": {
@@ -752,16 +724,22 @@
     "0014166": {
       "e": [
         [
-          12,
+          1,
           "REMATA EN PORTANET",
           "12B",
-          3595
+          195
         ],
         [
-          31,
+          7,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          1193
+        ],
+        [
+          17,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          7349
+          3851
         ]
       ],
       "p": {
@@ -774,10 +752,10 @@
     "0014168": {
       "e": [
         [
-          86,
+          72,
           "URZAIZ - T.VIGO",
           "N1",
-          21710
+          18072
         ]
       ],
       "p": {
@@ -790,40 +768,34 @@
     "0014169": {
       "e": [
         [
-          1,
-          "Rúa do Porriño (fronte 9)",
-          "4C",
-          309
-        ],
-        [
           2,
-          "HISPANIDAD - COIA",
-          "16",
-          714
-        ],
-        [
-          10,
-          "PRAZA AMÉRICA",
-          "C1",
-          2145
-        ],
-        [
-          13,
           "REMATA EN PORTANET",
           "12B",
-          3961
+          568
         ],
         [
-          33,
+          9,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          1593
+        ],
+        [
+          19,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          7747
+          4267
         ],
         [
-          38,
+          25,
           "PRAZA AMÉRICA",
           "C1",
-          8084
+          5549
+        ],
+        [
+          55,
+          "PRAZA AMÉRICA",
+          "C1",
+          11046
         ]
       ],
       "p": {
@@ -845,16 +817,28 @@
     "0014173": {
       "e": [
         [
-          21,
+          7,
           "PRAZA AMÉRICA",
           "C1",
-          4227
+          1722
         ],
         [
-          51,
+          36,
           "PRAZA AMÉRICA",
           "C1",
-          10202
+          7238
+        ],
+        [
+          38,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          386
+        ],
+        [
+          123,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          381
         ]
       ],
       "p": {
@@ -865,14 +849,7 @@
       }
     },
     "0014174": {
-      "e": [
-        [
-          11,
-          "HISPANIDAD - COIA",
-          "16",
-          3372
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.211844516,
         "lon": -8.749287921,
@@ -881,7 +858,20 @@
       }
     },
     "0014180": {
-      "e": [],
+      "e": [
+        [
+          56,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          361
+        ],
+        [
+          141,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          383
+        ]
+      ],
       "p": {
         "lat": 42.224749197,
         "lon": -8.707320585,
@@ -889,24 +879,8 @@
         "sv": 14180
       }
     },
-    "0014189": {
-      "e": [],
-      "p": {
-        "lat": 42.226081487,
-        "lon": -8.654133203,
-        "n": "Rúa Molais  84",
-        "sv": 14189
-      }
-    },
     "001420": {
-      "e": [
-        [
-          14,
-          "RETIRA EN PORTANET",
-          "7",
-          7309
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.201440099,
         "lon": -8.726409762,
@@ -914,55 +888,49 @@
         "sv": 1420
       }
     },
-    "0014202": {
-      "e": [],
-      "p": {
-        "lat": 42.231273786,
-        "lon": -8.700145645,
-        "n": "Rúa de Jenaro de la Fuente  58",
-        "sv": 14202
-      }
-    },
-    "0014203": {
-      "e": [],
-      "p": {
-        "lat": 42.226524401,
-        "lon": -8.661251786,
-        "n": "Avda. do Tranvía S/N (despois Camiño Lugar)",
-        "sv": 14203
-      }
-    },
     "0014223": {
       "e": [
         [
           5,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          1373
-        ],
-        [
-          21,
           "NAVIA por FLORIDA",
           "5A",
-          4669
+          1121
         ],
         [
-          22,
+          9,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          2089
+        ],
+        [
+          10,
           "Avda. do Fragoso, 86",
           "A",
-          9781
+          2764
         ],
         [
-          42,
+          27,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          11537
+          7539
         ],
         [
-          133,
+          71,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          369
+        ],
+        [
+          119,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          336
+          298
+        ],
+        [
+          155,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          385
         ]
       ],
       "p": {
@@ -975,34 +943,46 @@
     "0014224": {
       "e": [
         [
-          7,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          1737
-        ],
-        [
-          22,
+          5,
           "NAVIA por FLORIDA",
           "5A",
-          4986
+          1362
         ],
         [
-          23,
+          9,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          2399
+        ],
+        [
+          11,
           "Avda. do Fragoso, 86",
           "A",
-          10116
+          3083
         ],
         [
-          43,
+          28,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          11833
+          7855
         ],
         [
-          134,
+          72,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          369
+        ],
+        [
+          120,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          336
+          299
+        ],
+        [
+          156,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          385
         ]
       ],
       "p": {
@@ -1015,40 +995,46 @@
     "0014225": {
       "e": [
         [
-          0,
-          "Rúa do Porriño (fronte 9)",
-          "C3i",
-          68
-        ],
-        [
-          8,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          2024
-        ],
-        [
-          22,
+          6,
           "NAVIA por FLORIDA",
           "5A",
-          5271
+          1646
         ],
         [
-          24,
+          10,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          2686
+        ],
+        [
+          12,
           "Avda. do Fragoso, 86",
           "A",
-          10421
+          3375
         ],
         [
-          44,
+          29,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          12106
+          8146
         ],
         [
-          135,
+          73,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          370
+        ],
+        [
+          121,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          336
+          299
+        ],
+        [
+          157,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          385
         ]
       ],
       "p": {
@@ -1061,40 +1047,46 @@
     "0014226": {
       "e": [
         [
-          1,
-          "Rúa do Porriño (fronte 9)",
-          "C3i",
-          339
-        ],
-        [
-          8,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          2235
-        ],
-        [
-          23,
+          7,
           "NAVIA por FLORIDA",
           "5A",
-          5511
+          1889
         ],
         [
-          25,
+          11,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          2924
+        ],
+        [
+          12,
           "Avda. do Fragoso, 86",
           "A",
-          10669
+          3614
         ],
         [
-          44,
+          30,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          12333
+          8387
         ],
         [
-          136,
+          74,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          370
+        ],
+        [
+          121,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          337
+          300
+        ],
+        [
+          158,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          385
         ]
       ],
       "p": {
@@ -1107,40 +1099,46 @@
     "0014227": {
       "e": [
         [
-          2,
-          "Rúa do Porriño (fronte 9)",
-          "C3i",
-          631
-        ],
-        [
-          10,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          2605
-        ],
-        [
-          24,
+          8,
           "NAVIA por FLORIDA",
           "5A",
-          5833
+          2216
         ],
         [
-          26,
+          11,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          3246
+        ],
+        [
+          13,
           "Avda. do Fragoso, 86",
           "A",
-          11005
+          3941
         ],
         [
-          45,
+          30,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          12638
+          8968
         ],
         [
-          137,
+          75,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          371
+        ],
+        [
+          122,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          337
+          300
+        ],
+        [
+          159,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          385
         ]
       ],
       "p": {
@@ -1150,35 +1148,19 @@
         "sv": 14227
       }
     },
-    "0014228": {
-      "e": [
-        [
-          8,
-          "PEINADOR - AEROPORTO",
-          "A",
-          4806
-        ]
-      ],
-      "p": {
-        "lat": 42.221696342,
-        "lon": -8.632840997,
-        "n": "Avda. de Peinador  100",
-        "sv": 14228
-      }
-    },
     "0014245": {
       "e": [
         [
-          37,
+          22,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          9158
+          5828
         ],
         [
-          127,
+          113,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          333
+          294
         ]
       ],
       "p": {
@@ -1189,14 +1171,7 @@
       }
     },
     "0014250": {
-      "e": [
-        [
-          2,
-          "Avda. do Fragoso, 86",
-          "A",
-          1520
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.234914814,
         "lon": -8.658983411,
@@ -1204,63 +1179,37 @@
         "sv": 14250
       }
     },
-    "0014251": {
-      "e": [
-        [
-          1,
-          "PEINADOR - AEROPORTO",
-          "A",
-          905
-        ]
-      ],
-      "p": {
-        "lat": 42.234817602,
-        "lon": -8.65882027,
-        "n": "Avda. do Aeroporto (fronte 463)",
-        "sv": 14251
-      }
-    },
-    "0014255": {
-      "e": [
-        [
-          0,
-          "HISPANIDAD - COIA",
-          "16",
-          56
-        ]
-      ],
-      "p": {
-        "lat": 42.225111918,
-        "lon": -8.726733526,
-        "n": "Rúa do Pintor Colmeiro (Parque do Pintor Colmeiro)",
-        "sv": 14255
-      }
-    },
     "0014264": {
       "e": [
         [
-          3,
-          "REMATA EN PORTANET",
-          "12B",
-          1056
-        ],
-        [
-          9,
-          "URZAIZ - T.VIGO",
-          "N1",
-          2751
-        ],
-        [
-          27,
+          14,
           "PRAZA AMÉRICA",
           "C1",
-          5806
+          3381
         ],
         [
-          95,
+          44,
+          "PRAZA AMÉRICA",
+          "C1",
+          8782
+        ],
+        [
+          44,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          392
+        ],
+        [
+          84,
           "URZAIZ - T.VIGO",
           "N1",
-          24892
+          21531
+        ],
+        [
+          128,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          382
         ]
       ],
       "p": {
@@ -1273,16 +1222,16 @@
     "0014267": {
       "e": [
         [
-          50,
+          35,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          14776
+          11043
         ],
         [
-          143,
+          128,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          339
+          304
         ]
       ],
       "p": {
@@ -1295,16 +1244,16 @@
     "0014299": {
       "e": [
         [
-          54,
+          39,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          16930
+          13071
         ],
         [
-          147,
+          133,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          341
+          306
         ]
       ],
       "p": {
@@ -1314,28 +1263,13 @@
         "sv": 14299
       }
     },
-    "001430": {
-      "e": [],
-      "p": {
-        "lat": 42.203408408,
-        "lon": -8.728817983,
-        "n": "Avda. de Castrelos  318",
-        "sv": 1430
-      }
-    },
     "0014300": {
       "e": [
         [
           13,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          3807
-        ],
-        [
-          29,
           "NAVIA por FLORIDA",
           "5A",
-          7088
+          3417
         ]
       ],
       "p": {
@@ -1345,47 +1279,13 @@
         "sv": 14300
       }
     },
-    "0014302": {
-      "e": [],
-      "p": {
-        "lat": 42.214542094,
-        "lon": -8.696431619,
-        "n": "Estrada Vella de Madrid  7",
-        "sv": 14302
-      }
-    },
-    "0014304": {
-      "e": [],
-      "p": {
-        "lat": 42.221313975,
-        "lon": -8.681944471,
-        "n": "Estrada Vella de Madrid  145",
-        "sv": 14304
-      }
-    },
-    "0014307": {
-      "e": [
-        [
-          1,
-          "HISPANIDAD - COIA",
-          "16",
-          186
-        ]
-      ],
-      "p": {
-        "lat": 42.224464416,
-        "lon": -8.727967343,
-        "n": "Rúa do Pintor Colmeiro  11",
-        "sv": 14307
-      }
-    },
     "0014331": {
       "e": [
         [
-          85,
+          71,
           "URZAIZ - T.VIGO",
           "N1",
-          21475
+          17739
         ]
       ],
       "p": {
@@ -1398,16 +1298,28 @@
     "0014333": {
       "e": [
         [
-          23,
+          9,
           "PRAZA AMÉRICA",
           "C1",
-          4836
+          2264
         ],
         [
-          53,
+          39,
           "PRAZA AMÉRICA",
           "C1",
-          10837
+          7789
+        ],
+        [
+          41,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          391
+        ],
+        [
+          125,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          381
         ]
       ],
       "p": {
@@ -1427,21 +1339,25 @@
       }
     },
     "0014337": {
-      "e": [],
+      "e": [
+        [
+          17,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          379
+        ],
+        [
+          104,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          378
+        ]
+      ],
       "p": {
         "lat": 42.213080218,
         "lon": -8.754660224,
         "n": "Rúa do Limpiño (Rotonda Rúa Teixugueiras)",
         "sv": 14337
-      }
-    },
-    "0014354": {
-      "e": [],
-      "p": {
-        "lat": 42.225911433,
-        "lon": -8.675526243,
-        "n": "Avda. de Ramón Nieto (fronte Igrexa)",
-        "sv": 14354
       }
     },
     "0014355": {
@@ -1456,10 +1372,34 @@
     "0014358": {
       "e": [
         [
-          38,
+          19,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          4926
+        ],
+        [
+          20,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          6721
+        ],
+        [
+          22,
           "NAVIA por FLORIDA",
           "5A",
-          10259
+          6706
+        ],
+        [
+          90,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          375
+        ],
+        [
+          173,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
         ]
       ],
       "p": {
@@ -1472,10 +1412,34 @@
     "0014359": {
       "e": [
         [
-          36,
+          17,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          4489
+        ],
+        [
+          19,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          6272
+        ],
+        [
+          21,
           "NAVIA por FLORIDA",
           "5A",
-          9803
+          6251
+        ],
+        [
+          89,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          374
+        ],
+        [
+          172,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
         ]
       ],
       "p": {
@@ -1486,7 +1450,20 @@
       }
     },
     "0014360": {
-      "e": [],
+      "e": [
+        [
+          15,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          366
+        ],
+        [
+          102,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          378
+        ]
+      ],
       "p": {
         "lat": 42.208965857,
         "lon": -8.757020567,
@@ -1495,7 +1472,20 @@
       }
     },
     "0014361": {
-      "e": [],
+      "e": [
+        [
+          16,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          367
+        ],
+        [
+          103,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          378
+        ]
+      ],
       "p": {
         "lat": 42.209770472,
         "lon": -8.755295907,
@@ -1504,7 +1494,20 @@
       }
     },
     "0014388": {
-      "e": [],
+      "e": [
+        [
+          16,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          368
+        ],
+        [
+          103,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          378
+        ]
+      ],
       "p": {
         "lat": 42.211610124,
         "lon": -8.754550253,
@@ -1515,10 +1518,34 @@
     "0014389": {
       "e": [
         [
-          37,
+          18,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          4717
+        ],
+        [
+          20,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          6507
+        ],
+        [
+          21,
           "NAVIA por FLORIDA",
           "5A",
-          10040
+          6491
+        ],
+        [
+          89,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          375
+        ],
+        [
+          172,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
         ]
       ],
       "p": {
@@ -1526,15 +1553,6 @@
         "lon": -8.755079989,
         "n": "Rúa das Teixugueiras  22",
         "sv": 14389
-      }
-    },
-    "0014391": {
-      "e": [],
-      "p": {
-        "lat": 42.241652296,
-        "lon": -8.655302935,
-        "n": "Rúa do Salgueiro (fronte 38)",
-        "sv": 14391
       }
     },
     "0014392": {
@@ -1549,10 +1567,10 @@
     "0014393": {
       "e": [
         [
-          39,
+          22,
           "NAVIA por FLORIDA",
           "5A",
-          10640
+          6912
         ]
       ],
       "p": {
@@ -1562,37 +1580,19 @@
         "sv": 14393
       }
     },
-    "0014395": {
-      "e": [],
-      "p": {
-        "lat": 42.215601037,
-        "lon": -8.675477665,
-        "n": "Estrada de Madrid  217",
-        "sv": 14395
-      }
-    },
-    "0014396": {
-      "e": [],
-      "p": {
-        "lat": 42.239965365,
-        "lon": -8.708024282,
-        "n": "Avda. de García Barbón  106",
-        "sv": 14396
-      }
-    },
     "0014397": {
       "e": [
         [
-          35,
+          20,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          8337
+          5006
         ],
         [
-          125,
+          110,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          332
+          292
         ]
       ],
       "p": {
@@ -1603,14 +1603,7 @@
       }
     },
     "0014398": {
-      "e": [
-        [
-          9,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          2239
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.22406594,
         "lon": -8.723691036,
@@ -1619,28 +1612,12 @@
       }
     },
     "001440": {
-      "e": [
-        [
-          13,
-          "RETIRA EN PORTANET",
-          "7",
-          6982
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.198480135,
         "lon": -8.723827649,
         "n": "Avda. de Castrelos  339",
         "sv": 1440
-      }
-    },
-    "0014401": {
-      "e": [],
-      "p": {
-        "lat": 42.21072167,
-        "lon": -8.76212542,
-        "n": "Rúa de San Paio (cruce Camiño Barroca)",
-        "sv": 14401
       }
     },
     "0014415": {
@@ -1652,42 +1629,8 @@
         "sv": 14415
       }
     },
-    "0014420": {
-      "e": [],
-      "p": {
-        "lat": 42.201419233,
-        "lon": -8.688526069,
-        "n": "Estrada de Bembrive  318",
-        "sv": 14420
-      }
-    },
-    "001450": {
-      "e": [],
-      "p": {
-        "lat": 42.201044695,
-        "lon": -8.726112037,
-        "n": "Avda. de Castrelos  366",
-        "sv": 1450
-      }
-    },
-    "001460": {
-      "e": [],
-      "p": {
-        "lat": 42.198867605,
-        "lon": -8.72460549,
-        "n": "Avda. de Castrelos  396",
-        "sv": 1460
-      }
-    },
     "001470": {
-      "e": [
-        [
-          12,
-          "RETIRA EN PORTANET",
-          "7",
-          6390
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.194996678,
         "lon": -8.72097155,
@@ -1695,17 +1638,21 @@
         "sv": 1470
       }
     },
-    "001480": {
-      "e": [],
-      "p": {
-        "lat": 42.19015727,
-        "lon": -8.72109012,
-        "n": "Avda. de Castrelos  526",
-        "sv": 1480
-      }
-    },
     "0014890": {
-      "e": [],
+      "e": [
+        [
+          15,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          364
+        ],
+        [
+          102,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          377
+        ]
+      ],
       "p": {
         "lat": 42.207545331,
         "lon": -8.758718406,
@@ -1716,16 +1663,28 @@
     "0014892": {
       "e": [
         [
-          17,
+          3,
           "PRAZA AMÉRICA",
           "C1",
-          3031
+          442
         ],
         [
-          47,
+          33,
           "PRAZA AMÉRICA",
           "C1",
-          8933
+          6134
+        ],
+        [
+          33,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          378
+        ],
+        [
+          118,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          380
         ]
       ],
       "p": {
@@ -1735,28 +1694,19 @@
         "sv": 14892
       }
     },
-    "0014893": {
-      "e": [],
-      "p": {
-        "lat": 42.243157956,
-        "lon": -8.666962176,
-        "n": "Rúa de Manuel Costas Bastos  26",
-        "sv": 14893
-      }
-    },
     "0014894": {
       "e": [
         [
-          17,
+          0,
           "RETIRA EN PORTANET",
           "7",
-          8609
+          90
         ],
         [
-          19,
+          7,
           "REMATA EN PORTANET",
           "12B",
-          5708
+          1917
         ]
       ],
       "p": {
@@ -1767,14 +1717,7 @@
       }
     },
     "001490": {
-      "e": [
-        [
-          17,
-          "RETIRA EN PORTANET",
-          "7",
-          8527
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.210613294,
         "lon": -8.732057664,
@@ -1783,7 +1726,20 @@
       }
     },
     "0014900": {
-      "e": [],
+      "e": [
+        [
+          83,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          373
+        ],
+        [
+          167,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
+        ]
+      ],
       "p": {
         "lat": 42.217196117,
         "lon": -8.743726669,
@@ -1794,10 +1750,10 @@
     "001500": {
       "e": [
         [
-          16,
+          4,
           "REMATA EN PORTANET",
           "12B",
-          4767
+          1341
         ]
       ],
       "p": {
@@ -1817,14 +1773,7 @@
       }
     },
     "00180": {
-      "e": [
-        [
-          5,
-          "RETIRA EN PORTANET",
-          "7",
-          2361
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.166144986,
         "lon": -8.720162371,
@@ -1832,31 +1781,13 @@
         "sv": 180
       }
     },
-    "001850": {
-      "e": [],
-      "p": {
-        "lat": 42.216135691,
-        "lon": -8.759632243,
-        "n": "Avda. de Europa (antes Camiño Freixeiro)",
-        "sv": 1850
-      }
-    },
-    "001860": {
-      "e": [],
-      "p": {
-        "lat": 42.216741568,
-        "lon": -8.757129742,
-        "n": "Avda. de Europa (cruce Rúa da Pardaíña)",
-        "sv": 1860
-      }
-    },
     "001880": {
       "e": [
         [
-          78,
+          63,
           "URZAIZ - T.VIGO",
           "N1",
-          19268
+          15559
         ]
       ],
       "p": {
@@ -1869,10 +1800,10 @@
     "001890": {
       "e": [
         [
-          77,
+          62,
           "URZAIZ - T.VIGO",
           "N1",
-          19024
+          15340
         ]
       ],
       "p": {
@@ -1885,10 +1816,10 @@
     "001900": {
       "e": [
         [
-          76,
+          61,
           "URZAIZ - T.VIGO",
           "N1",
-          18810
+          15088
         ]
       ],
       "p": {
@@ -1901,10 +1832,10 @@
     "001920": {
       "e": [
         [
-          75,
+          60,
           "URZAIZ - T.VIGO",
           "N1",
-          17400
+          13433
         ]
       ],
       "p": {
@@ -1914,49 +1845,13 @@
         "sv": 1920
       }
     },
-    "001930": {
-      "e": [],
-      "p": {
-        "lat": 42.21474886,
-        "lon": -8.69897918,
-        "n": "Estrada de Madrid (fronte Seminario)",
-        "sv": 1930
-      }
-    },
-    "00195": {
-      "e": [],
-      "p": {
-        "lat": 42.256624708,
-        "lon": -8.677490797,
-        "n": "Rúa de Ángel de Lema  247",
-        "sv": 195
-      }
-    },
-    "001970": {
-      "e": [],
-      "p": {
-        "lat": 42.223965709,
-        "lon": -8.710062068,
-        "n": "Avda. de Madrid  57",
-        "sv": 1970
-      }
-    },
-    "002000": {
-      "e": [],
-      "p": {
-        "lat": 42.220728012,
-        "lon": -8.70612292,
-        "n": "Avda. de Madrid  133",
-        "sv": 2000
-      }
-    },
     "0020013": {
       "e": [
         [
-          16,
+          5,
           "REMATA EN PORTANET",
           "12B",
-          4777
+          1419
         ]
       ],
       "p": {
@@ -1967,7 +1862,32 @@
       }
     },
     "0020024": {
-      "e": [],
+      "e": [
+        [
+          19,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          5132
+        ],
+        [
+          21,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          6931
+        ],
+        [
+          90,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          375
+        ],
+        [
+          174,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
+        ]
+      ],
       "p": {
         "lat": 42.207634066,
         "lon": -8.758920861,
@@ -1976,7 +1896,20 @@
       }
     },
     "0020025": {
-      "e": [],
+      "e": [
+        [
+          91,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          375
+        ],
+        [
+          174,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
+        ]
+      ],
       "p": {
         "lat": 42.206553268,
         "lon": -8.760122491,
@@ -1985,7 +1918,20 @@
       }
     },
     "0020026": {
-      "e": [],
+      "e": [
+        [
+          14,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          363
+        ],
+        [
+          101,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          377
+        ]
+      ],
       "p": {
         "lat": 42.206488366,
         "lon": -8.759906624,
@@ -1996,22 +1942,40 @@
     "0020027": {
       "e": [
         [
-          7,
-          "Rúa do Porriño (fronte 9)",
-          "4C",
-          1985
+          3,
+          "BOUZAS por PRAZA AMERICA",
+          "C3d",
+          981
+        ],
+        [
+          14,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          3349
         ],
         [
           16,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          4504
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          5571
         ],
         [
-          39,
+          27,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          9128
+          5847
+        ],
+        [
+          85,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          373
+        ],
+        [
+          169,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
         ]
       ],
       "p": {
@@ -2022,7 +1986,20 @@
       }
     },
     "0020044": {
-      "e": [],
+      "e": [
+        [
+          24,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          355
+        ],
+        [
+          110,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          379
+        ]
+      ],
       "p": {
         "lat": 42.215220874,
         "lon": -8.742680967,
@@ -2031,14 +2008,7 @@
       }
     },
     "0020052": {
-      "e": [
-        [
-          8,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          2341
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.232748414,
         "lon": -8.702539655,
@@ -2056,7 +2026,14 @@
       }
     },
     "0020057": {
-      "e": [],
+      "e": [
+        [
+          2,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          0
+        ]
+      ],
       "p": {
         "lat": 42.238843911,
         "lon": -8.713008504,
@@ -2065,7 +2042,14 @@
       }
     },
     "0020058": {
-      "e": [],
+      "e": [
+        [
+          3,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          103
+        ]
+      ],
       "p": {
         "lat": 42.238435471,
         "lon": -8.714413687,
@@ -2074,7 +2058,20 @@
       }
     },
     "0020061": {
-      "e": [],
+      "e": [
+        [
+          22,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          353
+        ],
+        [
+          108,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          379
+        ]
+      ],
       "p": {
         "lat": 42.217568173,
         "lon": -8.744018511,
@@ -2085,10 +2082,22 @@
     "0020075": {
       "e": [
         [
-          81,
+          22,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          391
+        ],
+        [
+          66,
           "URZAIZ - T.VIGO",
           "N1",
-          20014
+          16326
+        ],
+        [
+          108,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          379
         ]
       ],
       "p": {
@@ -2101,10 +2110,10 @@
     "0020076": {
       "e": [
         [
-          82,
+          67,
           "URZAIZ - T.VIGO",
           "N1",
-          20467
+          16767
         ]
       ],
       "p": {
@@ -2117,22 +2126,28 @@
     "0020077": {
       "e": [
         [
-          4,
-          "Rúa do Porriño (fronte 9)",
-          "4C",
-          1156
-        ],
-        [
-          14,
+          0,
           "BOUZAS por PRAZA AMERICA",
           "C3d",
-          3574
+          96
         ],
         [
-          36,
+          12,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          2375
+        ],
+        [
+          15,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          4726
+        ],
+        [
+          23,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          8218
+          5012
         ]
       ],
       "p": {
@@ -2145,16 +2160,10 @@
     "0020078": {
       "e": [
         [
-          1,
+          76,
           "URZAIZ - T.VIGO",
           "N1",
-          544
-        ],
-        [
-          88,
-          "URZAIZ - T.VIGO",
-          "N1",
-          22693
+          18746
         ]
       ],
       "p": {
@@ -2167,16 +2176,16 @@
     "0020079": {
       "e": [
         [
-          8,
-          "REMATA EN PORTANET",
-          "12B",
-          2589
+          1,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          196
         ],
         [
-          26,
+          12,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          6383
+          2838
         ]
       ],
       "p": {
@@ -2202,87 +2211,6 @@
         "lon": -8.751396835,
         "n": "Porriño - Padre Seixas ©",
         "sv": 20089
-      }
-    },
-    "0020091": {
-      "e": [],
-      "p": {
-        "lat": 42.238164803,
-        "lon": -8.711212761,
-        "n": "Camiño da Miragaia  11-13",
-        "sv": 20091
-      }
-    },
-    "0020095": {
-      "e": [],
-      "p": {
-        "lat": 42.219212419,
-        "lon": -8.685836356,
-        "n": "Estrada Vella de Madrid  107A",
-        "sv": 20095
-      }
-    },
-    "002010": {
-      "e": [],
-      "p": {
-        "lat": 42.218213283,
-        "lon": -8.703163426,
-        "n": "Avda. de Madrid  195",
-        "sv": 2010
-      }
-    },
-    "002040": {
-      "e": [],
-      "p": {
-        "lat": 42.226835791,
-        "lon": -8.715823453,
-        "n": "Avda. de Madrid (trasera Colexio Hogar)",
-        "sv": 2040
-      }
-    },
-    "002060": {
-      "e": [],
-      "p": {
-        "lat": 42.259945558,
-        "lon": -8.672608434,
-        "n": "Avda. de Redondela  122",
-        "sv": 2060
-      }
-    },
-    "002090": {
-      "e": [],
-      "p": {
-        "lat": 42.272074281,
-        "lon": -8.664593691,
-        "n": "Avda. de Redondela  32",
-        "sv": 2090
-      }
-    },
-    "002110": {
-      "e": [],
-      "p": {
-        "lat": 42.263286688,
-        "lon": -8.668985036,
-        "n": "Avda. de Redondela  70",
-        "sv": 2110
-      }
-    },
-    "002130": {
-      "e": [],
-      "p": {
-        "lat": 42.266758811,
-        "lon": -8.667247828,
-        "n": "Avda. de Redondela (Instituto)",
-        "sv": 2130
-      }
-    },
-    "00220": {
-      "e": [],
-      "p": {
-        "lat": 42.252694363,
-        "lon": -8.68302903,
-        "n": "Rúa de Ángel de Lema  163",
-        "sv": 220
       }
     },
     "002210": {
@@ -2321,42 +2249,6 @@
         "sv": 2270
       }
     },
-    "002320": {
-      "e": [],
-      "p": {
-        "lat": 42.172541892,
-        "lon": -8.809133287,
-        "n": "Baixada á Praia  121",
-        "sv": 2320
-      }
-    },
-    "002330": {
-      "e": [],
-      "p": {
-        "lat": 42.173316968,
-        "lon": -8.81100291,
-        "n": "Avda. de Ricardo Mella  357",
-        "sv": 2330
-      }
-    },
-    "002360": {
-      "e": [],
-      "p": {
-        "lat": 42.167825345,
-        "lon": -8.806386831,
-        "n": "Baixada á Praia (Parque C.Cívico)",
-        "sv": 2360
-      }
-    },
-    "002380": {
-      "e": [],
-      "p": {
-        "lat": 42.169719111,
-        "lon": -8.808832324,
-        "n": "Baixada á Praia  101",
-        "sv": 2380
-      }
-    },
     "00240": {
       "e": [],
       "p": {
@@ -2369,16 +2261,16 @@
     "002430": {
       "e": [
         [
-          8,
+          23,
           "PRAZA AMÉRICA",
           "C1",
-          1830
+          5247
         ],
         [
-          36,
+          53,
           "PRAZA AMÉRICA",
           "C1",
-          7780
+          10738
         ]
       ],
       "p": {
@@ -2391,16 +2283,16 @@
     "002440": {
       "e": [
         [
-          6,
+          21,
           "PRAZA AMÉRICA",
           "C1",
-          1307
+          4531
         ],
         [
-          34,
+          51,
           "PRAZA AMÉRICA",
           "C1",
-          7184
+          10131
         ]
       ],
       "p": {
@@ -2413,16 +2305,16 @@
     "002450": {
       "e": [
         [
-          7,
+          22,
           "PRAZA AMÉRICA",
           "C1",
-          1568
+          4800
         ],
         [
-          35,
+          52,
           "PRAZA AMÉRICA",
           "C1",
-          7447
+          10400
         ]
       ],
       "p": {
@@ -2432,47 +2324,13 @@
         "sv": 2450
       }
     },
-    "002490": {
-      "e": [],
-      "p": {
-        "lat": 42.194635725,
-        "lon": -8.699504032,
-        "n": "Rúa das Coutadas  57",
-        "sv": 2490
-      }
-    },
-    "00250": {
-      "e": [],
-      "p": {
-        "lat": 42.255252085,
-        "lon": -8.679480662,
-        "n": "Rúa de Ángel de Lema  221",
-        "sv": 250
-      }
-    },
     "002510": {
-      "e": [
-        [
-          11,
-          "RETIRA EN PORTANET",
-          "7",
-          5964
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.191323803,
         "lon": -8.721049887,
         "n": "Avda. de Castrelos  439",
         "sv": 2510
-      }
-    },
-    "002520": {
-      "e": [],
-      "p": {
-        "lat": 42.204563665,
-        "lon": -8.687025359,
-        "n": "Estrada de Bembrive  238",
-        "sv": 2520
       }
     },
     "00260": {
@@ -2487,10 +2345,10 @@
     "002780": {
       "e": [
         [
-          85,
+          70,
           "URZAIZ - T.VIGO",
           "N1",
-          21250
+          17488
         ]
       ],
       "p": {
@@ -2503,16 +2361,10 @@
     "002790": {
       "e": [
         [
-          1,
+          75,
           "URZAIZ - T.VIGO",
           "N1",
-          365
-        ],
-        [
-          87,
-          "URZAIZ - T.VIGO",
-          "N1",
-          22474
+          18679
         ]
       ],
       "p": {
@@ -2525,16 +2377,16 @@
     "002800": {
       "e": [
         [
-          10,
-          "REMATA EN PORTANET",
-          "12B",
-          3067
+          3,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          623
         ],
         [
-          28,
+          15,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          6663
+          3286
         ]
       ],
       "p": {
@@ -2547,16 +2399,16 @@
     "002810": {
       "e": [
         [
-          11,
-          "REMATA EN PORTANET",
-          "12B",
-          3395
+          5,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          942
         ],
         [
-          29,
+          16,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          6908
+          3607
         ]
       ],
       "p": {
@@ -2569,10 +2421,10 @@
     "002820": {
       "e": [
         [
-          86,
+          73,
           "URZAIZ - T.VIGO",
           "N1",
-          22107
+          18407
         ]
       ],
       "p": {
@@ -2585,10 +2437,10 @@
     "002830": {
       "e": [
         [
-          20,
+          7,
           "BOUZAS por PRAZA AMERICA",
           "C3d",
-          5612
+          1970
         ]
       ],
       "p": {
@@ -2598,88 +2450,13 @@
         "sv": 2830
       }
     },
-    "002840": {
-      "e": [],
-      "p": {
-        "lat": 42.241698248,
-        "lon": -8.665209215,
-        "n": "Rúa da Goleta  3",
-        "sv": 2840
-      }
-    },
-    "002950": {
-      "e": [],
-      "p": {
-        "lat": 42.204307169,
-        "lon": -8.729719236,
-        "n": "Rúa dos Canteiros  4",
-        "sv": 2950
-      }
-    },
-    "002970": {
-      "e": [
-        [
-          2,
-          "MATAMÁ",
-          "17",
-          515
-        ]
-      ],
-      "p": {
-        "lat": 42.201317829,
-        "lon": -8.735636365,
-        "n": "Rúa dos Canteiros  116",
-        "sv": 2970
-      }
-    },
-    "002980": {
-      "e": [
-        [
-          2,
-          "MATAMÁ",
-          "17",
-          819
-        ]
-      ],
-      "p": {
-        "lat": 42.200758846,
-        "lon": -8.739043037,
-        "n": "Rúa dos Canteiros  164",
-        "sv": 2980
-      }
-    },
-    "003020": {
-      "e": [
-        [
-          1,
-          "MATAMÁ",
-          "17",
-          327
-        ]
-      ],
-      "p": {
-        "lat": 42.201218481,
-        "lon": -8.733509374,
-        "n": "Rúa dos Canteiros  76",
-        "sv": 3020
-      }
-    },
-    "003030": {
-      "e": [],
-      "p": {
-        "lat": 42.194702579,
-        "lon": -8.721025195,
-        "n": "Avda. de Castrelos  458",
-        "sv": 3030
-      }
-    },
     "003130": {
       "e": [
         [
-          27,
+          9,
           "Avda. de Ricardo Mella, 518",
           "11",
-          10600
+          6220
         ]
       ],
       "p": {
@@ -2692,22 +2469,34 @@
     "003240": {
       "e": [
         [
-          12,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          3278
-        ],
-        [
-          27,
+          11,
           "NAVIA por FLORIDA",
           "5A",
-          6535
+          2848
         ],
         [
-          28,
+          13,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          4069
+        ],
+        [
+          16,
           "Avda. do Fragoso, 86",
           "A",
-          11780
+          4633
+        ],
+        [
+          78,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          372
+        ],
+        [
+          162,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
         ]
       ],
       "p": {
@@ -2720,16 +2509,28 @@
     "003250": {
       "e": [
         [
-          16,
+          2,
           "PRAZA AMÉRICA",
           "C1",
-          2781
+          165
         ],
         [
-          46,
+          32,
           "PRAZA AMÉRICA",
           "C1",
-          8674
+          6025
+        ],
+        [
+          32,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          380
+        ],
+        [
+          117,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          381
         ]
       ],
       "p": {
@@ -2739,33 +2540,8 @@
         "sv": 3250
       }
     },
-    "003380": {
-      "e": [],
-      "p": {
-        "lat": 42.205623108,
-        "lon": -8.693239335,
-        "n": "Cruce Eifonso",
-        "sv": 3380
-      }
-    },
-    "003390": {
-      "e": [],
-      "p": {
-        "lat": 42.205296644,
-        "lon": -8.692558914,
-        "n": "Estrada de Bembrive  160",
-        "sv": 3390
-      }
-    },
     "00340": {
-      "e": [
-        [
-          3,
-          "ARAGÓN por URZÁIZ",
-          "4A",
-          725
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.238036494,
         "lon": -8.700921187,
@@ -2773,38 +2549,13 @@
         "sv": 340
       }
     },
-    "003400": {
-      "e": [
-        [
-          1,
-          "SEOANE por CAMELIAS",
-          "7",
-          301
-        ]
-      ],
-      "p": {
-        "lat": 42.163584451,
-        "lon": -8.716088728,
-        "n": "Estrada da Gándara  22",
-        "sv": 3400
-      }
-    },
-    "003420": {
-      "e": [],
-      "p": {
-        "lat": 42.208071495,
-        "lon": -8.731366082,
-        "n": "Avda. de Castrelos (Cemiterio de Pereiró)",
-        "sv": 3420
-      }
-    },
     "003470": {
       "e": [
         [
-          21,
+          6,
           "Avda. de Ricardo Mella, 518",
           "11",
-          7942
+          3769
         ]
       ],
       "p": {
@@ -2815,14 +2566,7 @@
       }
     },
     "00350": {
-      "e": [
-        [
-          4,
-          "ARAGÓN por URZÁIZ",
-          "4A",
-          1022
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.240488915,
         "lon": -8.700357923,
@@ -2833,10 +2577,10 @@
     "003500": {
       "e": [
         [
-          21,
+          6,
           "Avda. de Ricardo Mella, 518",
           "11",
-          7735
+          3561
         ]
       ],
       "p": {
@@ -2849,10 +2593,10 @@
     "003510": {
       "e": [
         [
-          18,
+          4,
           "Avda. de Ricardo Mella, 518",
           "11",
-          6099
+          1920
         ]
       ],
       "p": {
@@ -2865,10 +2609,10 @@
     "003530": {
       "e": [
         [
-          19,
+          4,
           "Avda. de Ricardo Mella, 518",
           "11",
-          6700
+          2522
         ]
       ],
       "p": {
@@ -2881,10 +2625,10 @@
     "003540": {
       "e": [
         [
-          20,
+          5,
           "Avda. de Ricardo Mella, 518",
           "11",
-          7352
+          3175
         ]
       ],
       "p": {
@@ -2894,33 +2638,8 @@
         "sv": 3540
       }
     },
-    "003550": {
-      "e": [],
-      "p": {
-        "lat": 42.19747765,
-        "lon": -8.688158543,
-        "n": "Estrada de Bembrive (cruce Camiño Cova)",
-        "sv": 3550
-      }
-    },
-    "003580": {
-      "e": [],
-      "p": {
-        "lat": 42.204440318,
-        "lon": -8.690871804,
-        "n": "Estrada de Bembrive  180",
-        "sv": 3580
-      }
-    },
     "00360": {
-      "e": [
-        [
-          6,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          1769
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.24013184,
         "lon": -8.700947033,
@@ -2928,42 +2647,8 @@
         "sv": 360
       }
     },
-    "003620": {
-      "e": [],
-      "p": {
-        "lat": 42.202562995,
-        "lon": -8.685437577,
-        "n": "Estrada de Bembrive  278",
-        "sv": 3620
-      }
-    },
-    "003650": {
-      "e": [],
-      "p": {
-        "lat": 42.199275919,
-        "lon": -8.689032944,
-        "n": "Estrada de Bembrive  346",
-        "sv": 3650
-      }
-    },
-    "003670": {
-      "e": [],
-      "p": {
-        "lat": 42.194968863,
-        "lon": -8.689201981,
-        "n": "Estrada de Bembrive  398",
-        "sv": 3670
-      }
-    },
     "00370": {
-      "e": [
-        [
-          4,
-          "ARAGÓN por URZÁIZ",
-          "4A",
-          1140
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.242101304,
         "lon": -8.698394546,
@@ -2971,22 +2656,13 @@
         "sv": 370
       }
     },
-    "003700": {
-      "e": [],
-      "p": {
-        "lat": 42.194055385,
-        "lon": -8.692079677,
-        "n": "Estrada de Bembrive (cruce Camiño Riomao)",
-        "sv": 3700
-      }
-    },
     "003750": {
       "e": [
         [
-          27,
+          9,
           "Avda. de Ricardo Mella, 518",
           "11",
-          10208
+          5866
         ]
       ],
       "p": {
@@ -2999,10 +2675,10 @@
     "003760": {
       "e": [
         [
-          26,
+          8,
           "Avda. de Ricardo Mella, 518",
           "11",
-          9835
+          5487
         ]
       ],
       "p": {
@@ -3013,14 +2689,7 @@
       }
     },
     "00380": {
-      "e": [
-        [
-          5,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          1354
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.242091376,
         "lon": -8.698668131,
@@ -3028,49 +2697,8 @@
         "sv": 380
       }
     },
-    "00390": {
-      "e": [
-        [
-          1,
-          "ARAGÓN por URZÁIZ",
-          "4A",
-          155
-        ]
-      ],
-      "p": {
-        "lat": 42.233174046,
-        "lon": -8.702380309,
-        "n": "Rúa de Aragón  26",
-        "sv": 390
-      }
-    },
-    "003920": {
-      "e": [],
-      "p": {
-        "lat": 42.195725689,
-        "lon": -8.697154293,
-        "n": "Estrada da Coutada  65",
-        "sv": 3920
-      }
-    },
-    "003970": {
-      "e": [],
-      "p": {
-        "lat": 42.215872123,
-        "lon": -8.679765298,
-        "n": "Estrada Vella de Madrid  190",
-        "sv": 3970
-      }
-    },
     "00400": {
-      "e": [
-        [
-          8,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          2148
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.235598195,
         "lon": -8.701426538,
@@ -3079,14 +2707,7 @@
       }
     },
     "004060": {
-      "e": [
-        [
-          4,
-          "RETIRA EN PORTANET",
-          "7",
-          1863
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.164326088,
         "lon": -8.716892619,
@@ -3095,14 +2716,7 @@
       }
     },
     "004070": {
-      "e": [
-        [
-          3,
-          "RETIRA EN PORTANET",
-          "7",
-          1506
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.162254659,
         "lon": -8.713740793,
@@ -3110,31 +2724,8 @@
         "sv": 4070
       }
     },
-    "004080": {
-      "e": [
-        [
-          1,
-          "SEOANE por CAMELIAS",
-          "7",
-          510
-        ]
-      ],
-      "p": {
-        "lat": 42.162252671,
-        "lon": -8.71400365,
-        "n": "Estrada da Gándara  48",
-        "sv": 4080
-      }
-    },
     "00410": {
-      "e": [
-        [
-          1,
-          "ARAGÓN por URZÁIZ",
-          "4A",
-          427
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.235524387,
         "lon": -8.701248417,
@@ -3143,14 +2734,7 @@
       }
     },
     "00420": {
-      "e": [
-        [
-          7,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          2003
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.238092485,
         "lon": -8.701156245,
@@ -3161,34 +2745,40 @@
     "00430": {
       "e": [
         [
-          1,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          240
+          6,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          945
         ],
         [
-          17,
-          "NAVIA por FLORIDA",
-          "5A",
-          3517
-        ],
-        [
-          19,
+          7,
           "Avda. do Fragoso, 86",
           "A",
-          8657
+          1607
         ],
         [
-          40,
+          25,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          9819
+          6471
         ],
         [
-          130,
+          67,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          369
+        ],
+        [
+          115,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          335
+          296
+        ],
+        [
+          151,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          385
         ]
       ],
       "p": {
@@ -3199,14 +2789,7 @@
       }
     },
     "004560": {
-      "e": [
-        [
-          8,
-          "RETIRA EN PORTANET",
-          "7",
-          4031
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.177017792,
         "lon": -8.721519832,
@@ -3214,33 +2797,8 @@
         "sv": 4560
       }
     },
-    "004570": {
-      "e": [],
-      "p": {
-        "lat": 42.183987864,
-        "lon": -8.724154939,
-        "n": "Estrada de Valadares  100",
-        "sv": 4570
-      }
-    },
-    "004580": {
-      "e": [],
-      "p": {
-        "lat": 42.180249473,
-        "lon": -8.721850007,
-        "n": "Estrada de Valadares  146",
-        "sv": 4580
-      }
-    },
     "004590": {
-      "e": [
-        [
-          8,
-          "RETIRA EN PORTANET",
-          "7",
-          4464
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.180670846,
         "lon": -8.721533506,
@@ -3248,33 +2806,8 @@
         "sv": 4590
       }
     },
-    "004600": {
-      "e": [],
-      "p": {
-        "lat": 42.176419487,
-        "lon": -8.72197849,
-        "n": "Estrada de Valadares  212",
-        "sv": 4600
-      }
-    },
-    "004610": {
-      "e": [],
-      "p": {
-        "lat": 42.172481228,
-        "lon": -8.723905842,
-        "n": "Estrada de Valadares  262",
-        "sv": 4610
-      }
-    },
     "004620": {
-      "e": [
-        [
-          7,
-          "RETIRA EN PORTANET",
-          "7",
-          3411
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.172330151,
         "lon": -8.723766367,
@@ -3282,24 +2815,8 @@
         "sv": 4620
       }
     },
-    "004630": {
-      "e": [],
-      "p": {
-        "lat": 42.165721529,
-        "lon": -8.720146278,
-        "n": "Estrada de Valadares  406",
-        "sv": 4630
-      }
-    },
     "004640": {
-      "e": [
-        [
-          10,
-          "RETIRA EN PORTANET",
-          "7",
-          5331
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.18659932,
         "lon": -8.719619913,
@@ -3307,24 +2824,8 @@
         "sv": 4640
       }
     },
-    "004650": {
-      "e": [],
-      "p": {
-        "lat": 42.186641056,
-        "lon": -8.719853265,
-        "n": "Estrada de Valadares  48",
-        "sv": 4650
-      }
-    },
     "004660": {
-      "e": [
-        [
-          9,
-          "RETIRA EN PORTANET",
-          "7",
-          4787
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.183997801,
         "lon": -8.723857214,
@@ -3335,10 +2836,10 @@
     "004680": {
       "e": [
         [
-          23,
+          7,
           "Avda. de Ricardo Mella, 518",
           "11",
-          9130
+          4964
         ]
       ],
       "p": {
@@ -3351,10 +2852,10 @@
     "004700": {
       "e": [
         [
-          22,
+          6,
           "Avda. de Ricardo Mella, 518",
           "11",
-          8315
+          4146
         ]
       ],
       "p": {
@@ -3367,10 +2868,10 @@
     "004720": {
       "e": [
         [
-          23,
+          7,
           "Avda. de Ricardo Mella, 518",
           "11",
-          8710
+          4542
         ]
       ],
       "p": {
@@ -3383,10 +2884,10 @@
     "004740": {
       "e": [
         [
-          24,
+          8,
           "Avda. de Ricardo Mella, 518",
           "11",
-          9574
+          5411
         ]
       ],
       "p": {
@@ -3396,62 +2897,21 @@
         "sv": 4740
       }
     },
-    "004790": {
-      "e": [],
-      "p": {
-        "lat": 42.220436017,
-        "lon": -8.683690589,
-        "n": "Estrada Vella de Madrid  123",
-        "sv": 4790
-      }
-    },
-    "004810": {
-      "e": [],
-      "p": {
-        "lat": 42.21827574,
-        "lon": -8.679588272,
-        "n": "Estrada Vella de Madrid  177",
-        "sv": 4810
-      }
-    },
-    "004820": {
-      "e": [],
-      "p": {
-        "lat": 42.216687676,
-        "lon": -8.693917852,
-        "n": "Estrada Vella de Madrid  31",
-        "sv": 4820
-      }
-    },
-    "004830": {
-      "e": [],
-      "p": {
-        "lat": 42.218719793,
-        "lon": -8.690012555,
-        "n": "Estrada Vella de Madrid  81",
-        "sv": 4830
-      }
-    },
-    "004930": {
-      "e": [],
-      "p": {
-        "lat": 42.246018558,
-        "lon": -8.669287042,
-        "n": "Travesía da Devesa (Asociación Veciños)",
-        "sv": 4930
-      }
-    },
-    "004940": {
-      "e": [],
-      "p": {
-        "lat": 42.245450719,
-        "lon": -8.672406783,
-        "n": "Camiño da Devesa (fronte 55)",
-        "sv": 4940
-      }
-    },
     "005060": {
-      "e": [],
+      "e": [
+        [
+          26,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          368
+        ],
+        [
+          112,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          380
+        ]
+      ],
       "p": {
         "lat": 42.212676247,
         "lon": -8.739585545,
@@ -3468,51 +2928,6 @@
         "sv": 5170
       }
     },
-    "005180": {
-      "e": [],
-      "p": {
-        "lat": 42.224562288,
-        "lon": -8.66579419,
-        "n": "Rúa das Figueiras  96",
-        "sv": 5180
-      }
-    },
-    "005190": {
-      "e": [],
-      "p": {
-        "lat": 42.226051942,
-        "lon": -8.663629647,
-        "n": "Rúa das Figueiras  124",
-        "sv": 5190
-      }
-    },
-    "005200": {
-      "e": [],
-      "p": {
-        "lat": 42.227533616,
-        "lon": -8.661561664,
-        "n": "Rúa das Figueiras  138",
-        "sv": 5200
-      }
-    },
-    "005220": {
-      "e": [],
-      "p": {
-        "lat": 42.228984217,
-        "lon": -8.658438326,
-        "n": "Rúa das Figueiras  190",
-        "sv": 5220
-      }
-    },
-    "005230": {
-      "e": [],
-      "p": {
-        "lat": 42.230261894,
-        "lon": -8.653683012,
-        "n": "Rúa das Figueiras  254",
-        "sv": 5230
-      }
-    },
     "005250": {
       "e": [],
       "p": {
@@ -3520,15 +2935,6 @@
         "lon": -8.667374011,
         "n": "Rúa das Figueiras  29",
         "sv": 5250
-      }
-    },
-    "005260": {
-      "e": [],
-      "p": {
-        "lat": 42.222838218,
-        "lon": -8.667795118,
-        "n": "Rúa das Figueiras  22",
-        "sv": 5260
       }
     },
     "005270": {
@@ -3552,16 +2958,16 @@
     "005290": {
       "e": [
         [
-          15,
+          0,
           "Avda. de Ricardo Mella, 518",
           "11",
-          4340
+          146
         ],
         [
-          31,
+          14,
           "NAVIA por FLORIDA",
           "5A",
-          7611
+          3925
         ]
       ],
       "p": {
@@ -3574,16 +2980,16 @@
     "005310": {
       "e": [
         [
-          17,
+          3,
           "Avda. de Ricardo Mella, 518",
           "11",
-          5422
+          1239
         ],
         [
-          34,
+          18,
           "NAVIA por FLORIDA",
           "5A",
-          8690
+          5136
         ]
       ],
       "p": {
@@ -3596,16 +3002,10 @@
     "005350": {
       "e": [
         [
-          14,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          4053
-        ],
-        [
-          30,
+          13,
           "NAVIA por FLORIDA",
           "5A",
-          7323
+          3639
         ]
       ],
       "p": {
@@ -3618,16 +3018,16 @@
     "005360": {
       "e": [
         [
-          16,
+          1,
           "Avda. de Ricardo Mella, 518",
           "11",
-          4702
+          509
         ],
         [
-          32,
+          15,
           "NAVIA por FLORIDA",
           "5A",
-          7972
+          4283
         ]
       ],
       "p": {
@@ -3640,16 +3040,10 @@
     "005380": {
       "e": [
         [
-          13,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          3574
-        ],
-        [
-          28,
+          12,
           "NAVIA por FLORIDA",
           "5A",
-          6845
+          3176
         ]
       ],
       "p": {
@@ -3660,7 +3054,20 @@
       }
     },
     "005400": {
-      "e": [],
+      "e": [
+        [
+          27,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          369
+        ],
+        [
+          113,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          380
+        ]
+      ],
       "p": {
         "lat": 42.213518168,
         "lon": -8.737719785,
@@ -3671,16 +3078,22 @@
     "005410": {
       "e": [
         [
-          4,
-          "HISPANIDAD - COIA",
-          "16",
-          1174
-        ],
-        [
-          29,
+          17,
           "Avda. do Fragoso, 86",
           "A",
-          12068
+          4933
+        ],
+        [
+          79,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          372
+        ],
+        [
+          163,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
         ]
       ],
       "p": {
@@ -3691,7 +3104,20 @@
       }
     },
     "005420": {
-      "e": [],
+      "e": [
+        [
+          31,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          378
+        ],
+        [
+          116,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          381
+        ]
+      ],
       "p": {
         "lat": 42.220297406,
         "lon": -8.732924981,
@@ -3702,16 +3128,22 @@
     "005430": {
       "e": [
         [
-          5,
-          "HISPANIDAD - COIA",
-          "16",
-          1449
-        ],
-        [
-          30,
+          17,
           "Avda. do Fragoso, 86",
           "A",
-          12343
+          5206
+        ],
+        [
+          80,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          373
+        ],
+        [
+          164,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
         ]
       ],
       "p": {
@@ -3722,7 +3154,20 @@
       }
     },
     "005440": {
-      "e": [],
+      "e": [
+        [
+          29,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          371
+        ],
+        [
+          115,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          380
+        ]
+      ],
       "p": {
         "lat": 42.217288508,
         "lon": -8.73454375,
@@ -3733,16 +3178,22 @@
     "005450": {
       "e": [
         [
-          6,
-          "HISPANIDAD - COIA",
-          "16",
-          1711
-        ],
-        [
-          30,
+          18,
           "Avda. do Fragoso, 86",
           "A",
-          12604
+          5465
+        ],
+        [
+          80,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          373
+        ],
+        [
+          164,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
         ]
       ],
       "p": {
@@ -3753,7 +3204,20 @@
       }
     },
     "005460": {
-      "e": [],
+      "e": [
+        [
+          28,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          370
+        ],
+        [
+          114,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          380
+        ]
+      ],
       "p": {
         "lat": 42.215301002,
         "lon": -8.736123434,
@@ -3764,10 +3228,16 @@
     "005470": {
       "e": [
         [
-          7,
-          "HISPANIDAD - COIA",
-          "16",
-          2191
+          81,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          373
+        ],
+        [
+          165,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
         ]
       ],
       "p": {
@@ -3780,16 +3250,16 @@
     "005490": {
       "e": [
         [
-          34,
+          19,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          8298
+          4674
         ],
         [
-          124,
+          109,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          332
+          292
         ]
       ],
       "p": {
@@ -3799,28 +3269,19 @@
         "sv": 5490
       }
     },
-    "005500": {
-      "e": [],
-      "p": {
-        "lat": 42.24178025,
-        "lon": -8.706720936,
-        "n": "Avda. de García Barbón  126",
-        "sv": 5500
-      }
-    },
     "005510": {
       "e": [
         [
-          36,
+          21,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          8618
+          5275
         ],
         [
-          126,
+          111,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          333
+          293
         ]
       ],
       "p": {
@@ -3833,40 +3294,46 @@
     "005520": {
       "e": [
         [
-          2,
-          "REMATA EN PORTANET",
-          "12B",
-          702
-        ],
-        [
-          15,
-          "NAVIA por FLORIDA",
-          "5A",
-          3131
-        ],
-        [
-          17,
+          5,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          4292
+          1021
         ],
         [
-          17,
+          5,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          675
+        ],
+        [
+          5,
           "Avda. do Fragoso, 86",
           "A",
-          8184
+          1225
         ],
         [
-          38,
+          23,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          9432
+          6095
         ],
         [
-          128,
+          65,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          367
+        ],
+        [
+          114,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          334
+          295
+        ],
+        [
+          150,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          385
         ]
       ],
       "p": {
@@ -3879,16 +3346,16 @@
     "005570": {
       "e": [
         [
-          37,
+          22,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          8950
+          5610
         ],
         [
-          127,
+          112,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          333
+          294
         ]
       ],
       "p": {
@@ -3896,24 +3363,6 @@
         "lon": -8.713586994,
         "n": "Avda. de García Barbón  87",
         "sv": 5570
-      }
-    },
-    "005580": {
-      "e": [],
-      "p": {
-        "lat": 42.238267348,
-        "lon": -8.709873166,
-        "n": "Avda. de García Barbón  90",
-        "sv": 5580
-      }
-    },
-    "005590": {
-      "e": [],
-      "p": {
-        "lat": 42.213057463,
-        "lon": -8.670479203,
-        "n": "Avda. da Ponte (Grupo S. Gorxal)",
-        "sv": 5590
       }
     },
     "00560": {
@@ -3928,28 +3377,22 @@
     "005610": {
       "e": [
         [
-          3,
-          "PRAZA AMÉRICA",
-          "C1",
-          449
-        ],
-        [
-          5,
-          "REMATA EN PORTANET",
-          "12B",
-          1448
-        ],
-        [
-          21,
+          8,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          5099
+          1653
         ],
         [
-          30,
+          17,
           "PRAZA AMÉRICA",
           "C1",
-          6311
+          3656
+        ],
+        [
+          47,
+          "PRAZA AMÉRICA",
+          "C1",
+          9262
         ]
       ],
       "p": {
@@ -3960,14 +3403,7 @@
       }
     },
     "005620": {
-      "e": [
-        [
-          10,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          2449
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.222321607,
         "lon": -8.726440421,
@@ -3976,14 +3412,7 @@
       }
     },
     "005640": {
-      "e": [
-        [
-          11,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          2801
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.220868033,
         "lon": -8.730264447,
@@ -3994,16 +3423,10 @@
     "005660": {
       "e": [
         [
-          5,
+          81,
           "URZAIZ - T.VIGO",
           "N1",
-          1765
-        ],
-        [
-          92,
-          "URZAIZ - T.VIGO",
-          "N1",
-          23967
+          20186
         ]
       ],
       "p": {
@@ -4016,16 +3439,16 @@
     "005670": {
       "e": [
         [
-          4,
+          19,
           "PRAZA AMÉRICA",
           "C1",
-          752
+          3961
         ],
         [
-          32,
+          49,
           "PRAZA AMÉRICA",
           "C1",
-          6624
+          9566
         ]
       ],
       "p": {
@@ -4036,14 +3459,7 @@
       }
     },
     "005680": {
-      "e": [
-        [
-          7,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          1717
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.228173802,
         "lon": -8.720267623,
@@ -4052,14 +3468,7 @@
       }
     },
     "005700": {
-      "e": [
-        [
-          8,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          2094
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.225325884,
         "lon": -8.722106624,
@@ -4067,17 +3476,21 @@
         "sv": 5700
       }
     },
-    "00572": {
-      "e": [],
-      "p": {
-        "lat": 42.214058797,
-        "lon": -8.672946954,
-        "n": "Estrada de Madrid  210",
-        "sv": 572
-      }
-    },
     "005740": {
-      "e": [],
+      "e": [
+        [
+          58,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          364
+        ],
+        [
+          143,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          384
+        ]
+      ],
       "p": {
         "lat": 42.227831786,
         "lon": -8.707855407,
@@ -4086,7 +3499,20 @@
       }
     },
     "005750": {
-      "e": [],
+      "e": [
+        [
+          58,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          363
+        ],
+        [
+          143,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          384
+        ]
+      ],
       "p": {
         "lat": 42.225785485,
         "lon": -8.708786105,
@@ -4095,14 +3521,7 @@
       }
     },
     "005760": {
-      "e": [
-        [
-          6,
-          "RETIRA EN PORTANET",
-          "7",
-          2967
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.16929549,
         "lon": -8.723249687,
@@ -4110,30 +3529,8 @@
         "sv": 5760
       }
     },
-    "005770": {
-      "e": [],
-      "p": {
-        "lat": 42.16911061,
-        "lon": -8.723904146,
-        "n": "Estrada de Valadares  310",
-        "sv": 5770
-      }
-    },
     "005800": {
-      "e": [
-        [
-          9,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          2643
-        ],
-        [
-          11,
-          "Avda. do Fragoso, 86",
-          "A",
-          6215
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.232202275,
         "lon": -8.703792246,
@@ -4142,7 +3539,20 @@
       }
     },
     "005810": {
-      "e": [],
+      "e": [
+        [
+          51,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          359
+        ],
+        [
+          136,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          383
+        ]
+      ],
       "p": {
         "lat": 42.232258514,
         "lon": -8.705770621,
@@ -4151,7 +3561,20 @@
       }
     },
     "005820": {
-      "e": [],
+      "e": [
+        [
+          52,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          359
+        ],
+        [
+          137,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          383
+        ]
+      ],
       "p": {
         "lat": 42.232042043,
         "lon": -8.703616807,
@@ -4160,20 +3583,7 @@
       }
     },
     "005830": {
-      "e": [
-        [
-          10,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          2901
-        ],
-        [
-          12,
-          "Avda. do Fragoso, 86",
-          "A",
-          6439
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.23238699,
         "lon": -8.705610784,
@@ -4181,31 +3591,13 @@
         "sv": 5830
       }
     },
-    "005870": {
-      "e": [],
-      "p": {
-        "lat": 42.226432697,
-        "lon": -8.731262013,
-        "n": "Rúa de López Mora  10",
-        "sv": 5870
-      }
-    },
-    "005890": {
-      "e": [],
-      "p": {
-        "lat": 42.222420533,
-        "lon": -8.731996938,
-        "n": "Rúa de López Mora  84",
-        "sv": 5890
-      }
-    },
     "00600": {
       "e": [
         [
-          28,
+          10,
           "Avda. de Ricardo Mella, 518",
           "11",
-          10813
+          6461
         ]
       ],
       "p": {
@@ -4215,17 +3607,21 @@
         "sv": 600
       }
     },
-    "006110": {
-      "e": [],
-      "p": {
-        "lat": 42.243941636,
-        "lon": -8.669169025,
-        "n": "Camiño da Devesa  6",
-        "sv": 6110
-      }
-    },
     "006187": {
-      "e": [],
+      "e": [
+        [
+          83,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          373
+        ],
+        [
+          166,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
+        ]
+      ],
       "p": {
         "lat": 42.215244712,
         "lon": -8.74244225,
@@ -4234,7 +3630,20 @@
       }
     },
     "006210": {
-      "e": [],
+      "e": [
+        [
+          53,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          361
+        ],
+        [
+          138,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          384
+        ]
+      ],
       "p": {
         "lat": 42.229259529,
         "lon": -8.699964485,
@@ -4243,7 +3652,20 @@
       }
     },
     "006250": {
-      "e": [],
+      "e": [
+        [
+          55,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          361
+        ],
+        [
+          140,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          384
+        ]
+      ],
       "p": {
         "lat": 42.22667463,
         "lon": -8.702581423,
@@ -4251,64 +3673,49 @@
         "sv": 6250
       }
     },
-    "006260": {
-      "e": [],
-      "p": {
-        "lat": 42.199568643,
-        "lon": -8.741030554,
-        "n": "Estrada da Balsa  3",
-        "sv": 6260
-      }
-    },
-    "006280": {
-      "e": [],
-      "p": {
-        "lat": 42.223843943,
-        "lon": -8.65334865,
-        "n": "Rúa Molais (Parque da Grileira)",
-        "sv": 6280
-      }
-    },
-    "006290": {
-      "e": [],
-      "p": {
-        "lat": 42.202031781,
-        "lon": -8.769502424,
-        "n": "Rúa de San Paio (cruce Rúa Muíños)",
-        "sv": 6290
-      }
-    },
     "006300": {
       "e": [
         [
-          3,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          862
-        ],
-        [
-          20,
+          2,
           "NAVIA por FLORIDA",
           "5A",
-          4164
+          596
         ],
         [
-          21,
+          7,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          1577
+        ],
+        [
+          8,
           "Avda. do Fragoso, 86",
           "A",
-          9275
+          2244
         ],
         [
-          41,
+          26,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          10349
+          7016
         ],
         [
-          132,
+          69,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          369
+        ],
+        [
+          117,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          335
+          297
+        ],
+        [
+          153,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          385
         ]
       ],
       "p": {
@@ -4319,14 +3726,7 @@
       }
     },
     "006380": {
-      "e": [
-        [
-          8,
-          "HISPANIDAD - COIA",
-          "16",
-          2408
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.211811672,
         "lon": -8.742420889,
@@ -4335,14 +3735,7 @@
       }
     },
     "006390": {
-      "e": [
-        [
-          9,
-          "HISPANIDAD - COIA",
-          "16",
-          2967
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.210204472,
         "lon": -8.74559126,
@@ -4350,29 +3743,13 @@
         "sv": 6390
       }
     },
-    "006440": {
-      "e": [
-        [
-          7,
-          "PEINADOR - AEROPORTO",
-          "A",
-          4066
-        ]
-      ],
-      "p": {
-        "lat": 42.222951208,
-        "lon": -8.635051581,
-        "n": "Camiño do Pino Manso  6",
-        "sv": 6440
-      }
-    },
     "006460": {
       "e": [
         [
-          22,
+          8,
           "BOUZAS por PRAZA AMERICA",
           "C3d",
-          6128
+          2591
         ]
       ],
       "p": {
@@ -4382,37 +3759,19 @@
         "sv": 6460
       }
     },
-    "006470": {
-      "e": [],
-      "p": {
-        "lat": 42.228458938,
-        "lon": -8.732202674,
-        "n": "Rúa de Pi i Margall  108",
-        "sv": 6470
-      }
-    },
-    "006510": {
-      "e": [],
-      "p": {
-        "lat": 42.230584487,
-        "lon": -8.731459155,
-        "n": "Rúa de Pi i Margall  86",
-        "sv": 6510
-      }
-    },
     "006530": {
       "e": [
         [
-          10,
+          25,
           "PRAZA AMÉRICA",
           "C1",
-          2194
+          5440
         ],
         [
-          37,
+          55,
           "PRAZA AMÉRICA",
           "C1",
-          7968
+          10935
         ]
       ],
       "p": {
@@ -4423,14 +3782,7 @@
       }
     },
     "006570": {
-      "e": [
-        [
-          4,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          947
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.231357755,
         "lon": -8.71296778,
@@ -4439,14 +3791,7 @@
       }
     },
     "006580": {
-      "e": [
-        [
-          5,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          1371
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.229860487,
         "lon": -8.717979137,
@@ -4466,22 +3811,10 @@
     "006640": {
       "e": [
         [
-          10,
-          "Rúa do Porriño (fronte 9)",
-          "4C",
-          2631
-        ],
-        [
-          10,
-          "Rúa do Porriño (fronte 9)",
-          "C3i",
-          3332
-        ],
-        [
-          41,
+          29,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          9806
+          6436
         ]
       ],
       "p": {
@@ -4548,34 +3881,46 @@
     "006860": {
       "e": [
         [
-          2,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          453
-        ],
-        [
-          18,
+          0,
           "NAVIA por FLORIDA",
           "5A",
-          3684
+          109
         ],
         [
-          20,
+          6,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          1085
+        ],
+        [
+          7,
           "Avda. do Fragoso, 86",
           "A",
-          8798
+          1739
         ],
         [
-          40,
+          25,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          9874
+          6504
         ],
         [
-          130,
+          67,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          368
+        ],
+        [
+          115,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          335
+          296
+        ],
+        [
+          151,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          385
         ]
       ],
       "p": {
@@ -4586,7 +3931,20 @@
       }
     },
     "006880": {
-      "e": [],
+      "e": [
+        [
+          21,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          394
+        ],
+        [
+          107,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          379
+        ]
+      ],
       "p": {
         "lat": 42.215576278,
         "lon": -8.748885599,
@@ -4594,35 +3952,31 @@
         "sv": 6880
       }
     },
-    "00690": {
-      "e": [
-        [
-          4,
-          "PEINADOR - AEROPORTO",
-          "A",
-          2671
-        ]
-      ],
-      "p": {
-        "lat": 42.233064093,
-        "lon": -8.642742935,
-        "n": "Avda. do Aeroporto  656",
-        "sv": 690
-      }
-    },
     "006930": {
       "e": [
         [
-          15,
+          1,
           "PRAZA AMÉRICA",
           "C1",
-          2551
+          0
         ],
         [
-          45,
+          31,
           "PRAZA AMÉRICA",
           "C1",
-          8308
+          5787
+        ],
+        [
+          32,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          378
+        ],
+        [
+          117,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          381
         ]
       ],
       "p": {
@@ -4636,39 +3990,45 @@
       "e": [
         [
           3,
-          "Rúa do Porriño (fronte 9)",
-          "4C",
-          619
-        ],
-        [
-          12,
-          "Avda. de Ricardo Mella, 518",
-          "11",
-          3422
-        ],
-        [
-          12,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          3091
-        ],
-        [
-          14,
           "REMATA EN PORTANET",
           "12B",
-          4266
+          863
         ],
         [
-          28,
+          11,
           "NAVIA por FLORIDA",
           "5A",
-          6699
+          3028
         ],
         [
-          35,
+          11,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          1888
+        ],
+        [
+          13,
+          "Rúa das Teixugueiras, 38",
+          "5B",
+          4228
+        ],
+        [
+          21,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          8059
+          4586
+        ],
+        [
+          79,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          372
+        ],
+        [
+          163,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
         ]
       ],
       "p": {
@@ -4678,28 +4038,13 @@
         "sv": 6940
       }
     },
-    "006950": {
-      "e": [],
-      "p": {
-        "lat": 42.229280401,
-        "lon": -8.719123549,
-        "n": "Praza de España (cruce Rúa de Pizarro)",
-        "sv": 6950
-      }
-    },
     "006960": {
       "e": [
         [
-          8,
-          "REMATA EN PORTANET",
-          "12B",
-          2367
-        ],
-        [
-          25,
+          11,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          6170
+          2587
         ]
       ],
       "p": {
@@ -4712,16 +4057,28 @@
     "006970": {
       "e": [
         [
-          17,
+          2,
           "PRAZA AMÉRICA",
           "C1",
-          2929
+          323
         ],
         [
-          47,
+          32,
           "PRAZA AMÉRICA",
           "C1",
-          8828
+          6027
+        ],
+        [
+          33,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          379
+        ],
+        [
+          118,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          381
         ]
       ],
       "p": {
@@ -4734,22 +4091,16 @@
     "006980": {
       "e": [
         [
-          4,
-          "Rúa do Porriño (fronte 9)",
-          "C3i",
-          985
-        ],
-        [
-          46,
+          31,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          12969
+          9313
         ],
         [
-          138,
+          124,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          338
+          301
         ]
       ],
       "p": {
@@ -4768,35 +4119,31 @@
         "sv": 6990
       }
     },
-    "00700": {
-      "e": [
-        [
-          6,
-          "PEINADOR - AEROPORTO",
-          "A",
-          3765
-        ]
-      ],
-      "p": {
-        "lat": 42.228674047,
-        "lon": -8.633340309,
-        "n": "Avda. do Aeroporto (Colexio)",
-        "sv": 700
-      }
-    },
     "007000": {
       "e": [
         [
-          13,
+          3,
           "URZAIZ - T.VIGO",
           "N1",
-          3658
+          485
         ],
         [
-          100,
+          49,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          397
+        ],
+        [
+          90,
           "URZAIZ - T.VIGO",
           "N1",
-          25761
+          22378
+        ],
+        [
+          134,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          383
         ]
       ],
       "p": {
@@ -4809,10 +4156,16 @@
     "007030": {
       "e": [
         [
-          7,
-          "HISPANIDAD - COIA",
-          "16",
-          2140
+          82,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          373
+        ],
+        [
+          165,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          386
         ]
       ],
       "p": {
@@ -4823,14 +4176,7 @@
       }
     },
     "00720": {
-      "e": [
-        [
-          7,
-          "Avda. do Fragoso, 86",
-          "A",
-          4307
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.235739016,
         "lon": -8.684254232,
@@ -4847,15 +4193,6 @@
         "sv": 7200
       }
     },
-    "007210": {
-      "e": [],
-      "p": {
-        "lat": 42.229661504,
-        "lon": -8.691416585,
-        "n": "Avda. de Ramón Nieto  136",
-        "sv": 7210
-      }
-    },
     "007220": {
       "e": [],
       "p": {
@@ -4865,24 +4202,6 @@
         "sv": 7220
       }
     },
-    "007230": {
-      "e": [],
-      "p": {
-        "lat": 42.229560215,
-        "lon": -8.687854611,
-        "n": "Avda. de Ramón Nieto  198",
-        "sv": 7230
-      }
-    },
-    "007240": {
-      "e": [],
-      "p": {
-        "lat": 42.229454954,
-        "lon": -8.684539401,
-        "n": "Avda. de Ramón Nieto  252",
-        "sv": 7240
-      }
-    },
     "007250": {
       "e": [],
       "p": {
@@ -4890,15 +4209,6 @@
         "lon": -8.684593198,
         "n": "Avda. de Ramón Nieto  273",
         "sv": 7250
-      }
-    },
-    "007260": {
-      "e": [],
-      "p": {
-        "lat": 42.22953241,
-        "lon": -8.681347572,
-        "n": "Avda. de Ramón Nieto  308",
-        "sv": 7260
       }
     },
     "007270": {
@@ -4919,33 +4229,6 @@
         "sv": 7280
       }
     },
-    "007290": {
-      "e": [],
-      "p": {
-        "lat": 42.228411862,
-        "lon": -8.678489489,
-        "n": "Avda. de Ramón Nieto  360",
-        "sv": 7290
-      }
-    },
-    "007300": {
-      "e": [],
-      "p": {
-        "lat": 42.223957681,
-        "lon": -8.673451332,
-        "n": "Avda. de Ramón Nieto  390",
-        "sv": 7300
-      }
-    },
-    "007310": {
-      "e": [],
-      "p": {
-        "lat": 42.223219273,
-        "lon": -8.672272983,
-        "n": "Avda. de Ramón Nieto  406",
-        "sv": 7310
-      }
-    },
     "007320": {
       "e": [],
       "p": {
@@ -4953,15 +4236,6 @@
         "lon": -8.673842935,
         "n": "Avda. de Ramón Nieto  475",
         "sv": 7320
-      }
-    },
-    "007330": {
-      "e": [],
-      "p": {
-        "lat": 42.231776636,
-        "lon": -8.697735869,
-        "n": "Avda. de Ramón Nieto  50",
-        "sv": 7330
       }
     },
     "007340": {
@@ -4982,15 +4256,6 @@
         "sv": 7350
       }
     },
-    "007360": {
-      "e": [],
-      "p": {
-        "lat": 42.230432101,
-        "lon": -8.694045149,
-        "n": "Avda. de Ramón Nieto  96",
-        "sv": 7360
-      }
-    },
     "007370": {
       "e": [],
       "p": {
@@ -5001,14 +4266,7 @@
       }
     },
     "00740": {
-      "e": [
-        [
-          8,
-          "Avda. do Fragoso, 86",
-          "A",
-          4433
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.233560754,
         "lon": -8.686937524,
@@ -5025,78 +4283,8 @@
         "sv": 7410
       }
     },
-    "00750": {
-      "e": [],
-      "p": {
-        "lat": 42.233103986,
-        "lon": -8.68716283,
-        "n": "Avda. do Aeroporto  184",
-        "sv": 750
-      }
-    },
-    "007540": {
-      "e": [],
-      "p": {
-        "lat": 42.226657624,
-        "lon": -8.659447983,
-        "n": "Avda. do Tranvía  100",
-        "sv": 7540
-      }
-    },
-    "007590": {
-      "e": [],
-      "p": {
-        "lat": 42.225201551,
-        "lon": -8.667101684,
-        "n": "Avda. do Tranvía  40",
-        "sv": 7590
-      }
-    },
-    "00760": {
-      "e": [],
-      "p": {
-        "lat": 42.236775611,
-        "lon": -8.683736566,
-        "n": "Avda. do Aeroporto  240",
-        "sv": 760
-      }
-    },
-    "007660": {
-      "e": [],
-      "p": {
-        "lat": 42.241610852,
-        "lon": -8.651865944,
-        "n": "Rúa da Rabadeira  104",
-        "sv": 7660
-      }
-    },
-    "007680": {
-      "e": [],
-      "p": {
-        "lat": 42.240866745,
-        "lon": -8.669273191,
-        "n": "Rúa San Cristobo  117",
-        "sv": 7680
-      }
-    },
-    "007690": {
-      "e": [],
-      "p": {
-        "lat": 42.235468446,
-        "lon": -8.670649153,
-        "n": "Rúa San Cristobo  11",
-        "sv": 7690
-      }
-    },
     "00770": {
-      "e": [
-        [
-          6,
-          "Avda. do Fragoso, 86",
-          "A",
-          3829
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.238939528,
         "lon": -8.681422497,
@@ -5104,60 +4292,8 @@
         "sv": 770
       }
     },
-    "007710": {
-      "e": [],
-      "p": {
-        "lat": 42.236825775,
-        "lon": -8.669313413,
-        "n": "Rúa San Cristobo  41",
-        "sv": 7710
-      }
-    },
-    "007740": {
-      "e": [],
-      "p": {
-        "lat": 42.241658253,
-        "lon": -8.658202403,
-        "n": "Rúa de Salgueiro  23",
-        "sv": 7740
-      }
-    },
-    "007750": {
-      "e": [],
-      "p": {
-        "lat": 42.243330503,
-        "lon": -8.661852545,
-        "n": "Rúa do Salgueiro  1",
-        "sv": 7750
-      }
-    },
-    "00780": {
-      "e": [],
-      "p": {
-        "lat": 42.238554288,
-        "lon": -8.680663432,
-        "n": "Avda. do Aeroporto  298",
-        "sv": 780
-      }
-    },
-    "007870": {
-      "e": [],
-      "p": {
-        "lat": 42.166897971,
-        "lon": -8.802204658,
-        "n": "Baixada á Praia  4",
-        "sv": 7870
-      }
-    },
     "00790": {
-      "e": [
-        [
-          5,
-          "Avda. do Fragoso, 86",
-          "A",
-          3292
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.237426811,
         "lon": -8.675474476,
@@ -5165,91 +4301,19 @@
         "sv": 790
       }
     },
-    "007930": {
-      "e": [],
-      "p": {
-        "lat": 42.208999211,
-        "lon": -8.765346753,
-        "n": "Rúa de San Paio  136",
-        "sv": 7930
-      }
-    },
-    "007940": {
-      "e": [],
-      "p": {
-        "lat": 42.207987966,
-        "lon": -8.767688321,
-        "n": "Rúa de San Paio  220",
-        "sv": 7940
-      }
-    },
-    "007950": {
-      "e": [],
-      "p": {
-        "lat": 42.206253649,
-        "lon": -8.768742472,
-        "n": "Rúa de San Paio  242",
-        "sv": 7950
-      }
-    },
-    "007960": {
-      "e": [],
-      "p": {
-        "lat": 42.202111343,
-        "lon": -8.769560881,
-        "n": "Rúa de San Paio  284",
-        "sv": 7960
-      }
-    },
-    "007980": {
-      "e": [],
-      "p": {
-        "lat": 42.21430717,
-        "lon": -8.760710185,
-        "n": "Rúa de San Paio  54",
-        "sv": 7980
-      }
-    },
-    "007990": {
-      "e": [],
-      "p": {
-        "lat": 42.212612622,
-        "lon": -8.760868435,
-        "n": "Rúa de San Paio  76",
-        "sv": 7990
-      }
-    },
-    "00800": {
-      "e": [],
-      "p": {
-        "lat": 42.237801674,
-        "lon": -8.676524783,
-        "n": "Avda. do Aeroporto  328",
-        "sv": 800
-      }
-    },
-    "008010": {
-      "e": [],
-      "p": {
-        "lat": 42.245018172,
-        "lon": -8.703349646,
-        "n": "Rúa de Sanjurjo Badía  106",
-        "sv": 8010
-      }
-    },
     "008020": {
       "e": [
         [
-          31,
+          16,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7443
+          3940
         ],
         [
-          121,
+          106,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          330
+          290
         ]
       ],
       "p": {
@@ -5259,28 +4323,19 @@
         "sv": 8020
       }
     },
-    "008030": {
-      "e": [],
-      "p": {
-        "lat": 42.246056261,
-        "lon": -8.701684825,
-        "n": "Rúa de Sanjurjo Badía  136",
-        "sv": 8030
-      }
-    },
     "008040": {
       "e": [
         [
-          30,
+          15,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7148
+          3632
         ],
         [
-          120,
+          105,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          330
+          289
         ]
       ],
       "p": {
@@ -5290,28 +4345,19 @@
         "sv": 8040
       }
     },
-    "008050": {
-      "e": [],
-      "p": {
-        "lat": 42.247765296,
-        "lon": -8.698918203,
-        "n": "Rúa de Sanjurjo Badía  202",
-        "sv": 8050
-      }
-    },
     "008060": {
       "e": [
         [
-          32,
+          17,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          7787
+          4198
         ],
         [
-          122,
+          107,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          331
+          291
         ]
       ],
       "p": {
@@ -5321,24 +4367,8 @@
         "sv": 8060
       }
     },
-    "00810": {
-      "e": [],
-      "p": {
-        "lat": 42.235521261,
-        "lon": -8.67465521,
-        "n": "Avda. do Aeroporto  350",
-        "sv": 810
-      }
-    },
     "008100": {
-      "e": [
-        [
-          2,
-          "RETIRA EN PORTANET",
-          "7",
-          1020
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.160735669,
         "lon": -8.709771124,
@@ -5347,14 +4377,7 @@
       }
     },
     "008110": {
-      "e": [
-        [
-          2,
-          "SEOANE por CAMELIAS",
-          "7",
-          1010
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.160670051,
         "lon": -8.709878412,
@@ -5363,14 +4386,7 @@
       }
     },
     "00820": {
-      "e": [
-        [
-          4,
-          "Avda. do Fragoso, 86",
-          "A",
-          2771
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.234766626,
         "lon": -8.671305131,
@@ -5378,59 +4394,19 @@
         "sv": 820
       }
     },
-    "008240": {
-      "e": [],
-      "p": {
-        "lat": 42.243382567,
-        "lon": -8.674125307,
-        "n": "Subida á Madroa (Urbanización)",
-        "sv": 8240
-      }
-    },
-    "008250": {
-      "e": [],
-      "p": {
-        "lat": 42.242669731,
-        "lon": -8.670096629,
-        "n": "Subida á Madroa  15",
-        "sv": 8250
-      }
-    },
-    "00830": {
-      "e": [
-        [
-          0,
-          "PEINADOR - AEROPORTO",
-          "A",
-          21
-        ]
-      ],
-      "p": {
-        "lat": 42.234673289,
-        "lon": -8.671348046,
-        "n": "Avda. do Aeroporto  378",
-        "sv": 830
-      }
-    },
     "008330": {
       "e": [
         [
-          5,
-          "Rúa do Porriño (fronte 9)",
-          "C3i",
-          1438
-        ],
-        [
-          47,
+          32,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          13287
+          9519
         ],
         [
-          139,
+          124,
           "TORRECEDEIRA-SAMIL",
           "N1",
-          338
+          302
         ]
       ],
       "p": {
@@ -5443,10 +4419,10 @@
     "008370": {
       "e": [
         [
-          21,
+          8,
           "BOUZAS por PRAZA AMERICA",
           "C3d",
-          5909
+          2377
         ]
       ],
       "p": {
@@ -5457,14 +4433,7 @@
       }
     },
     "00840": {
-      "e": [
-        [
-          10,
-          "Avda. do Fragoso, 86",
-          "A",
-          5850
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.234904325,
         "lon": -8.699245802,
@@ -5475,10 +4444,10 @@
     "008410": {
       "e": [
         [
-          18,
+          5,
           "BOUZAS por PRAZA AMERICA",
           "C3d",
-          5011
+          1482
         ]
       ],
       "p": {
@@ -5489,14 +4458,7 @@
       }
     },
     "008420": {
-      "e": [
-        [
-          9,
-          "Rúa do Porriño (fronte 9)",
-          "C3i",
-          3183
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.218031265,
         "lon": -8.754258995,
@@ -5507,10 +4469,10 @@
     "008430": {
       "e": [
         [
-          19,
+          6,
           "BOUZAS por PRAZA AMERICA",
           "C3d",
-          5365
+          1732
         ]
       ],
       "p": {
@@ -5521,14 +4483,7 @@
       }
     },
     "008440": {
-      "e": [
-        [
-          8,
-          "Rúa do Porriño (fronte 9)",
-          "C3i",
-          2777
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.220192578,
         "lon": -8.754164587,
@@ -5539,16 +4494,28 @@
     "008450": {
       "e": [
         [
-          20,
+          6,
           "PRAZA AMÉRICA",
           "C1",
-          3760
+          1218
         ],
         [
-          50,
+          35,
           "PRAZA AMÉRICA",
           "C1",
-          9712
+          6805
+        ],
+        [
+          36,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          385
+        ],
+        [
+          121,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          381
         ]
       ],
       "p": {
@@ -5561,16 +4528,28 @@
     "008460": {
       "e": [
         [
-          18,
+          4,
           "PRAZA AMÉRICA",
           "C1",
-          3326
+          749
         ],
         [
-          48,
+          34,
           "PRAZA AMÉRICA",
           "C1",
-          9251
+          6402
+        ],
+        [
+          35,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          385
+        ],
+        [
+          119,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          381
         ]
       ],
       "p": {
@@ -5583,16 +4562,28 @@
     "008470": {
       "e": [
         [
-          21,
+          6,
           "PRAZA AMÉRICA",
           "C1",
-          4029
+          1510
         ],
         [
-          51,
+          36,
           "PRAZA AMÉRICA",
           "C1",
-          9996
+          7051
+        ],
+        [
+          37,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          386
+        ],
+        [
+          122,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          381
         ]
       ],
       "p": {
@@ -5605,16 +4596,28 @@
     "008480": {
       "e": [
         [
-          19,
+          5,
           "PRAZA AMÉRICA",
           "C1",
-          3562
+          1003
         ],
         [
-          49,
+          34,
           "PRAZA AMÉRICA",
           "C1",
-          9502
+          6620
+        ],
+        [
+          36,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          385
+        ],
+        [
+          120,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          381
         ]
       ],
       "p": {
@@ -5627,16 +4630,16 @@
     "008490": {
       "e": [
         [
-          21,
+          11,
           "URZAIZ - T.VIGO",
           "N1",
-          5873
+          2561
         ],
         [
-          107,
+          99,
           "URZAIZ - T.VIGO",
           "N1",
-          27976
+          24612
         ]
       ],
       "p": {
@@ -5647,14 +4650,7 @@
       }
     },
     "00850": {
-      "e": [
-        [
-          3,
-          "Avda. do Fragoso, 86",
-          "A",
-          2225
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.23630176,
         "lon": -8.665791599,
@@ -5662,35 +4658,19 @@
         "sv": 850
       }
     },
-    "008500": {
-      "e": [
-        [
-          5,
-          "NAVIA por FLORIDA",
-          "5A",
-          960
-        ]
-      ],
-      "p": {
-        "lat": 42.238455548,
-        "lon": -8.703814812,
-        "n": "Rúa da Travesía de Vigo  105",
-        "sv": 8500
-      }
-    },
     "008510": {
       "e": [
         [
-          17,
+          7,
           "URZAIZ - T.VIGO",
           "N1",
-          4825
+          1551
         ],
         [
-          104,
+          95,
           "URZAIZ - T.VIGO",
           "N1",
-          26926
+          23553
         ]
       ],
       "p": {
@@ -5700,35 +4680,19 @@
         "sv": 8510
       }
     },
-    "008520": {
-      "e": [
-        [
-          3,
-          "NAVIA por FLORIDA",
-          "5A",
-          555
-        ]
-      ],
-      "p": {
-        "lat": 42.241332883,
-        "lon": -8.702059906,
-        "n": "Rúa da Travesía de Vigo  153",
-        "sv": 8520
-      }
-    },
     "008530": {
       "e": [
         [
-          18,
+          9,
           "URZAIZ - T.VIGO",
           "N1",
-          5164
+          1873
         ],
         [
-          105,
+          96,
           "URZAIZ - T.VIGO",
           "N1",
-          27266
+          23897
         ]
       ],
       "p": {
@@ -5738,35 +4702,19 @@
         "sv": 8530
       }
     },
-    "008540": {
-      "e": [
-        [
-          1,
-          "NAVIA por FLORIDA",
-          "5A",
-          168
-        ]
-      ],
-      "p": {
-        "lat": 42.242844316,
-        "lon": -8.698295825,
-        "n": "Rúa da Travesía de Vigo  193",
-        "sv": 8540
-      }
-    },
     "008550": {
       "e": [
         [
-          21,
+          12,
           "URZAIZ - T.VIGO",
           "N1",
-          6177
+          2855
         ],
         [
-          108,
+          100,
           "URZAIZ - T.VIGO",
           "N1",
-          28279
+          24919
         ]
       ],
       "p": {
@@ -5776,37 +4724,19 @@
         "sv": 8550
       }
     },
-    "008560": {
-      "e": [],
-      "p": {
-        "lat": 42.24409871,
-        "lon": -8.69614733,
-        "n": "Rúa da Travesía de Vigo  213",
-        "sv": 8560
-      }
-    },
-    "008570": {
-      "e": [],
-      "p": {
-        "lat": 42.246143319,
-        "lon": -8.69359937,
-        "n": "Rúa da Travesía de Vigo  239",
-        "sv": 8570
-      }
-    },
     "008580": {
       "e": [
         [
-          16,
+          5,
           "URZAIZ - T.VIGO",
           "N1",
-          4221
+          989
         ],
         [
-          102,
+          93,
           "URZAIZ - T.VIGO",
           "N1",
-          26320
+          22943
         ]
       ],
       "p": {
@@ -5817,20 +4747,7 @@
       }
     },
     "008590": {
-      "e": [
-        [
-          1,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          274
-        ],
-        [
-          7,
-          "NAVIA por FLORIDA",
-          "5A",
-          1587
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.233681224,
         "lon": -8.706702136,
@@ -5838,31 +4755,8 @@
         "sv": 8590
       }
     },
-    "00860": {
-      "e": [
-        [
-          1,
-          "PEINADOR - AEROPORTO",
-          "A",
-          451
-        ]
-      ],
-      "p": {
-        "lat": 42.235612667,
-        "lon": -8.666529207,
-        "n": "Avda. do Aeroporto  446",
-        "sv": 860
-      }
-    },
     "008600": {
-      "e": [
-        [
-          6,
-          "NAVIA por FLORIDA",
-          "5A",
-          1223
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.236350093,
         "lon": -8.70429745,
@@ -5873,16 +4767,28 @@
     "008610": {
       "e": [
         [
-          15,
+          4,
           "URZAIZ - T.VIGO",
           "N1",
-          3947
+          748
         ],
         [
-          101,
+          50,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          358
+        ],
+        [
+          92,
           "URZAIZ - T.VIGO",
           "N1",
-          26044
+          22663
+        ],
+        [
+          135,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          383
         ]
       ],
       "p": {
@@ -5895,16 +4801,16 @@
     "008620": {
       "e": [
         [
-          17,
+          6,
           "URZAIZ - T.VIGO",
           "N1",
-          4558
+          1301
         ],
         [
-          103,
+          94,
           "URZAIZ - T.VIGO",
           "N1",
-          26658
+          23284
         ]
       ],
       "p": {
@@ -5917,28 +4823,16 @@
     "008630": {
       "e": [
         [
-          2,
-          "BOUZAS por PRAZA AMERICA",
-          "C3d",
-          519
+          60,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          364
         ],
         [
-          9,
-          "NAVIA por FLORIDA",
-          "5A",
-          1841
-        ],
-        [
-          11,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          3061
-        ],
-        [
-          11,
-          "Avda. do Fragoso, 86",
-          "A",
-          6619
+          145,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          384
         ]
       ],
       "p": {
@@ -5949,14 +4843,7 @@
       }
     },
     "00870": {
-      "e": [
-        [
-          3,
-          "Avda. do Fragoso, 86",
-          "A",
-          1885
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.23543058,
         "lon": -8.66197943,
@@ -5967,22 +4854,28 @@
     "008750": {
       "e": [
         [
-          11,
-          "NAVIA por FLORIDA",
-          "5A",
-          2393
-        ],
-        [
-          14,
+          1,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          3525
+          312
         ],
         [
-          14,
+          2,
           "Avda. do Fragoso, 86",
           "A",
-          7321
+          590
+        ],
+        [
+          63,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          365
+        ],
+        [
+          147,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          384
         ]
       ],
       "p": {
@@ -5995,34 +4888,34 @@
     "008770": {
       "e": [
         [
-          6,
-          "URZAIZ - T.VIGO",
-          "N1",
-          2136
-        ],
-        [
-          13,
-          "NAVIA por FLORIDA",
-          "5A",
-          2795
-        ],
-        [
-          16,
+          3,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          3945
+          711
         ],
         [
-          16,
+          4,
           "Avda. do Fragoso, 86",
           "A",
-          7762
+          994
         ],
         [
-          93,
+          64,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          366
+        ],
+        [
+          82,
           "URZAIZ - T.VIGO",
           "N1",
-          24329
+          20568
+        ],
+        [
+          148,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          384
         ]
       ],
       "p": {
@@ -6032,53 +4925,37 @@
         "sv": 8770
       }
     },
-    "00880": {
-      "e": [
-        [
-          2,
-          "PEINADOR - AEROPORTO",
-          "A",
-          923
-        ]
-      ],
-      "p": {
-        "lat": 42.23544051,
-        "lon": -8.662354939,
-        "n": "Avda. do Aeroporto  484",
-        "sv": 880
-      }
-    },
     "008820": {
       "e": [
         [
-          1,
+          15,
           "PRAZA AMÉRICA",
           "C1",
-          146
+          3341
         ],
         [
-          4,
-          "REMATA EN PORTANET",
-          "12B",
-          1122
-        ],
-        [
-          10,
-          "URZAIZ - T.VIGO",
-          "N1",
-          2944
-        ],
-        [
-          28,
+          45,
           "PRAZA AMÉRICA",
           "C1",
-          5991
+          8951
         ],
         [
-          96,
+          45,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          396
+        ],
+        [
+          86,
           "URZAIZ - T.VIGO",
           "N1",
-          25072
+          21657
+        ],
+        [
+          129,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          382
         ]
       ],
       "p": {
@@ -6091,16 +4968,28 @@
     "008840": {
       "e": [
         [
-          11,
+          1,
           "URZAIZ - T.VIGO",
           "N1",
-          3241
+          98
         ],
         [
-          98,
+          47,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          396
+        ],
+        [
+          88,
           "URZAIZ - T.VIGO",
           "N1",
-          25357
+          21986
+        ],
+        [
+          131,
+          "P. AMERICA - URZAIZ - G.ESPINO",
+          "N4",
+          382
         ]
       ],
       "p": {
@@ -6113,22 +5002,22 @@
     "008850": {
       "e": [
         [
-          10,
-          "NAVIA por FLORIDA",
-          "5A",
-          2070
-        ],
-        [
-          12,
+          1,
           "Avda. do Fragoso, 86",
           "A",
-          6895
+          223
         ],
         [
-          13,
-          "Rúa do Porriño (fronte 9)",
-          "4A",
-          3381
+          61,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          365
+        ],
+        [
+          146,
+          "AREAL - BALAIDOS - NAVIA",
+          "N4",
+          384
         ]
       ],
       "p": {
@@ -6141,16 +5030,10 @@
     "008870": {
       "e": [
         [
-          3,
+          77,
           "URZAIZ - T.VIGO",
           "N1",
-          1086
-        ],
-        [
-          89,
-          "URZAIZ - T.VIGO",
-          "N1",
-          23203
+          19307
         ]
       ],
       "p": {
@@ -6163,16 +5046,10 @@
     "008880": {
       "e": [
         [
-          4,
+          78,
           "URZAIZ - T.VIGO",
           "N1",
-          1390
-        ],
-        [
-          90,
-          "URZAIZ - T.VIGO",
-          "N1",
-          23463
+          19612
         ]
       ],
       "p": {
@@ -6185,16 +5062,10 @@
     "008890": {
       "e": [
         [
-          6,
-          "REMATA EN PORTANET",
-          "12B",
-          1879
-        ],
-        [
-          22,
+          9,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          5534
+          2097
         ]
       ],
       "p": {
@@ -6205,14 +5076,7 @@
       }
     },
     "00890": {
-      "e": [
-        [
-          2,
-          "Avda. do Fragoso, 86",
-          "A",
-          1046
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.232066419,
         "lon": -8.653842977,
@@ -6223,16 +5087,10 @@
     "008900": {
       "e": [
         [
-          5,
-          "REMATA EN PORTANET",
-          "12B",
-          1622
-        ],
-        [
-          21,
+          9,
           "Rúa do Porriño (fronte 9)",
           "4A",
-          5282
+          1838
         ]
       ],
       "p": {
@@ -6245,16 +5103,10 @@
     "008910": {
       "e": [
         [
-          5,
+          79,
           "URZAIZ - T.VIGO",
           "N1",
-          1532
-        ],
-        [
-          91,
-          "URZAIZ - T.VIGO",
-          "N1",
-          23696
+          19882
         ]
       ],
       "p": {
@@ -6274,14 +5126,7 @@
       }
     },
     "00900": {
-      "e": [
-        [
-          1,
-          "Avda. do Fragoso, 86",
-          "A",
-          539
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.233527998,
         "lon": -8.648237616,
@@ -6290,35 +5135,12 @@
       }
     },
     "00920": {
-      "e": [
-        [
-          0,
-          "Avda. do Fragoso, 86",
-          "A",
-          63
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.233499069,
         "lon": -8.643325214,
         "n": "Avda. do Aeroporto (cruce Camiño das Cereixeiras)",
         "sv": 920
-      }
-    },
-    "00930": {
-      "e": [
-        [
-          3,
-          "PEINADOR - AEROPORTO",
-          "A",
-          1636
-        ]
-      ],
-      "p": {
-        "lat": 42.231979036,
-        "lon": -8.65372496,
-        "n": "Avda. do Aeroporto  570",
-        "sv": 930
       }
     },
     "00940": {
@@ -6330,47 +5152,8 @@
         "sv": 940
       }
     },
-    "00950": {
-      "e": [
-        [
-          3,
-          "PEINADOR - AEROPORTO",
-          "A",
-          2160
-        ]
-      ],
-      "p": {
-        "lat": 42.233626818,
-        "lon": -8.647811163,
-        "n": "Avda. do Aeroporto  614",
-        "sv": 950
-      }
-    },
-    "00960": {
-      "e": [
-        [
-          5,
-          "PEINADOR - AEROPORTO",
-          "A",
-          3233
-        ]
-      ],
-      "p": {
-        "lat": 42.230918888,
-        "lon": -8.638532893,
-        "n": "Avda. do Aeroporto  686",
-        "sv": 960
-      }
-    },
     "00970": {
-      "e": [
-        [
-          9,
-          "Avda. do Fragoso, 86",
-          "A",
-          5194
-        ]
-      ],
+      "e": [],
       "p": {
         "lat": 42.232787318,
         "lon": -8.693473285,
