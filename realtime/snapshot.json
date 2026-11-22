@@ -3,13 +3,13 @@
   "format_version": 1,
   "meta": {
     "counts": {
-      "estimaciones": 0,
+      "estimaciones": 3,
       "failed": 0,
-      "ok": 19,
-      "requested": 19,
+      "ok": 27,
+      "requested": 27,
       "skipped_no_realtime_id": 79,
-      "skipped_no_scheduled_service": 1063,
-      "stops_with_estimations": 0
+      "skipped_no_scheduled_service": 1055,
+      "stops_with_estimations": 3
     },
     "description": "Vitrasa realtime snapshot: next-arrival estimations for every queried stop. Git-scraped: one commit per run.",
     "encoding": "ISO-8859-1",
@@ -74,6 +74,15 @@
         "sv": 1240
       }
     },
+    "0014122": {
+      "e": [],
+      "p": {
+        "lat": 42.231584097,
+        "lon": -8.706968521,
+        "n": "Avda. do Alcalde Gregorio Espino  9",
+        "sv": 14122
+      }
+    },
     "0014132": {
       "e": [],
       "p": {
@@ -135,6 +144,74 @@
         "lon": -8.709873166,
         "n": "Avda. de García Barbón  90",
         "sv": 5580
+      }
+    },
+    "005680": {
+      "e": [],
+      "p": {
+        "lat": 42.228173802,
+        "lon": -8.720267623,
+        "n": "Avda. da Gran Vía  66",
+        "sv": 5680
+      }
+    },
+    "005720": {
+      "e": [],
+      "p": {
+        "lat": 42.230134504,
+        "lon": -8.706992656,
+        "n": "Avda. do Alcalde Gregorio Espino  33",
+        "sv": 5720
+      }
+    },
+    "005740": {
+      "e": [
+        [
+          29,
+          "Rúa das Teixugueiras, 38",
+          "N4",
+          7955
+        ]
+      ],
+      "p": {
+        "lat": 42.227831786,
+        "lon": -8.707855407,
+        "n": "Avda. do Alcalde Gregorio Espino  57",
+        "sv": 5740
+      }
+    },
+    "005750": {
+      "e": [
+        [
+          28,
+          "Rúa das Teixugueiras, 38",
+          "N4",
+          7790
+        ]
+      ],
+      "p": {
+        "lat": 42.225785485,
+        "lon": -8.708786105,
+        "n": "Avda. do Alcalde Gregorio Espino  79",
+        "sv": 5750
+      }
+    },
+    "006570": {
+      "e": [],
+      "p": {
+        "lat": 42.231357755,
+        "lon": -8.71296778,
+        "n": "Rúa de Pizarro  65",
+        "sv": 6570
+      }
+    },
+    "006580": {
+      "e": [],
+      "p": {
+        "lat": 42.229860487,
+        "lon": -8.717979137,
+        "n": "Rúa de Pizarro  7",
+        "sv": 6580
       }
     },
     "008010": {
@@ -225,6 +302,22 @@
         "lon": -8.70429745,
         "n": "Rúa da Travesía de Vigo  71",
         "sv": 8600
+      }
+    },
+    "008630": {
+      "e": [
+        [
+          31,
+          "Rúa das Teixugueiras, 38",
+          "N4",
+          8639
+        ]
+      ],
+      "p": {
+        "lat": 42.232045931,
+        "lon": -8.708603793,
+        "n": "Rúa da Travesía de Vigo  7",
+        "sv": 8630
       }
     }
   }
